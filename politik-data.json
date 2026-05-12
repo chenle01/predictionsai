@@ -1,27 +1,85 @@
 [
   {
+    "datum": "2026-05-12",
+    "datumFormatiert": "Dienstag, 12. Mai 2026",
+    "eintraege": {
+      "deutsche-innenpolitik": {
+        "titel": "Deutsche Innenpolitik",
+        "analyse": "Die deutsche Innenpolitik steht am 12. Mai 2026 unter dem Eindruck einer veränderten Sicherheitslage. Der angekündigte US-Truppenabzug aus Teilen Europas und der Verzicht auf die geplante Stationierung von „Tomahawk“-Marschflugkörpern in Deutschland lösen kontroverse Debatten aus. Während Kritiker eine sicherheitspolitische Lücke befürchten, sehen andere die Notwendigkeit, europäische Verteidigungsfähigkeiten rasch auszubauen – ein Schwerpunkt, den die schwarz-rote Bundesregierung unter Kanzler Friedrich Merz nun stärker setzen muss. Parallel hält der Druck auf die Koalition an: Die Diskussion um Rentenreform, Migrationspolitik und eine möglicherweise neu zu justierende Wehrpflicht bleibt Dauerthema, befördert auch durch politische Talkformate wie „maischberger“, in denen die Reformpläne öffentlich verhandelt werden. Hinzu kommen Berichte über Milliardenausfälle durch Steuerbetrug, die das Vertrauen in staatliche Handlungsfähigkeit weiter belasten. Ausblick: Die Regierung muss Sicherheit, Sozialstaat und Haushaltskonsolidierung gleichzeitig adressieren – ein politisches Trilemma, dessen Auflösung über die Stabilität der Koalition entscheiden dürfte.",
+        "quellen": [
+          "US-Truppenabzug und „Tomahawk“-Verzicht: Debatte über europäische Verteidigung",
+          "maischberger (12.05.2026): Reformpläne und Krisenmanagement der Bundesregierung",
+          "frontal: Milliardenschwere Steuerabzocke und Überversorgung im Gesundheitssystem"
+        ]
+      },
+      "europaeische-politik": {
+        "titel": "Europäische Politik",
+        "analyse": "Auf europäischer Ebene dominiert am 12. Mai die Einigung der EU-Unterhändler in Brüssel auf neue Regeln zur Stärkung der europäischen Arzneimittelproduktion. Damit reagiert die Union auf wiederkehrende Lieferengpässe bei lebenswichtigen Medikamenten: Öffentliche Mittel sollen künftig leichter in die Produktion innerhalb der EU fließen können – ein Schritt in Richtung strategischer Autonomie. Zugleich tagt der Rat „Bildung, Jugend, Kultur und Sport“ (11.–12. Mai); auf der Agenda stehen außerdem Beschlüsse rund um Künstliche Intelligenz, das EU-Mexiko-Abkommen sowie die Neuausrichtung der EU-Syrien-Beziehungen. Der Diskurs schließt an die Europatags-Reformdebatte vom 9. Mai an, in der mehr außen- und sicherheitspolitische Handlungsfähigkeit gefordert wurde. Ausblick: Die EU verschiebt ihren Schwerpunkt sichtbar in Richtung „Resilienz“: Medikamente, KI, kritische Rohstoffe und Verteidigung werden zunehmend gemeinsam gedacht. Entscheidend wird sein, ob den Beschlüssen schnell genug operative Umsetzung folgt, um in einer fragmentierten Weltordnung als Akteur ernstgenommen zu werden.",
+        "quellen": [
+          "EU-Einigung: Mehr wichtige Medikamente in Europa herstellen (12.05.2026)",
+          "Rat für Bildung, Jugend, Kultur und Sport tagt 11.–12. Mai 2026",
+          "Europatag 2026: Reformforderungen für ein stärkeres Europa"
+        ]
+      },
+      "weltwirtschaft": {
+        "titel": "Weltwirtschaft",
+        "analyse": "Die globale Konjunktur wächst 2026 mit rund 2,7 Prozent verhalten weiter, bleibt aber durch geopolitische Schocks fragil. Im Zentrum steht weiterhin der Iran-Krieg, dessen Folgen über Energiepreise, Lieferketten und Versicherungskosten globale Wirkung entfalten. Besonders hart trifft es Deutschland: Das Institut der deutschen Wirtschaft (IW) hat seine Wachstumsprognose für 2026 deutlich auf rund 0,4 Prozent gesenkt – nach drei Jahren Stagnation und Rezession bleibt kaum Puffer. Deutsche Exporte schrumpfen inzwischen zum vierten Quartal in Folge, während der Welthandel wächst – die Wettbewerbsfähigkeit erodiert messbar. Die Inflation dürfte im Jahresdurchschnitt bei rund 3 Prozent liegen, getragen vom Energiepreisschock; Erwerbstätigkeit und Investitionen geben nach. Die Eurozonen-Stimmung an den Märkten verbessert sich auf niedrigem Niveau leicht. Ausblick: Während die USA und große Schwellenländer relativ widerstandsfähig erscheinen, droht Deutschland in einer „weichen Stagflation“ zu verharren. Strukturelle Reformen bei Energie, Industriepolitik und Bürokratie werden zur Voraussetzung dafür, den Anschluss an die globale Konjunktur nicht zu verlieren.",
+        "quellen": [
+          "IW senkt Konjunkturprognose für 2026 auf rund 0,4 Prozent",
+          "UN-Bericht: Lage und Aussichten der Weltwirtschaft 2026",
+          "Helaba: Märkte und Trends 2026 – Weltwirtschaft, Karten werden neu gemischt"
+        ]
+      },
+      "internationale-politik": {
+        "titel": "Internationale Politik",
+        "analyse": "Die internationale Lage Mitte Mai 2026 verfestigt das Bild einer „neuen Normalität“ permanenter Unsicherheit. Die US-Außenpolitik unter Donald Trump pendelt zwischen erratischer Friedensvermittlung – etwa rund um die Ukraine –, robusten Interventionen in der westlichen Hemisphäre und opportunistischen Deals um kritische Lieferketten. In der Ukraine sind für Mai eine Präsidentschaftswahl und ein Referendum über ein mögliches Friedensabkommen mit Russland angesetzt; deren Ergebnisse werden weitreichende Folgen für die europäische Sicherheitsarchitektur haben. Der Iran-Krieg verschiebt parallel die Energie- und Sicherheitslogik: Das Vertrauen in fossile Lieferketten ist erschüttert, Investitionen in erneuerbare Energien gewinnen geostrategische Bedeutung. Im Indo-Pazifik bleibt das Taiwan-Risiko zentral – eine Eskalation würde globale Halbleiterlieferketten zum Stillstand bringen. Ausblick: Internationale Politik wird zunehmend von nationalen Sicherheitsinteressen statt von wirtschaftlicher Rationalität geprägt. Europa muss eigene Handlungsfähigkeit aufbauen und sich auf eine multipolare Ordnung einstellen, in der transatlantische Garantien nicht mehr automatisch gelten.",
+        "quellen": [
+          "Berliner Zeitung: 2026 – Globale Ordnung der permanenten Unsicherheit",
+          "EY Geostrategic Outlook 2026: Die zehn wichtigsten Entwicklungen",
+          "Ukraine plant Präsidentschaftswahl und Referendum über Friedensabkommen"
+        ]
+      }
+    }
+  },
+  {
     "datum": "2026-05-11",
     "datumFormatiert": "Montag, 11. Mai 2026",
     "eintraege": {
       "deutsche-innenpolitik": {
         "titel": "Deutsche Innenpolitik",
         "analyse": "Die schwarz-rote Bundesregierung unter Kanzler Friedrich Merz steht unter erheblichem Druck. Finanzminister Lars Klingbeil (SPD) muss aufgrund der konjunkturellen Eintrübung infolge des Iran-Krieges mit einem Einbruch der Steuereinnahmen von rund 17,8 Milliarden Euro für 2026 rechnen. Klingbeil bezeichnete die wirtschaftlichen Folgen als gravierend und kritisierte die US-Politik scharf. Parallel dazu fallen die Zustimmungswerte der Regierung auf einen historischen Tiefstand: Nur 13 Prozent zeigen sich mit der Regierungsarbeit zufrieden, der Kanzler selbst kommt auf lediglich 16 Prozent persönliche Zustimmung – die schlechtesten Werte im DeutschlandTREND seit 1997. Die Union verliert in der Sonntagsfrage zwei Punkte und liegt nur noch bei 24 Prozent. Inhaltlich dominieren weiterhin Rentenreform, Migration und Wehrpflicht die Agenda. Der Ausblick bleibt angespannt: Ohne wirtschaftliche Belebung oder politische Erfolge bei zentralen Reformprojekten dürfte sich der Vertrauensverlust verfestigen und den Spielraum der Koalition weiter einschränken.",
-        "quellen": ["Klingbeil: Steuereinnahmen brechen 2026 um 17,8 Mrd. Euro ein", "DeutschlandTREND Mai 2026: Historischer Tiefstand für Merz-Regierung", "Bundespressekonferenz vom 8. Mai 2026"]
+        "quellen": [
+          "Klingbeil: Steuereinnahmen brechen 2026 um 17,8 Mrd. Euro ein",
+          "DeutschlandTREND Mai 2026: Historischer Tiefstand für Merz-Regierung",
+          "Bundespressekonferenz vom 8. Mai 2026"
+        ]
       },
       "europaeische-politik": {
         "titel": "Europäische Politik",
         "analyse": "Die EU sucht im Frühjahr 2026 nach strategischer Handlungsfähigkeit. Rund um den Europatag am 9. Mai mehren sich Reformforderungen – insbesondere für eine entschlossenere Außenpolitik und eine engere Verzahnung von Wirtschafts- und Sicherheitsfragen. Kommissionspräsidentin Ursula von der Leyen und Ratspräsident António Costa nehmen an der achten Tagung der Europäischen Politischen Gemeinschaft im armenischen Eriwan teil, die unter dem Motto „Einheit und Stabilität in Europa\" steht und auch geopolitische Antworten auf den Krieg in der Ukraine und die Lage im Kaukasus diskutieren wird. Bereits am 6. Mai legte die Kommission ein Paket gegen Armut und die anhaltende Wohnungskrise vor – ein sozialpolitisches Signal angesichts wachsender Ungleichheiten. Insgesamt bewegt sich die EU zwischen geopolitischer Selbstbehauptung und innerer Konsolidierung. Der Ausblick: Ohne Vertragsreformen und schnellere Entscheidungsprozesse droht die Union, hinter den globalen Erwartungen zurückzubleiben, die in einer multipolaren Weltordnung an sie gerichtet werden.",
-        "quellen": ["Europatag 2026: Reformforderungen für ein stärkeres Europa", "Achte Tagung der Europäischen Politischen Gemeinschaft in Eriwan", "Kommission legt Maßnahmen gegen Armut und Wohnungskrise vor"]
+        "quellen": [
+          "Europatag 2026: Reformforderungen für ein stärkeres Europa",
+          "Achte Tagung der Europäischen Politischen Gemeinschaft in Eriwan",
+          "Kommission legt Maßnahmen gegen Armut und Wohnungskrise vor"
+        ]
       },
       "weltwirtschaft": {
         "titel": "Weltwirtschaft",
         "analyse": "Die Weltwirtschaft befindet sich laut AHK World Business Outlook Frühjahr 2026 im Krisenmodus. Hohe Energiepreise und Lieferkettenstörungen – verstärkt durch den Iran-Krieg und die anhaltenden Spannungen im Nahen Osten – belasten deutsche Unternehmen an ihren internationalen Standorten erheblich. Nur 21 Prozent erwarten für die kommenden zwölf Monate eine bessere Konjunktur, 32 Prozent rechnen mit einer Verschlechterung. 46 Prozent sehen die Preisentwicklung bei Öl und Gas als zentrales Risiko. Regional zeigen sich Unterschiede: Während die Unternehmen in China, den USA und den Mercosur-Staaten relativ optimistisch bleiben, trübt sich die Lage in Asien und dem Nahen Osten deutlich ein. Für Deutschland prognostiziert das IMK ein moderates Wachstum von 1,2 Prozent nach nur 0,1 Prozent 2025, während das IW seine Prognose zuletzt deutlich senkte. Der Ausblick: Die globale Wirtschaft bleibt widerstandsfähig, aber fragil – geopolitische Risiken, Investitionszurückhaltung und strukturelle Umbrüche werden den Märkten 2026 ihren Stempel aufdrücken.",
-        "quellen": ["AHK World Business Outlook Frühjahr 2026: Weltwirtschaft im Krisenmodus", "IMK prognostiziert 1,2 Prozent Wachstum für 2026", "Helaba: Märkte und Trends 2026 – Karten werden neu gemischt"]
+        "quellen": [
+          "AHK World Business Outlook Frühjahr 2026: Weltwirtschaft im Krisenmodus",
+          "IMK prognostiziert 1,2 Prozent Wachstum für 2026",
+          "Helaba: Märkte und Trends 2026 – Karten werden neu gemischt"
+        ]
       },
       "internationale-politik": {
         "titel": "Internationale Politik",
         "analyse": "2026 institutionalisiert die geopolitische Unsicherheit als neue Normalität. Donald Trumps Transaktionalismus prägt die US-Außenpolitik: erratische Friedensvermittlungen, robuste Interventionen in der westlichen Hemisphäre und opportunistische Deals um kritische Lieferketten kennzeichnen den amerikanischen Kurs. Im Zentrum der europäischen Aufmerksamkeit steht der Iran-Krieg, dessen wirtschaftliche und politische Schockwellen bis nach Berlin reichen. Die Ukraine plant für Mai eine Präsidentschaftswahl und ein Referendum über ein mögliches Friedensabkommen mit Russland – ein Schritt, der weitreichende Implikationen für die europäische Sicherheitsordnung hätte. Parallel verschärfen sich die Spannungen um Taiwan und die Kontrolle globaler Schifffahrtsrouten, was die Halbleiter-Lieferketten zusätzlich verwundbar macht. Auch im Weltraum nehmen militärische Eskalationsrisiken zu. Der Ausblick: Internationale Beziehungen werden zunehmend von Sicherheitsinteressen statt von wirtschaftlicher Rationalität geprägt. Europa steht vor der Aufgabe, in einer fragmentierten Ordnung eigene Handlungsfähigkeit aufzubauen, statt sich auf transatlantische Garantien zu verlassen.",
-        "quellen": ["Berliner Zeitung: Globale Ordnung der permanenten Unsicherheit 2026", "EY Geostrategic Outlook 2026: Die zehn wichtigsten Entwicklungen", "Ukraine plant Referendum über Friedensabkommen im Mai"]
+        "quellen": [
+          "Berliner Zeitung: Globale Ordnung der permanenten Unsicherheit 2026",
+          "EY Geostrategic Outlook 2026: Die zehn wichtigsten Entwicklungen",
+          "Ukraine plant Referendum über Friedensabkommen im Mai"
+        ]
       }
     }
   }
