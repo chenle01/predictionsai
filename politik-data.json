@@ -1,5 +1,47 @@
 [
   {
+    "datum": "2026-05-13",
+    "datumFormatiert": "Mittwoch, 13. Mai 2026",
+    "eintraege": {
+      "deutsche-innenpolitik": {
+        "titel": "Deutsche Innenpolitik",
+        "analyse": "Am 13. Mai prägt Bundeskanzler Friedrich Merz mit seinem Auftritt auf dem DGB-Bundeskongress die innenpolitische Debatte: Sein Werben für eine weitreichende Reform des Sozialstaates trifft auf eine skeptische Gewerkschaftsbasis und legt zugleich die Bruchlinien innerhalb der schwarz-roten Koalition offen. Parallel berät der Koalitionsausschuss über Entlastungspakete, Renten- und Bürgergeldreform – Themen, bei denen Union und SPD eigene Akzente setzen und ein Kompromiss erst in den kommenden Wochen erwartet wird. Sicherheitspolitisch rückt die wachsende Bedrohung durch Cyberangriffe auf Unternehmen und Behörden in den Fokus, während der Deutsche Ärztetag in Hannover und der Tag der Pflege auf strukturelle Engpässe im Gesundheitssystem hinweisen. Einordnung: Die Regierung steht unter doppeltem Druck, sozialpolitische Glaubwürdigkeit zu wahren und gleichzeitig die Konsolidierung des Haushalts voranzutreiben. Ausblick: Die kommenden Wochen werden zeigen, ob die Koalition tragfähige Reformen liefert oder ob Profilierungsversuche der Partner die Handlungsfähigkeit weiter erschweren.",
+        "quellen": [
+          "Merz wirbt auf DGB-Kongress für Sozialstaatsreform",
+          "Koalitionsausschuss berät über Entlastungen und Reformen",
+          "Deutscher Ärztetag in Hannover und Tag der Pflege"
+        ]
+      },
+      "europaeische-politik": {
+        "titel": "Europäische Politik",
+        "analyse": "Auf europäischer Ebene bestimmen Mitte Mai drei Linien das Bild: erstens die fortschreitende Debatte über eine eigenständigere europäische Verteidigung, nachdem Washington Schwerpunkte verlagert hat und Brüssel neue Beschaffungs- und Finanzierungsmechanismen ausarbeitet. Zweitens das vorläufige Inkrafttreten zentraler Teile des EU-Mercosur-Abkommens, das den Außenhandel diversifizieren und mittelfristig die EU-Exporte in die Region deutlich steigern soll – politisch umstritten bleiben die Folgen für Landwirtschaft und Umweltstandards. Drittens diskutiert Brüssel strengere Regeln für soziale Netzwerke, mit Vorstößen zu Altersgrenzen für die Nutzung und schärferer Plattformhaftung. Einordnung: Die Union versucht, ihre strategische Souveränität gleichzeitig in Sicherheit, Handel und digitaler Regulierung zu festigen, sieht sich dabei aber wachsendem innenpolitischem Druck durch erstarkende populistische Kräfte ausgesetzt. Ausblick: Ob der Reformschub in dauerhafte Strukturen mündet, hängt von der Geschlossenheit der großen Mitgliedstaaten und einer raschen Umsetzung jenseits symbolischer Beschlüsse ab.",
+        "quellen": [
+          "EU-Verteidigungspläne und neue Beschaffungsinitiativen",
+          "EU-Mercosur-Abkommen tritt teilweise in Kraft",
+          "Debatte über Mindestalter und Regulierung sozialer Medien"
+        ]
+      },
+      "weltwirtschaft": {
+        "titel": "Weltwirtschaft",
+        "analyse": "Die Weltwirtschaft präsentiert sich Mitte Mai widerstandsfähig, aber unter sichtbaren Belastungen. Der IWF und nationale Prognosen erwarten für 2026 ein globales Wachstum von rund 2,7 bis 3,1 Prozent – etwas schwächer als zuletzt, getrieben vor allem von der US-Handelspolitik, hartnäckigen geopolitischen Spannungen und nachlassender Investitionsdynamik. Für die Eurozone hat sich die Stimmung an den Finanzmärkten nach dem ZEW-Index leicht aufgehellt; das IMK rechnet für Deutschland mit 1,2 Prozent Wachstum, nachdem 2025 nahezu Stagnation herrschte. Die Inflation sinkt laut IWF auf etwa 3,8 Prozent, was Spielraum für vorsichtige Zinssenkungen der EZB schafft. Einordnung: Die globale Konjunktur trägt, ist aber empfindlich gegenüber Schocks – insbesondere protektionistischen Eingriffen und Eskalationen im Energie- und Halbleitersektor. Ausblick: Investoren werden Quartalszahlen aus den USA und Asien sowie die Notenbankentscheidungen genau beobachten; entscheidend für 2026 bleibt, ob KI-getriebene Produktivitätsgewinne den strukturellen Gegenwind überkompensieren.",
+        "quellen": [
+          "IWF und IMK: Wachstumsprognosen 2026 stabilisieren sich",
+          "ZEW-Index: Konjunkturerwartungen im Euroraum leicht aufgehellt",
+          "EZB-Politik und sinkende Inflation als Marktthemen"
+        ]
+      },
+      "internationale-politik": {
+        "titel": "Internationale Politik",
+        "analyse": "International bestimmen drei Konfliktlinien das Bild: Im Ukraine-Krieg verfestigt sich der Eindruck, dass Washington die Verantwortung zunehmend an Europa delegiert; Kiew bereitet Berichten zufolge Präsidentschaftswahlen und ein Referendum über ein mögliches Friedensabkommen mit Russland vor, was die innenpolitische Lage zusätzlich auflädt. Im Nahen Osten hält die US-Administration Druck auf Israel aufrecht, eine erneute Eskalation in Gaza zu vermeiden, während die Folgen des Irankriegs die Energie- und Lieferkettenrisiken weiter prägen. In Ostasien bleiben die Spannungen um Taiwan ein zentraler Stabilitätsfaktor: Ein Konflikt würde Schifffahrtswege und die globale Halbleiterversorgung empfindlich treffen. Einordnung: Die internationale Ordnung verschiebt sich erkennbar in Richtung transaktionaler, interessengeleiteter Politik – multilaterale Institutionen verlieren an Bindungskraft. Ausblick: Europa steht vor der Aufgabe, sicherheits- und außenpolitisch handlungsfähiger zu werden, ohne in eine reine Reaktivlogik zu verfallen; die kommenden Wochen werden zeigen, ob diplomatische Initiativen oder neue Eskalationen das Tempo vorgeben.",
+        "quellen": [
+          "Ukraine plant Wahlen und Referendum zu Friedensabkommen",
+          "USA und Israel: Druck zur Deeskalation in Gaza",
+          "Taiwan und globale Lieferketten als geopolitisches Risiko"
+        ]
+      }
+    }
+  },
+  {
     "datum": "2026-05-12",
     "datumFormatiert": "Dienstag, 12. Mai 2026",
     "eintraege": {
