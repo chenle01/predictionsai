@@ -1,5 +1,47 @@
 [
   {
+    "datum": "2026-05-21",
+    "datumFormatiert": "Donnerstag, 21. Mai 2026",
+    "eintraege": {
+      "deutsche-innenpolitik": {
+        "titel": "Deutsche Innenpolitik",
+        "analyse": "Ein Jahr nach Amtsantritt zieht die schwarz-rote Koalition unter Bundeskanzler Friedrich Merz eine gemischte Bilanz. Im Zentrum der aktuellen Debatte steht der Bevölkerungsschutz: Oppositionspolitiker wie Grünen-Fraktionsvize Konstantin von Notz werfen der Regierung vor, die Krisenvorsorge gegenüber der Migrationspolitik vernachlässigt zu haben – es fehle ein Überblick über Notfallkapazitäten und Zuständigkeiten. Außenpolitisch sorgt die US-Drohung mit einem Truppenabzug aus Europa für Bewegung: Außenminister Johann Wadephul wirbt für eine „neue Lastenverteilung“, die dem wirtschaftlichen und militärischen Gewicht Europas entspricht. Parallel reist eine Bundestagsdelegation nach Taiwan – ein außenpolitisch heikles Signal Richtung Peking. Innenpolitisch wirkt zudem eine Millionenspende an das BSW nach, die Fragen zur Parteienfinanzierung aufwirft. Einordnend zeigt sich: Die Koalition steht unter Druck, sicherheitspolitische Vorsorge und soziale Reformen zugleich zu bewältigen. Ausblick: Ob die Regierung die Kritik am Krisenmanagement in konkrete Strukturreformen übersetzt, dürfte ihre zweite Amtshälfte prägen.",
+        "quellen": [
+          "Opposition kritisiert Versäumnisse beim Bevölkerungsschutz",
+          "Wadephul: Neue Lastenverteilung nach US-Abzugsdrohung",
+          "Bundestagsdelegation reist zu Gesprächen nach Taiwan"
+        ]
+      },
+      "europaeische-politik": {
+        "titel": "Europäische Politik",
+        "analyse": "Die EU setzt im Mai handelspolitische Akzente: Am 20. Mai stimmten der Rat der EU und das Europäische Parlament der Umsetzung des EU-US-Handelsabkommens zu, das Zölle auf US-Industrieprodukte abbaut und bestimmten US-Agrar- und Meeresfrüchteprodukten bevorzugten Marktzugang gewährt. Das Abkommen soll Handelskonflikte entschärfen, weckt aber Sorgen bei europäischen Landwirten. Zugleich rückt der Zustand der Demokratie in den Fokus: Das Parlament bereitet eine Entschließung zur Erosion rechtsstaatlicher Grundsätze in der Slowakei vor, wo unter Premier Robert Fico Antikorruptionsgremien geschwächt und die Unabhängigkeit der Justiz untergraben werden. Drittes Thema ist die Cybersicherheit: Angesichts fortgeschrittener KI-Systeme fordern Abgeordnete die vollständige Umsetzung der NIS2-Richtlinie und eine eigene EU-KI-Sicherheitsstrategie. Einordnung: Die Union balanciert zwischen wirtschaftlicher Stabilisierung im Verhältnis zu Washington und der Verteidigung interner demokratischer Standards. Ausblick: Beide Felder – Handel und Rechtsstaatlichkeit – werden die Glaubwürdigkeit der EU als regelbasierter Akteur auf die Probe stellen.",
+        "quellen": [
+          "Rat und EP billigen Umsetzung des EU-US-Handelsabkommens",
+          "Parlament plant Entschließung zur Rechtsstaatlichkeit in der Slowakei",
+          "Debatte über NIS2 und EU-KI-Cybersicherheitsstrategie"
+        ]
+      },
+      "weltwirtschaft": {
+        "titel": "Weltwirtschaft",
+        "analyse": "Die Weltwirtschaft verliert an Schwung. Die Vereinten Nationen senkten ihre Wachstumsprognose für 2026 auf 2,5 Prozent (zuvor 2,7 Prozent) und hoben zugleich die Inflationserwartungen an; der IWF rechnet mit 3,1 Prozent globalem Wachstum, 0,2 Punkte weniger als im Januar. Hauptbelastungsfaktoren sind die Krise im Nahen Osten und die dadurch steigenden Ölpreise, die Energiekosten und Verbraucherunsicherheit befeuern. Ein Lichtblick: Der globale Einkaufsmanagerindex von S&P Global stieg im April leicht auf 51,8 Punkte, gestützt auf Hoffnungen auf eine Entspannung im Iran-Konflikt. Deutschland zählt zu den Schwächeren: Das BIP wuchs im ersten Quartal nur um 0,3 Prozent gegenüber dem Vorquartal, die IWF-Jahresprognose sank auf 0,8 Prozent. Einordnung: Die Konjunktur bleibt robust, aber fragil – geopolitische Risiken überlagern die binnenwirtschaftliche Erholung. Ausblick: Eine nachhaltige Belebung hängt maßgeblich davon ab, ob sich die Energiepreise stabilisieren und der Nahost-Konflikt nicht weiter eskaliert.",
+        "quellen": [
+          "UN senkt Wachstumsprognose 2026 auf 2,5 Prozent",
+          "IWF: Deutschland wächst 2026 nur um 0,8 Prozent",
+          "S&P-Einkaufsmanagerindex steigt im April auf 51,8 Punkte"
+        ]
+      },
+      "internationale-politik": {
+        "titel": "Internationale Politik",
+        "analyse": "Die geopolitische Lage bleibt von Unsicherheit geprägt. Im Vordergrund steht der Iran-Konflikt, der über steigende Ölpreise und gebremste Reisebuchungen – etwa beim Konzern TUI – wirtschaftlich ausstrahlt und den Nahen Osten als Risikoherd festigt. Zugleich mehren sich Signale für eine mögliche diplomatische Bewegung im Ukraine-Krieg: Berichten zufolge erwägt Kiew eine Präsidentschaftswahl sowie ein Referendum über ein Friedensabkommen mit Russland. Ob daraus ein tragfähiger Verhandlungsweg entsteht, ist offen. Strukturell verschiebt sich die Weltordnung weiter: Washington setzt unter Präsident Trump auf transaktionale Außenpolitik – von erratischer Friedensvermittlung bis zu Deals um kritische Lieferketten. China forciert mit seinem neuen Fünfjahresplan die technologische Entkopplung vom Westen. Hinzu kommt eine sich verschärfende globale Ernährungskrise, vor der die UN warnt. Einordnung: 2026 institutionalisiert Unsicherheit als Normalzustand. Ausblick: Europas Handlungsfähigkeit hängt davon ab, ob es eigene strategische Kapazitäten aufbaut, statt allein auf externe Garantien zu setzen.",
+        "quellen": [
+          "Iran-Konflikt belastet Ölpreise und Tourismusbranche",
+          "Bericht: Ukraine erwägt Wahl und Referendum zu Friedensabkommen",
+          "UN warnt vor sich verschärfender globaler Ernährungskrise"
+        ]
+      }
+    }
+  },
+  {
     "datum": "2026-05-13",
     "datumFormatiert": "Mittwoch, 13. Mai 2026",
     "eintraege": {
