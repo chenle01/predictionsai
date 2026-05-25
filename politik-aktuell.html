@@ -25,129 +25,32 @@
     -webkit-font-smoothing: antialiased;
   }
   .wrap { max-width: 1140px; margin: 0 auto; padding: 0 20px; }
-
-  header.site {
-    background: var(--primary);
-    color: #fff;
-    padding: 42px 0 38px;
-    border-bottom: 4px solid var(--accent);
-  }
-  header.site .kicker {
-    color: var(--accent);
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 700;
-    margin-bottom: 10px;
-  }
-  header.site h1 {
-    font-size: clamp(30px, 5vw, 46px);
-    font-weight: 800;
-    letter-spacing: -0.5px;
-    line-height: 1.1;
-  }
-  header.site .untertitel {
-    margin-top: 10px;
-    font-size: 17px;
-    color: #c9d2e0;
-  }
-  header.site .datum {
-    margin-top: 18px;
-    font-size: 15px;
-    color: #fff;
-    border-top: 1px solid rgba(255,255,255,0.18);
-    padding-top: 14px;
-    display: inline-block;
-  }
-
-  .disclaimer {
-    background: #fbf6e6;
-    border-bottom: 1px solid #ecdfba;
-    color: #6b5a25;
-    font-size: 13.5px;
-  }
+  header.site { background: var(--primary); color: #fff; padding: 42px 0 38px; border-bottom: 4px solid var(--accent); }
+  header.site .kicker { color: var(--accent); letter-spacing: 3px; text-transform: uppercase; font-size: 12px; font-weight: 700; margin-bottom: 10px; }
+  header.site h1 { font-size: clamp(30px, 5vw, 46px); font-weight: 800; letter-spacing: -0.5px; line-height: 1.1; }
+  header.site .untertitel { margin-top: 10px; font-size: 17px; color: #c9d2e0; }
+  header.site .datum { margin-top: 18px; font-size: 15px; color: #fff; border-top: 1px solid rgba(255,255,255,0.18); padding-top: 14px; display: inline-block; }
+  .disclaimer { background: #fbf6e6; border-bottom: 1px solid #ecdfba; color: #6b5a25; font-size: 13.5px; }
   .disclaimer .wrap { padding-top: 12px; padding-bottom: 12px; display: flex; gap: 10px; align-items: flex-start; }
   .disclaimer .icon { font-size: 16px; line-height: 1.4; }
-
   main { padding: 40px 0 20px; }
-  .section-titel {
-    font-size: 13px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: var(--muted);
-    font-weight: 700;
-    margin-bottom: 18px;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-  }
+  .section-titel { font-size: 13px; text-transform: uppercase; letter-spacing: 2px; color: var(--muted); font-weight: 700; margin-bottom: 18px; display: flex; align-items: center; gap: 12px; }
   .section-titel::after { content: ""; flex: 1; height: 1px; background: var(--line); }
-
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 22px;
-  }
+  .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; }
   @media (max-width: 720px) { .grid { grid-template-columns: 1fr; } }
-
-  .kachel {
-    background: var(--card);
-    border: 1px solid var(--line);
-    border-radius: 12px;
-    padding: 24px 24px 20px;
-    box-shadow: 0 1px 3px rgba(26,39,68,0.05);
-    display: flex;
-    flex-direction: column;
-  }
+  .kachel { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 24px 24px 20px; box-shadow: 0 1px 3px rgba(26,39,68,0.05); display: flex; flex-direction: column; }
   .kachel-head { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
   .kachel-emoji { font-size: 26px; line-height: 1; }
-  .kachel-titel {
-    font-size: 19px;
-    font-weight: 750;
-    color: var(--primary);
-    letter-spacing: -0.2px;
-  }
+  .kachel-titel { font-size: 19px; font-weight: 750; color: var(--primary); letter-spacing: -0.2px; }
   .kachel-text { font-size: 15.5px; color: var(--text); margin-bottom: 18px; }
   .quellen { margin-top: auto; }
-  .quellen-label {
-    font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px;
-    color: var(--muted); font-weight: 700; display: block; margin-bottom: 8px;
-  }
+  .quellen-label { font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--muted); font-weight: 700; display: block; margin-bottom: 8px; }
   .tags { display: flex; flex-wrap: wrap; gap: 7px; }
-  .tag {
-    background: #eef1f6;
-    color: var(--primary-soft);
-    font-size: 12px;
-    padding: 5px 10px;
-    border-radius: 999px;
-    border: 1px solid #e0e5ee;
-  }
-  .zeitstempel {
-    margin-top: 14px;
-    padding-top: 12px;
-    border-top: 1px dashed var(--line);
-    font-size: 12px;
-    color: var(--muted);
-  }
-
+  .tag { background: #eef1f6; color: var(--primary-soft); font-size: 12px; padding: 5px 10px; border-radius: 999px; border: 1px solid #e0e5ee; }
+  .zeitstempel { margin-top: 14px; padding-top: 12px; border-top: 1px dashed var(--line); font-size: 12px; color: var(--muted); }
   .archiv { margin-top: 52px; }
-  .archiv-tag {
-    background: var(--card);
-    border: 1px solid var(--line);
-    border-radius: 10px;
-    margin-bottom: 12px;
-    overflow: hidden;
-  }
-  .archiv-tag summary {
-    cursor: pointer;
-    padding: 16px 20px;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-weight: 700;
-    color: var(--primary);
-  }
+  .archiv-tag { background: var(--card); border: 1px solid var(--line); border-radius: 10px; margin-bottom: 12px; overflow: hidden; }
+  .archiv-tag summary { cursor: pointer; padding: 16px 20px; list-style: none; display: flex; justify-content: space-between; align-items: center; font-weight: 700; color: var(--primary); }
   .archiv-tag summary::-webkit-details-marker { display: none; }
   .archiv-datum { font-size: 16px; }
   .archiv-hint { font-size: 12px; color: var(--accent); font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
@@ -156,16 +59,7 @@
   .archiv-tag:not([open]) .archiv-hint::before { content: "▸ "; }
   .archiv-tag .grid { padding: 22px; }
   .kein-archiv { color: var(--muted); font-style: italic; }
-
-  footer.site {
-    margin-top: 56px;
-    background: var(--primary);
-    color: #c9d2e0;
-    padding: 28px 0;
-    text-align: center;
-    font-size: 13.5px;
-    border-top: 4px solid var(--accent);
-  }
+  footer.site { margin-top: 56px; background: var(--primary); color: #c9d2e0; padding: 28px 0; text-align: center; font-size: 13.5px; border-top: 4px solid var(--accent); }
   footer.site strong { color: #fff; }
 </style>
 </head>
@@ -175,7 +69,7 @@
       <div class="kicker">Automatisierte Nachrichten-Analyse</div>
       <h1>KI-Politikanalyse</h1>
       <div class="untertitel">Tagesanalysen von Claude</div>
-      <div class="datum">Freitag, 22. Mai 2026</div>
+      <div class="datum">Montag, 25. Mai 2026</div>
     </div>
   </header>
 
@@ -195,12 +89,67 @@
             <span class="kachel-emoji" aria-hidden="true">🇩🇪</span>
             <h3 class="kachel-titel">Deutsche Innenpolitik</h3>
           </div>
+          <p class="kachel-text">Rund ein Jahr nach Amtsantritt bleibt die schwarz-rote Koalition unter Bundeskanzler Friedrich Merz (CDU) unter erheblichem Druck. Umfragen zeichnen weiterhin ein kritisches Bild: Die AfD liegt in mehreren Erhebungen vor oder gleichauf mit der Union, während die Regierungsparteien an Zustimmung verlieren. In der jüngsten Regierungsbefragung betonte Merz, vorrangiges Ziel bleibe es, „Freiheit, Frieden, Wohlstand und den Sozialstaat zukunftsfähig zu halten“ – eine Formel, die den koalitionsinternen Spagat zwischen wirtschaftlicher Konsolidierung und sozialer Absicherung beschreibt. Zentrale Streitpunkte bleiben hohe Energiepreise, die schwache Konjunktur und die Finanzierung von Reformen, ohne die SPD-Basis zu verprellen. Einordnend lässt sich sagen: Die Koalition verfügt über eine arbeitsfähige Mehrheit, ringt aber um eine gemeinsame Erzählung. Ausblick: Solange spürbare wirtschaftliche Entlastung für die Bürgerinnen und Bürger ausbleibt, dürfte der Vertrauensverlust anhalten und die politischen Ränder begünstigen. Entscheidend wird, ob die Regierung im zweiten Jahr sichtbare Ergebnisse liefert.</p>
+          <div class="quellen">
+            <span class="quellen-label">Schlagzeilen</span>
+            <div class="tags"><span class="tag">Merz in der Regierungsbefragung: „Deutschland muss seine Interessen definieren und durchsetzen“</span><span class="tag">Bundestag: Fraktionen ziehen Bilanz des ersten Regierungsjahres der schwarz-roten Koalition</span><span class="tag">Umfragen: AfD weiter auf Augenhöhe mit oder vor der Union</span></div>
+          </div>
+          <div class="zeitstempel">Aktualisiert: Montag, 25. Mai 2026, 08:00 Uhr</div>
+        </article>
+        <article class="kachel">
+          <div class="kachel-head">
+            <span class="kachel-emoji" aria-hidden="true">🇪🇺</span>
+            <h3 class="kachel-titel">Europäische Politik</h3>
+          </div>
+          <p class="kachel-text">Die europäische Politik steht im Mai 2026 im Zeichen des Bemühens um mehr Handlungsfähigkeit. Zum Europatag wurde ein Reformplan für ein „souveräneres“ Europa vorgestellt, der angesichts von Krieg, wirtschaftlichem Druck und technologischen Abhängigkeiten den Status quo infrage stellt. Konkret haben sich Europäisches Parlament und Rat vorläufig auf die Umsetzung des EU-US-Handelsabkommens verständigt, das Schutzklauseln für Industrie, Landwirtschaft und Mittelstand vorsieht – ein Versuch, transatlantische Stabilität mit dem Schutz eigener Interessen zu verbinden. Parallel gewinnt die Debatte um Cybersicherheit und eine eigene KI-Strategie an Fahrt, samt Forderungen nach vollständiger Umsetzung der NIS2-Richtlinie. Einordnung: Die EU bewegt sich erkennbar in Richtung größerer strategischer Autonomie, bleibt dabei aber von der Kompromissfähigkeit der Mitgliedstaaten abhängig; viele Vorhaben sind bislang Absichtserklärungen. Ausblick: Die kommenden Monate werden zeigen, ob aus dem rhetorischen Anspruch auf Souveränität belastbare gemeinsame Politik wird – insbesondere in Handels-, Sicherheits- und Technologiefragen.</p>
+          <div class="quellen">
+            <span class="quellen-label">Schlagzeilen</span>
+            <div class="tags"><span class="tag">Europatag 2026: Reformplan für ein souveräneres Europa vorgestellt</span><span class="tag">EU und USA: Vorläufige Einigung zur Umsetzung des Handelsabkommens</span><span class="tag">EU-Parlament drängt auf Cybersicherheit und eigene KI-Strategie (NIS2)</span></div>
+          </div>
+          <div class="zeitstempel">Aktualisiert: Montag, 25. Mai 2026, 08:00 Uhr</div>
+        </article>
+        <article class="kachel">
+          <div class="kachel-head">
+            <span class="kachel-emoji" aria-hidden="true">📈</span>
+            <h3 class="kachel-titel">Weltwirtschaft</h3>
+          </div>
+          <p class="kachel-text">Die Weltwirtschaft wächst 2026 weiter, verliert aber an Schwung. Der Internationale Währungsfonds rechnet mit rund 3,1 Prozent globalem Wachstum, die Vereinten Nationen mit nur 2,5 Prozent – und senkten ihre Prognose zuletzt wegen der Nahostkrise. Als zentraler Belastungsfaktor gilt der Iran-Krieg, der über höhere Energiepreise und gestiegene Unsicherheit auf die globale Nachfrage durchschlägt. Für Deutschland fällt der Ausblick mit nur noch 0,8 Prozent Wachstum besonders verhalten aus, auch wenn das Bruttoinlandsprodukt im ersten Quartal leicht um 0,3 Prozent zulegte. Positiv: Der globale Einkaufsmanagerindex hat sich zuletzt aufgehellt, vor allem in der Industrie. Einordnung: Die Lage ist zweigeteilt – robuste Grunddynamik trifft auf erhebliche geopolitische Risiken. Solange der Nahost-Konflikt ungelöst bleibt, dominiert die Unsicherheit über Energiepreise und Lieferketten. Ausblick: Eine Entspannung im Iran-Konflikt könnte spürbar entlasten; bleibt sie aus, drohen anhaltend hohe Preise und gedämpftes Wachstum. Für exportorientierte Volkswirtschaften wie Deutschland bleibt die außenwirtschaftliche Stabilität der entscheidende Faktor.</p>
+          <div class="quellen">
+            <span class="quellen-label">Schlagzeilen</span>
+            <div class="tags"><span class="tag">UNO senkt Prognose: Nahostkrise bremst Weltwirtschaft</span><span class="tag">IWF: Globales Wachstum 2026 bei 3,1 Prozent, Deutschland nur 0,8 Prozent</span><span class="tag">S&amp;P Global: Einkaufsmanagerindex hellt sich auf, Industrie zieht an</span></div>
+          </div>
+          <div class="zeitstempel">Aktualisiert: Montag, 25. Mai 2026, 08:00 Uhr</div>
+        </article>
+        <article class="kachel">
+          <div class="kachel-head">
+            <span class="kachel-emoji" aria-hidden="true">🌍</span>
+            <h3 class="kachel-titel">Internationale Politik</h3>
+          </div>
+          <p class="kachel-text">Im Zentrum der internationalen Politik steht weiterhin der Iran-Krieg. US-Präsident Donald Trump kündigte einen möglichen Durchbruch in den Verhandlungen über ein Kriegsende an, mahnte zugleich aber, „nichts zu überstürzen“. Teheran prüft Berichten zufolge einen über Pakistan übermittelten US-Vorschlag; beide Seiten verhandeln indirekt weiter, wobei der Iran zwar Gesprächsbereitschaft signalisiert, dem Vorgehen Washingtons jedoch misstraut. Zugleich bereitet sich Israel offenbar auf eine mögliche Wiederaufnahme der Kampfhandlungen vor, und die brüchige Waffenruhe mit dem Libanon wird durch nahezu tägliche Zwischenfälle belastet. Innenpolitisch steht die iranische Führung unter Druck: Seit Ende Dezember halten Proteste an, ausgelöst durch Währungsverfall, hohe Inflation und wirtschaftliche Not. Einordnung: Die diplomatischen Signale sind ermutigend, aber fragil – tiefes gegenseitiges Misstrauen und innenpolitische Zwänge auf allen Seiten erschweren eine tragfähige Lösung. Ausblick: Gelingt eine Verständigung, hätte das weitreichende Folgen für Energiemärkte und regionale Sicherheit; ein Scheitern birgt das Risiko einer erneuten Eskalation mit globalen wirtschaftlichen Auswirkungen.</p>
+          <div class="quellen">
+            <span class="quellen-label">Schlagzeilen</span>
+            <div class="tags"><span class="tag">Trump kündigt möglichen Durchbruch bei Iran-Verhandlungen an</span><span class="tag">Teheran prüft über Pakistan übermittelten US-Vorschlag</span><span class="tag">Brüchige Waffenruhe: Israel und Libanon, doch Zwischenfälle dauern an</span></div>
+          </div>
+          <div class="zeitstempel">Aktualisiert: Montag, 25. Mai 2026, 08:00 Uhr</div>
+        </article>
+      </div>
+
+      <section class="archiv">
+        <div class="section-titel">Archiv</div>
+      <details class="archiv-tag">
+        <summary><span class="archiv-datum">Freitag, 22. Mai 2026</span><span class="archiv-hint">Analysen anzeigen</span></summary>
+        <div class="grid">
+        <article class="kachel">
+          <div class="kachel-head">
+            <span class="kachel-emoji" aria-hidden="true">🇩🇪</span>
+            <h3 class="kachel-titel">Deutsche Innenpolitik</h3>
+          </div>
           <p class="kachel-text">Ein Jahr nach Amtsantritt steckt die schwarz-rote Koalition unter Bundeskanzler Friedrich Merz in einer Vertrauenskrise. Laut aktuellem Politbarometer sind rund 69 Prozent der Bürgerinnen und Bürger mit der Regierungsarbeit unzufrieden – ein Höchstwert. Nur noch knapp die Hälfte rechnet damit, dass das Bündnis bis zur regulären Wahl 2029 hält. Parallel baut die AfD ihren Vorsprung aus und liegt in mehreren Umfragen bei rund 28 Prozent, deutlich vor der Union. Vor diesem Hintergrund suchte Merz erstmals das direkte Gespräch mit der SPD-Fraktion und mahnte mehr „Ruhe“ an. Im Zentrum der koalitionsinternen Auseinandersetzungen stehen Reformvorhaben zu Arbeitszeit, Steuerpolitik und der Entlastung kleinerer Einkommen. Einordnend zeigt sich: Das ursprüngliche Versprechen von mehr Wachstum und weniger Bürokratie kollidiert mit konjunktureller Schwäche und internen Bruchlinien. Ob die kommenden Reformkompromisse frischen Schwung bringen, dürfte über die Stabilität der zweiten Regierungshälfte entscheiden. Ein sichtbarer wirtschaftspolitischer Erfolg gilt als Voraussetzung, um den Abwärtstrend in den Umfragen zu stoppen.</p>
           <div class="quellen">
             <span class="quellen-label">Schlagzeilen</span>
             <div class="tags"><span class="tag">Politbarometer Mai 2026: Merz auf Tiefstwert, AfD vor Union</span><span class="tag">Merz bei SPD-Fraktion: „Brauchen jetzt Ruhe“</span><span class="tag">Bundestag zieht Bilanz des ersten Regierungsjahres der schwarz-roten Koalition</span></div>
           </div>
-          <div class="zeitstempel">Aktualisiert: Freitag, 22. Mai 2026, 08:13 Uhr</div>
+          <div class="zeitstempel">Aktualisiert: Freitag, 22. Mai 2026</div>
         </article>
         <article class="kachel">
           <div class="kachel-head">
@@ -212,7 +161,7 @@
             <span class="quellen-label">Schlagzeilen</span>
             <div class="tags"><span class="tag">EU und USA einigen sich auf Umsetzung des Handelsabkommens</span><span class="tag">EU-Parlament bereitet Entschließung zur Rechtsstaatlichkeit in der Slowakei vor</span><span class="tag">Debatte über Stärkung der EU-Cybersicherheit und NIS2-Umsetzung</span></div>
           </div>
-          <div class="zeitstempel">Aktualisiert: Freitag, 22. Mai 2026, 08:13 Uhr</div>
+          <div class="zeitstempel">Aktualisiert: Freitag, 22. Mai 2026</div>
         </article>
         <article class="kachel">
           <div class="kachel-head">
@@ -224,7 +173,7 @@
             <span class="quellen-label">Schlagzeilen</span>
             <div class="tags"><span class="tag">UNO senkt Prognose: Nahostkrise bremst Weltwirtschaft</span><span class="tag">IWF korrigiert globales Wachstum auf 3,1 Prozent</span><span class="tag">Bundesregierung erwartet 2026 nur rund 0,5 Prozent BIP-Wachstum</span></div>
           </div>
-          <div class="zeitstempel">Aktualisiert: Freitag, 22. Mai 2026, 08:13 Uhr</div>
+          <div class="zeitstempel">Aktualisiert: Freitag, 22. Mai 2026</div>
         </article>
         <article class="kachel">
           <div class="kachel-head">
@@ -236,12 +185,10 @@
             <span class="quellen-label">Schlagzeilen</span>
             <div class="tags"><span class="tag">Geopolitik und Ölpreisschock prägen die Weltlage im Mai 2026</span><span class="tag">Bericht: Ukraine plant Präsidentschaftswahl und Referendum über Friedensabkommen</span><span class="tag">UN-Bericht: Hunger verfestigt sich in zahlreichen Ländern</span></div>
           </div>
-          <div class="zeitstempel">Aktualisiert: Freitag, 22. Mai 2026, 08:13 Uhr</div>
+          <div class="zeitstempel">Aktualisiert: Freitag, 22. Mai 2026</div>
         </article>
-      </div>
-
-      <section class="archiv">
-        <div class="section-titel">Archiv</div>
+        </div>
+      </details>
       <details class="archiv-tag">
         <summary><span class="archiv-datum">Donnerstag, 21. Mai 2026</span><span class="archiv-hint">Analysen anzeigen</span></summary>
         <div class="grid">
@@ -421,7 +368,7 @@
             <span class="kachel-emoji" aria-hidden="true">🇪🇺</span>
             <h3 class="kachel-titel">Europäische Politik</h3>
           </div>
-          <p class="kachel-text">Die EU sucht im Frühjahr 2026 nach strategischer Handlungsfähigkeit. Rund um den Europatag am 9. Mai mehren sich Reformforderungen – insbesondere für eine entschlossenere Außenpolitik und eine engere Verzahnung von Wirtschafts- und Sicherheitsfragen. Kommissionspräsidentin Ursula von der Leyen und Ratspräsident António Costa nehmen an der achten Tagung der Europäischen Politischen Gemeinschaft im armenischen Eriwan teil, die unter dem Motto „Einheit und Stabilität in Europa&quot; steht und auch geopolitische Antworten auf den Krieg in der Ukraine und die Lage im Kaukasus diskutieren wird. Bereits am 6. Mai legte die Kommission ein Paket gegen Armut und die anhaltende Wohnungskrise vor – ein sozialpolitisches Signal angesichts wachsender Ungleichheiten. Insgesamt bewegt sich die EU zwischen geopolitischer Selbstbehauptung und innerer Konsolidierung. Der Ausblick: Ohne Vertragsreformen und schnellere Entscheidungsprozesse droht die Union, hinter den globalen Erwartungen zurückzubleiben, die in einer multipolaren Weltordnung an sie gerichtet werden.</p>
+          <p class="kachel-text">Die EU sucht im Frühjahr 2026 nach strategischer Handlungsfähigkeit. Rund um den Europatag am 9. Mai mehren sich Reformforderungen – insbesondere für eine entschlossenere Außenpolitik und eine engere Verzahnung von Wirtschafts- und Sicherheitsfragen. Kommissionspräsidentin Ursula von der Leyen und Ratspräsident António Costa nehmen an der achten Tagung der Europäischen Politischen Gemeinschaft im armenischen Eriwan teil, die unter dem Motto „Einheit und Stabilität in Europa" steht und auch geopolitische Antworten auf den Krieg in der Ukraine und die Lage im Kaukasus diskutieren wird. Bereits am 6. Mai legte die Kommission ein Paket gegen Armut und die anhaltende Wohnungskrise vor – ein sozialpolitisches Signal angesichts wachsender Ungleichheiten. Insgesamt bewegt sich die EU zwischen geopolitischer Selbstbehauptung und innerer Konsolidierung. Der Ausblick: Ohne Vertragsreformen und schnellere Entscheidungsprozesse droht die Union, hinter den globalen Erwartungen zurückzubleiben, die in einer multipolaren Weltordnung an sie gerichtet werden.</p>
           <div class="quellen">
             <span class="quellen-label">Schlagzeilen</span>
             <div class="tags"><span class="tag">Europatag 2026: Reformforderungen für ein stärkeres Europa</span><span class="tag">Achte Tagung der Europäischen Politischen Gemeinschaft in Eriwan</span><span class="tag">Kommission legt Maßnahmen gegen Armut und Wohnungskrise vor</span></div>
