@@ -1,5 +1,47 @@
 [
   {
+    "datum": "2026-05-26",
+    "datumFormatiert": "Dienstag, 26. Mai 2026",
+    "eintraege": {
+      "deutsche-innenpolitik": {
+        "titel": "Deutsche Innenpolitik",
+        "analyse": "Die Innenpolitik wird derzeit von der finanziellen Schieflage der Sozialsysteme bestimmt. Der GKV-Spitzenverband warnt vor einem Defizit von rund vier Milliarden Euro im Jahr 2026 und mahnt rasches Handeln an, da die Probleme im kommenden Jahr sonst kaum noch beherrschbar seien. Gleichzeitig steht Bundeskanzler Friedrich Merz innenpolitisch unter Druck, während er außenpolitisch weitreichende Vorschläge zur EU-Erweiterung – einschließlich der Ukraine – macht. Für Diskussionen sorgt zudem die Einbürgerungsbilanz: 2025 erhielten so viele Menschen die deutsche Staatsbürgerschaft wie nie zuvor seit Beginn der Statistik. Der frühere Außenminister Joschka Fischer (Grüne) fordert von der schwarz-roten Koalition grundlegende Sozialreformen und kritisiert einen „dramatischen Niedergang“ der SPD. Einordnend zeigt sich ein Grundkonflikt zwischen notwendiger Haushaltskonsolidierung und dem Erhalt des Sozialstaats. Ausblick: Ohne strukturelle Reformen bei Gesundheit, Rente und Pflege dürfte der Finanzdruck die Koalition weiter belasten und die Debatte über Verteilungsfragen verschärfen.",
+        "quellen": [
+          "GKV-Spitzenverband warnt vor Vier-Milliarden-Defizit 2026",
+          "Rekord bei Einbürgerungen im Jahr 2025",
+          "Fischer fordert grundlegende Sozialreformen von schwarz-roter Koalition"
+        ]
+      },
+      "europaeische-politik": {
+        "titel": "Europäische Politik",
+        "analyse": "Auf EU-Ebene dominieren derzeit Handels-, Rechtsstaats- und Sicherheitsfragen. Europäisches Parlament und Rat haben sich auf eine vorläufige Einigung zur Umsetzung des EU-US-Handelsabkommens verständigt, das Schutzmechanismen für europäische Industrie, Landwirtschaft sowie kleine und mittlere Unternehmen vorsieht. Parallel bereitet das Parlament eine Resolution zur Erosion demokratischer Grundsätze in der Slowakei vor; unter Premierminister Robert Fico werden der Abbau von Antikorruptionsgremien, Eingriffe in die Justiz und die Schwächung von Grundrechten beklagt. Drittes Schwerpunktthema ist die Cybersicherheit: Angesichts fortgeschrittener KI-Systeme fordern Abgeordnete die vollständige Umsetzung der NIS2-Richtlinie und eine spezialisierte EU-Strategie. Einordnend wird deutlich, dass die Union zwischen außenwirtschaftlicher Absicherung gegenüber den USA und der Verteidigung interner demokratischer Standards balanciert. Ausblick: Der Handelskompromiss dürfte Planungssicherheit schaffen, während die Rechtsstaatsdebatte – ähnlich wie zuvor bei Ungarn und Polen – die Geschlossenheit der EU auf die Probe stellt und Fragen nach wirksamen Sanktionsmechanismen aufwirft.",
+        "quellen": [
+          "Parlament und Rat einig über Umsetzung des EU-US-Handelsabkommens",
+          "EP-Resolution zur Rechtsstaatlichkeit in der Slowakei geplant",
+          "Debatte über NIS2-Umsetzung und EU-Cybersicherheitsstrategie"
+        ]
+      },
+      "weltwirtschaft": {
+        "titel": "Weltwirtschaft",
+        "analyse": "Die Weltwirtschaft verliert spürbar an Schwung. Der IWF erwartet für 2026 ein globales Wachstum von 3,1 Prozent – 0,2 Prozentpunkte weniger als noch im Januar; die UN-Ökonomen senkten ihre Prognose auf 2,5 Prozent und sehen in einem ungünstigen Szenario sogar nur 2,1 Prozent. Als Belastungsfaktoren gelten steigende Energiepreise, hohe Unsicherheit und mögliche Verwerfungen an den Finanzmärkten, maßgeblich getrieben vom Krieg im Nahen Osten. In Deutschland legte das BIP im ersten Quartal zwar um 0,3 Prozent zu, doch der AHK World Business Outlook signalisiert einbrechende Konjunkturerwartungen und zurückgefahrene Investitionen. Auch die Konsumstimmung trübt sich für das zweite Quartal ein. Einordnend zeigt sich eine Gemengelage aus geopolitisch bedingtem Energiepreisdruck und nachlassender Nachfrage. Ausblick: Solange die Nahostkrise anhält, bleiben Energiepreise und Lieferketten die zentralen Risiken; eine kräftige Erholung ist vorerst nicht in Sicht, ein Abrutschen in die Rezession aber ebenso wenig zwingend.",
+        "quellen": [
+          "IWF senkt Wachstumsprognose 2026 auf 3,1 Prozent",
+          "UNO: Nahostkrise bremst Weltwirtschaft",
+          "AHK World Business Outlook: Konjunkturerwartungen brechen ein"
+        ]
+      },
+      "internationale-politik": {
+        "titel": "Internationale Politik",
+        "analyse": "Die internationale Lage ist von tiefgreifender Unsicherheit geprägt. Die zweite Amtszeit von US-Präsident Donald Trump verfestigt einen transaktionalen Kurs: erratische Vermittlungsversuche, robuste Interventionen in der unmittelbaren Nachbarschaft und opportunistische Deals rund um kritische Lieferketten. Im Zentrum steht weiter der Ukraine-Krieg: Berichten zufolge plant Kiew eine Präsidentschaftswahl sowie ein Referendum über ein mögliches Friedensabkommen mit Russland. In Deutschland und Europa befeuert dies die Debatte über Verteidigungsfähigkeit, einschließlich einer möglichen Wiedereinführung der Wehrpflicht. Zugleich warnt die UNO vor sich verfestigenden Hungerkrisen in zahlreichen Ländern. Einordnend lässt sich festhalten: Die Ordnung der Nachkriegszeit weicht einer Phase, in der Großmächte Macht zunehmend bilateral und interessengeleitet ausüben. Ausblick: Sollte der ukrainische Urnengang tatsächlich stattfinden, könnte er die Verhandlungsdynamik verändern – mit offenem Ausgang. Für Europa wächst der Druck, sicherheitspolitisch eigenständiger zu werden, da die transatlantische Verlässlichkeit nicht mehr als gegeben gilt.",
+        "quellen": [
+          "Ukraine plant Präsidentschaftswahl und Friedensreferendum",
+          "Debatte um Wiedereinführung der Wehrpflicht in Deutschland",
+          "UNO warnt vor sich verfestigenden Hungerkrisen"
+        ]
+      }
+    }
+  },
+  {
     "datum": "2026-05-25",
     "datumFormatiert": "Montag, 25. Mai 2026",
     "eintraege": {

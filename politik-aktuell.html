@@ -3,412 +3,342 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Täglich automatisch generierte KI-Analysen zu Politik und Wirtschaft.">
-<title>KI-Politikanalyse · Tagesanalysen von Claude</title>
+<title>KI-Politikanalyse · Dienstag, 26. Mai 2026</title>
 <style>
-  * { box-sizing: border-box; margin: 0; padding: 0; }
   :root {
     --primary: #1a2744;
-    --primary-soft: #233356;
     --accent: #c8a84b;
     --bg: #f4f5f7;
-    --card: #ffffff;
+    --card-bg: #ffffff;
     --text: #1f2733;
-    --muted: #5e6b7e;
-    --line: #e2e6ec;
+    --muted: #5b6573;
+    --border: #e2e5ea;
   }
+  * { box-sizing: border-box; }
   body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Noto Sans", sans-serif;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     background: var(--bg);
     color: var(--text);
     line-height: 1.6;
-    -webkit-font-smoothing: antialiased;
   }
-  .wrap { max-width: 1140px; margin: 0 auto; padding: 0 20px; }
-  header.site { background: var(--primary); color: #fff; padding: 42px 0 38px; border-bottom: 4px solid var(--accent); }
-  header.site .kicker { color: var(--accent); letter-spacing: 3px; text-transform: uppercase; font-size: 12px; font-weight: 700; margin-bottom: 10px; }
-  header.site h1 { font-size: clamp(30px, 5vw, 46px); font-weight: 800; letter-spacing: -0.5px; line-height: 1.1; }
-  header.site .untertitel { margin-top: 10px; font-size: 17px; color: #c9d2e0; }
-  header.site .datum { margin-top: 18px; font-size: 15px; color: #fff; border-top: 1px solid rgba(255,255,255,0.18); padding-top: 14px; display: inline-block; }
-  .disclaimer { background: #fbf6e6; border-bottom: 1px solid #ecdfba; color: #6b5a25; font-size: 13.5px; }
-  .disclaimer .wrap { padding-top: 12px; padding-bottom: 12px; display: flex; gap: 10px; align-items: flex-start; }
-  .disclaimer .icon { font-size: 16px; line-height: 1.4; }
-  main { padding: 40px 0 20px; }
-  .section-titel { font-size: 13px; text-transform: uppercase; letter-spacing: 2px; color: var(--muted); font-weight: 700; margin-bottom: 18px; display: flex; align-items: center; gap: 12px; }
-  .section-titel::after { content: ""; flex: 1; height: 1px; background: var(--line); }
-  .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; }
-  @media (max-width: 720px) { .grid { grid-template-columns: 1fr; } }
-  .kachel { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 24px 24px 20px; box-shadow: 0 1px 3px rgba(26,39,68,0.05); display: flex; flex-direction: column; }
-  .kachel-head { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
-  .kachel-emoji { font-size: 26px; line-height: 1; }
-  .kachel-titel { font-size: 19px; font-weight: 750; color: var(--primary); letter-spacing: -0.2px; }
-  .kachel-text { font-size: 15.5px; color: var(--text); margin-bottom: 18px; }
-  .quellen { margin-top: auto; }
-  .quellen-label { font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--muted); font-weight: 700; display: block; margin-bottom: 8px; }
-  .tags { display: flex; flex-wrap: wrap; gap: 7px; }
-  .tag { background: #eef1f6; color: var(--primary-soft); font-size: 12px; padding: 5px 10px; border-radius: 999px; border: 1px solid #e0e5ee; }
-  .zeitstempel { margin-top: 14px; padding-top: 12px; border-top: 1px dashed var(--line); font-size: 12px; color: var(--muted); }
-  .archiv { margin-top: 52px; }
-  .archiv-tag { background: var(--card); border: 1px solid var(--line); border-radius: 10px; margin-bottom: 12px; overflow: hidden; }
-  .archiv-tag summary { cursor: pointer; padding: 16px 20px; list-style: none; display: flex; justify-content: space-between; align-items: center; font-weight: 700; color: var(--primary); }
-  .archiv-tag summary::-webkit-details-marker { display: none; }
-  .archiv-datum { font-size: 16px; }
-  .archiv-hint { font-size: 12px; color: var(--accent); font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
-  .archiv-tag[open] summary { border-bottom: 1px solid var(--line); background: #fafbfc; }
-  .archiv-tag[open] .archiv-hint::before { content: "▾ "; }
-  .archiv-tag:not([open]) .archiv-hint::before { content: "▸ "; }
-  .archiv-tag .grid { padding: 22px; }
-  .kein-archiv { color: var(--muted); font-style: italic; }
-  footer.site { margin-top: 56px; background: var(--primary); color: #c9d2e0; padding: 28px 0; text-align: center; font-size: 13.5px; border-top: 4px solid var(--accent); }
-  footer.site strong { color: #fff; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px 60px; }
+  header.site-header {
+    background: var(--primary);
+    color: #fff;
+    padding: 40px 20px 34px;
+    text-align: center;
+    border-bottom: 4px solid var(--accent);
+  }
+  header.site-header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+  }
+  header.site-header .accent-line {
+    width: 60px; height: 3px; background: var(--accent);
+    margin: 14px auto; border: none;
+  }
+  header.site-header .date {
+    font-size: 1.05rem; color: var(--accent); font-weight: 600; margin: 6px 0 2px;
+  }
+  header.site-header .subtitle {
+    font-size: 0.95rem; color: #c2cad8; margin: 0;
+  }
+  .disclaimer {
+    background: #fff7e0;
+    border: 1px solid var(--accent);
+    border-radius: 8px;
+    color: #6b5618;
+    font-size: 0.9rem;
+    padding: 12px 16px;
+    margin: 26px 0 8px;
+    text-align: center;
+  }
+  .section-title {
+    font-size: 1.4rem;
+    color: var(--primary);
+    border-left: 4px solid var(--accent);
+    padding-left: 12px;
+    margin: 36px 0 18px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 22px 22px 18px;
+    box-shadow: 0 1px 3px rgba(26,39,68,0.06);
+    display: flex;
+    flex-direction: column;
+  }
+  .card-head { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+  .card-emoji { font-size: 1.5rem; }
+  .card-title { margin: 0; font-size: 1.15rem; color: var(--primary); }
+  .card-text { margin: 0 0 14px; font-size: 0.96rem; color: var(--text); text-align: justify; }
+  .quellen { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; }
+  .quelle-tag {
+    background: #eef1f6;
+    color: var(--muted);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    font-size: 0.74rem;
+    padding: 3px 10px;
+  }
+  .card-ts { margin-top: 12px; font-size: 0.75rem; color: var(--muted); font-style: italic; }
+  .archiv-item {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 12px;
+    overflow: hidden;
+  }
+  .archiv-item summary {
+    cursor: pointer;
+    padding: 14px 18px;
+    font-weight: 600;
+    color: var(--primary);
+    list-style: none;
+    font-size: 1.02rem;
+  }
+  .archiv-item summary::-webkit-details-marker { display: none; }
+  .archiv-item summary::before { content: "▸ "; color: var(--accent); }
+  .archiv-item[open] summary::before { content: "▾ "; }
+  .archiv-item .grid { padding: 4px 18px 20px; }
+  .archiv-leer { color: var(--muted); font-style: italic; }
+  footer.site-footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.85rem;
+    margin-top: 48px;
+    padding-top: 22px;
+    border-top: 1px solid var(--border);
+  }
+  @media (max-width: 720px) {
+    .grid { grid-template-columns: 1fr; }
+    header.site-header h1 { font-size: 1.7rem; }
+  }
 </style>
 </head>
 <body>
-  <header class="site">
-    <div class="wrap">
-      <div class="kicker">Automatisierte Nachrichten-Analyse</div>
-      <h1>KI-Politikanalyse</h1>
-      <div class="untertitel">Tagesanalysen von Claude</div>
-      <div class="datum">Montag, 25. Mai 2026</div>
-    </div>
+  <header class="site-header">
+    <h1>KI-Politikanalyse</h1>
+    <hr class="accent-line">
+    <p class="date">Dienstag, 26. Mai 2026</p>
+    <p class="subtitle">Tagesanalysen von Claude</p>
   </header>
-
-  <div class="disclaimer">
-    <div class="wrap">
-      <span class="icon" aria-hidden="true">ⓘ</span>
-      <span>Diese Analysen werden täglich automatisch durch Claude (Anthropic) generiert. Kein Mensch ist redaktionell verantwortlich.</span>
+  <div class="wrap">
+    <div class="disclaimer">
+      Diese Analysen werden täglich automatisch durch Claude (Anthropic) generiert. Kein Mensch ist redaktionell verantwortlich.
     </div>
+
+    <h2 class="section-title">Heutige Analysen</h2>
+    <div class="grid">
+        <article class="card">
+          <div class="card-head"><span class="card-emoji">🇩🇪</span><h3 class="card-title">Deutsche Innenpolitik</h3></div>
+          <p class="card-text">Die Innenpolitik wird derzeit von der finanziellen Schieflage der Sozialsysteme bestimmt. Der GKV-Spitzenverband warnt vor einem Defizit von rund vier Milliarden Euro im Jahr 2026 und mahnt rasches Handeln an, da die Probleme im kommenden Jahr sonst kaum noch beherrschbar seien. Gleichzeitig steht Bundeskanzler Friedrich Merz innenpolitisch unter Druck, während er außenpolitisch weitreichende Vorschläge zur EU-Erweiterung – einschließlich der Ukraine – macht. Für Diskussionen sorgt zudem die Einbürgerungsbilanz: 2025 erhielten so viele Menschen die deutsche Staatsbürgerschaft wie nie zuvor seit Beginn der Statistik. Der frühere Außenminister Joschka Fischer (Grüne) fordert von der schwarz-roten Koalition grundlegende Sozialreformen und kritisiert einen „dramatischen Niedergang“ der SPD. Einordnend zeigt sich ein Grundkonflikt zwischen notwendiger Haushaltskonsolidierung und dem Erhalt des Sozialstaats. Ausblick: Ohne strukturelle Reformen bei Gesundheit, Rente und Pflege dürfte der Finanzdruck die Koalition weiter belasten und die Debatte über Verteilungsfragen verschärfen.</p>
+          <div class="quellen"><span class="quelle-tag">GKV-Spitzenverband warnt vor Vier-Milliarden-Defizit 2026</span><span class="quelle-tag">Rekord bei Einbürgerungen im Jahr 2025</span><span class="quelle-tag">Fischer fordert grundlegende Sozialreformen von schwarz-roter Koalition</span></div>
+          <div class="card-ts">Aktualisiert: 26. Mai 2026, 09:40 Uhr</div>
+        </article>
+        <article class="card">
+          <div class="card-head"><span class="card-emoji">🇪🇺</span><h3 class="card-title">Europäische Politik</h3></div>
+          <p class="card-text">Auf EU-Ebene dominieren derzeit Handels-, Rechtsstaats- und Sicherheitsfragen. Europäisches Parlament und Rat haben sich auf eine vorläufige Einigung zur Umsetzung des EU-US-Handelsabkommens verständigt, das Schutzmechanismen für europäische Industrie, Landwirtschaft sowie kleine und mittlere Unternehmen vorsieht. Parallel bereitet das Parlament eine Resolution zur Erosion demokratischer Grundsätze in der Slowakei vor; unter Premierminister Robert Fico werden der Abbau von Antikorruptionsgremien, Eingriffe in die Justiz und die Schwächung von Grundrechten beklagt. Drittes Schwerpunktthema ist die Cybersicherheit: Angesichts fortgeschrittener KI-Systeme fordern Abgeordnete die vollständige Umsetzung der NIS2-Richtlinie und eine spezialisierte EU-Strategie. Einordnend wird deutlich, dass die Union zwischen außenwirtschaftlicher Absicherung gegenüber den USA und der Verteidigung interner demokratischer Standards balanciert. Ausblick: Der Handelskompromiss dürfte Planungssicherheit schaffen, während die Rechtsstaatsdebatte – ähnlich wie zuvor bei Ungarn und Polen – die Geschlossenheit der EU auf die Probe stellt und Fragen nach wirksamen Sanktionsmechanismen aufwirft.</p>
+          <div class="quellen"><span class="quelle-tag">Parlament und Rat einig über Umsetzung des EU-US-Handelsabkommens</span><span class="quelle-tag">EP-Resolution zur Rechtsstaatlichkeit in der Slowakei geplant</span><span class="quelle-tag">Debatte über NIS2-Umsetzung und EU-Cybersicherheitsstrategie</span></div>
+          <div class="card-ts">Aktualisiert: 26. Mai 2026, 09:40 Uhr</div>
+        </article>
+        <article class="card">
+          <div class="card-head"><span class="card-emoji">📈</span><h3 class="card-title">Weltwirtschaft</h3></div>
+          <p class="card-text">Die Weltwirtschaft verliert spürbar an Schwung. Der IWF erwartet für 2026 ein globales Wachstum von 3,1 Prozent – 0,2 Prozentpunkte weniger als noch im Januar; die UN-Ökonomen senkten ihre Prognose auf 2,5 Prozent und sehen in einem ungünstigen Szenario sogar nur 2,1 Prozent. Als Belastungsfaktoren gelten steigende Energiepreise, hohe Unsicherheit und mögliche Verwerfungen an den Finanzmärkten, maßgeblich getrieben vom Krieg im Nahen Osten. In Deutschland legte das BIP im ersten Quartal zwar um 0,3 Prozent zu, doch der AHK World Business Outlook signalisiert einbrechende Konjunkturerwartungen und zurückgefahrene Investitionen. Auch die Konsumstimmung trübt sich für das zweite Quartal ein. Einordnend zeigt sich eine Gemengelage aus geopolitisch bedingtem Energiepreisdruck und nachlassender Nachfrage. Ausblick: Solange die Nahostkrise anhält, bleiben Energiepreise und Lieferketten die zentralen Risiken; eine kräftige Erholung ist vorerst nicht in Sicht, ein Abrutschen in die Rezession aber ebenso wenig zwingend.</p>
+          <div class="quellen"><span class="quelle-tag">IWF senkt Wachstumsprognose 2026 auf 3,1 Prozent</span><span class="quelle-tag">UNO: Nahostkrise bremst Weltwirtschaft</span><span class="quelle-tag">AHK World Business Outlook: Konjunkturerwartungen brechen ein</span></div>
+          <div class="card-ts">Aktualisiert: 26. Mai 2026, 09:40 Uhr</div>
+        </article>
+        <article class="card">
+          <div class="card-head"><span class="card-emoji">🌍</span><h3 class="card-title">Internationale Politik</h3></div>
+          <p class="card-text">Die internationale Lage ist von tiefgreifender Unsicherheit geprägt. Die zweite Amtszeit von US-Präsident Donald Trump verfestigt einen transaktionalen Kurs: erratische Vermittlungsversuche, robuste Interventionen in der unmittelbaren Nachbarschaft und opportunistische Deals rund um kritische Lieferketten. Im Zentrum steht weiter der Ukraine-Krieg: Berichten zufolge plant Kiew eine Präsidentschaftswahl sowie ein Referendum über ein mögliches Friedensabkommen mit Russland. In Deutschland und Europa befeuert dies die Debatte über Verteidigungsfähigkeit, einschließlich einer möglichen Wiedereinführung der Wehrpflicht. Zugleich warnt die UNO vor sich verfestigenden Hungerkrisen in zahlreichen Ländern. Einordnend lässt sich festhalten: Die Ordnung der Nachkriegszeit weicht einer Phase, in der Großmächte Macht zunehmend bilateral und interessengeleitet ausüben. Ausblick: Sollte der ukrainische Urnengang tatsächlich stattfinden, könnte er die Verhandlungsdynamik verändern – mit offenem Ausgang. Für Europa wächst der Druck, sicherheitspolitisch eigenständiger zu werden, da die transatlantische Verlässlichkeit nicht mehr als gegeben gilt.</p>
+          <div class="quellen"><span class="quelle-tag">Ukraine plant Präsidentschaftswahl und Friedensreferendum</span><span class="quelle-tag">Debatte um Wiedereinführung der Wehrpflicht in Deutschland</span><span class="quelle-tag">UNO warnt vor sich verfestigenden Hungerkrisen</span></div>
+          <div class="card-ts">Aktualisiert: 26. Mai 2026, 09:40 Uhr</div>
+        </article>
+    </div>
+
+    <h2 class="section-title">Archiv</h2>
+    
+      <details class="archiv-item">
+        <summary>Montag, 25. Mai 2026</summary>
+        <div class="grid">
+        <article class="card">
+          <div class="card-head"><span class="card-emoji">🇩🇪</span><h3 class="card-title">Deutsche Innenpolitik</h3></div>
+          <p class="card-text">Rund ein Jahr nach Amtsantritt bleibt die schwarz-rote Koalition unter Bundeskanzler Friedrich Merz (CDU) unter erheblichem Druck. Umfragen zeichnen weiterhin ein kritisches Bild: Die AfD liegt in mehreren Erhebungen vor oder gleichauf mit der Union, während die Regierungsparteien an Zustimmung verlieren. In der jüngsten Regierungsbefragung betonte Merz, vorrangiges Ziel bleibe es, „Freiheit, Frieden, Wohlstand und den Sozialstaat zukunftsfähig zu halten“ – eine Formel, die den koalitionsinternen Spagat zwischen wirtschaftlicher Konsolidierung und sozialer Absicherung beschreibt. Zentrale Streitpunkte bleiben hohe Energiepreise, die schwache Konjunktur und die Finanzierung von Reformen, ohne die SPD-Basis zu verprellen. Einordnend lässt sich sagen: Die Koalition verfügt über eine arbeitsfähige Mehrheit, ringt aber um eine gemeinsame Erzählung. Ausblick: Solange spürbare wirtschaftliche Entlastung für die Bürgerinnen und Bürger ausbleibt, dürfte der Vertrauensverlust anhalten und die politischen Ränder begünstigen. Entscheidend wird, ob die Regierung im zweiten Jahr sichtbare Ergebnisse liefert.</p>
+          <div class="quellen"><span class="quelle-tag">Merz in der Regierungsbefragung: „Deutschland muss seine Interessen definieren und durchsetzen“</span><span class="quelle-tag">Bundestag: Fraktionen ziehen Bilanz des ersten Regierungsjahres der schwarz-roten Koalition</span><span class="quelle-tag">Umfragen: AfD weiter auf Augenhöhe mit oder vor der Union</span></div>
+          
+        </article>
+        <article class="card">
+          <div class="card-head"><span class="card-emoji">🇪🇺</span><h3 class="card-title">Europäische Politik</h3></div>
+          <p class="card-text">Die europäische Politik steht im Mai 2026 im Zeichen des Bemühens um mehr Handlungsfähigkeit. Zum Europatag wurde ein Reformplan für ein „souveräneres“ Europa vorgestellt, der angesichts von Krieg, wirtschaftlichem Druck und technologischen Abhängigkeiten den Status quo infrage stellt. Konkret haben sich Europäisches Parlament und Rat vorläufig auf die Umsetzung des EU-US-Handelsabkommens verständigt, das Schutzklauseln für Industrie, Landwirtschaft und Mittelstand vorsieht – ein Versuch, transatlantische Stabilität mit dem Schutz eigener Interessen zu verbinden. Parallel gewinnt die Debatte um Cybersicherheit und eine eigene KI-Strategie an Fahrt, samt Forderungen nach vollständiger Umsetzung der NIS2-Richtlinie. Einordnung: Die EU bewegt sich erkennbar in Richtung größerer strategischer Autonomie, bleibt dabei aber von der Kompromissfähigkeit der Mitgliedstaaten abhängig; viele Vorhaben sind bislang Absichtserklärungen. Ausblick: Die kommenden Monate werden zeigen, ob aus dem rhetorischen Anspruch auf Souveränität belastbare gemeinsame Politik wird – insbesondere in Handels-, Sicherheits- und Technologiefragen.</p>
+          <div class="quellen"><span class="quelle-tag">Europatag 2026: Reformplan für ein souveräneres Europa vorgestellt</span><span class="quelle-tag">EU und USA: Vorläufige Einigung zur Umsetzung des Handelsabkommens</span><span class="quelle-tag">EU-Parlament drängt auf Cybersicherheit und eigene KI-Strategie (NIS2)</span></div>
+          
+        </article>
+        <article class="card">
+          <div class="card-head"><span class="card-emoji">📈</span><h3 class="card-title">Weltwirtschaft</h3></div>
+          <p class="card-text">Die Weltwirtschaft wächst 2026 weiter, verliert aber an Schwung. Der Internationale Währungsfonds rechnet mit rund 3,1 Prozent globalem Wachstum, die Vereinten Nationen mit nur 2,5 Prozent – und senkten ihre Prognose zuletzt wegen der Nahostkrise. Als zentraler Belastungsfaktor gilt der Iran-Krieg, der über höhere Energiepreise und gestiegene Unsicherheit auf die globale Nachfrage durchschlägt. Für Deutschland fällt der Ausblick mit nur noch 0,8 Prozent Wachstum besonders verhalten aus, auch wenn das Bruttoinlandsprodukt im ersten Quartal leicht um 0,3 Prozent zulegte. Positiv: Der globale Einkaufsmanagerindex hat sich zuletzt aufgehellt, vor allem in der Industrie. Einordnung: Die Lage ist zweigeteilt – robuste Grunddynamik trifft auf erhebliche geopolitische Risiken. Solange der Nahost-Konflikt ungelöst bleibt, dominiert die Unsicherheit über Energiepreise und Lieferketten. Ausblick: Eine Entspannung im Iran-Konflikt könnte spürbar entlasten; bleibt sie aus, drohen anhaltend hohe Preise und gedämpftes Wachstum. Für exportorientierte Volkswirtschaften wie Deutschland bleibt die außenwirtschaftliche Stabilität der entscheidende Faktor.</p>
+          <div class="quellen"><span class="quelle-tag">UNO senkt Prognose: Nahostkrise bremst Weltwirtschaft</span><span class="quelle-tag">IWF: Globales Wachstum 2026 bei 3,1 Prozent, Deutschland nur 0,8 Prozent</span><span class="quelle-tag">S&amp;P Global: Einkaufsmanagerindex hellt sich auf, Industrie zieht an</span></div>
+          
+        </article>
+        <article class="card">
+          <div class="card-head"><span class="card-emoji">🌍</span><h3 class="card-title">Internationale Politik</h3></div>
+          <p class="card-text">Im Zentrum der internationalen Politik steht weiterhin der Iran-Krieg. US-Präsident Donald Trump kündigte einen möglichen Durchbruch in den Verhandlungen über ein Kriegsende an, mahnte zugleich aber, „nichts zu überstürzen“. Teheran prüft Berichten zufolge einen über Pakistan übermittelten US-Vorschlag; beide Seiten verhandeln indirekt weiter, wobei der Iran zwar Gesprächsbereitschaft signalisiert, dem Vorgehen Washingtons jedoch misstraut. Zugleich bereitet sich Israel offenbar auf eine mögliche Wiederaufnahme der Kampfhandlungen vor, und die brüchige Waffenruhe mit dem Libanon wird durch nahezu tägliche Zwischenfälle belastet. Innenpolitisch steht die iranische Führung unter Druck: Seit Ende Dezember halten Proteste an, ausgelöst durch Währungsverfall, hohe Inflation und wirtschaftliche Not. Einordnung: Die diplomatischen Signale sind ermutigend, aber fragil – tiefes gegenseitiges Misstrauen und innenpolitische Zwänge auf allen Seiten erschweren eine tragfähige Lösung. Ausblick: Gelingt eine Verständigung, hätte das weitreichende Folgen für Energiemärkte und regionale Sicherheit; ein Scheitern birgt das Risiko einer erneuten Eskalation mit globalen wirtschaftlichen Auswirkungen.</p>
+          <div class="quellen"><span class="quelle-tag">Trump kündigt möglichen Durchbruch bei Iran-Verhandlungen an</span><span class="quelle-tag">Teheran prüft über Pakistan übermittelten US-Vorschlag</span><span class="quelle-tag">Brüchige Waffenruhe: Israel und Libanon, doch Zwischenfälle dauern an</span></div>
+          
+        </article></div>
+      </details>
+      <details class="archiv-item">
+        <summary>Freitag, 22. Mai 2026</summary>
+        <div class="grid">
+        <article class="card">
+          <div class="card-head"><span class="card-emoji">🇩🇪</span><h3 class="card-title">Deutsche Innenpolitik</h3></div>
+          <p class="card-text">Ein Jahr nach Amtsantritt steckt die schwarz-rote Koalition unter Bundeskanzler Friedrich Merz in einer Vertrauenskrise. Laut aktuellem Politbarometer sind rund 69 Prozent der Bürgerinnen und Bürger mit der Regierungsarbeit unzufrieden – ein Höchstwert. Nur noch knapp die Hälfte rechnet damit, dass das Bündnis bis zur regulären Wahl 2029 hält. Parallel baut die AfD ihren Vorsprung aus und liegt in mehreren Umfragen bei rund 28 Prozent, deutlich vor der Union. Vor diesem Hintergrund suchte Merz erstmals das direkte Gespräch mit der SPD-Fraktion und mahnte mehr „Ruhe“ an. Im Zentrum der koalitionsinternen Auseinandersetzungen stehen Reformvorhaben zu Arbeitszeit, Steuerpolitik und der Entlastung kleinerer Einkommen. Einordnend zeigt sich: Das ursprüngliche Versprechen von mehr Wachstum und weniger Bürokratie kollidiert mit konjunktureller Schwäche und internen Bruchlinien. Ob die kommenden Reformkompromisse frischen Schwung bringen, dürfte über die Stabilität der zweiten Regierungshälfte entscheiden. Ein sichtbarer wirtschaftspolitischer Erfolg gilt als Voraussetzung, um den Abwärtstrend in den Umfragen zu stoppen.</p>
+          <div class="quellen"><span class="quelle-tag">Politbarometer Mai 2026: Merz auf Tiefstwert, AfD vor Union</span><span class="quelle-tag">Merz bei SPD-Fraktion: „Brauchen jetzt Ruhe“</span><span class="quelle-tag">Bundestag zieht Bilanz des ersten Regierungsjahres der schwarz-roten Koalition</span></div>
+          
+        </article>
+        <article class="card">
+          <div class="card-head"><span class="card-emoji">🇪🇺</span><h3 class="card-title">Europäische Politik</h3></div>
+          <p class="card-text">Die europäische Agenda wird derzeit von der Handelspolitik dominiert: Rat und Europäisches Parlament haben sich auf die Umsetzung eines EU-USA-Handelsabkommens verständigt, das Zölle auf US-Industriegüter beseitigt und im Gegenzug erleichterten Marktzugang für bestimmte Agrarprodukte schafft. Eine Schutzklausel erlaubt der Kommission, Zugeständnisse auszusetzen, sollten die USA ihre Zölle auf europäischen Stahl und Aluminium bis Jahresende nicht abbauen. Parallel rückt die Rechtsstaatlichkeit erneut in den Fokus: Das Parlament bereitet eine Entschließung zur Lage in der Slowakei vor, wo unter Premier Robert Fico der Abbau von Antikorruptionsbehörden und Eingriffe in die Justiz kritisiert werden. Drittes Schwerpunktthema ist die Cybersicherheit; angesichts fortgeschrittener KI-Systeme fordern Abgeordnete die vollständige Umsetzung der NIS2-Richtlinie. Einordnend zeigt sich ein zweigeteiltes Bild: Nach außen sucht die EU pragmatische Stabilität im Verhältnis zu Washington, nach innen ringt sie um die Verteidigung demokratischer Standards. Der Ausblick bleibt anspruchsvoll – wirtschaftlicher Druck, technologische Abhängigkeiten und Sicherheitsfragen verlangen Reformen, deren Tempo zwischen den Mitgliedstaaten weiter umstritten ist.</p>
+          <div class="quellen"><span class="quelle-tag">EU und USA einigen sich auf Umsetzung des Handelsabkommens</span><span class="quelle-tag">EU-Parlament bereitet Entschließung zur Rechtsstaatlichkeit in der Slowakei vor</span><span class="quelle-tag">Debatte über Stärkung der EU-Cybersicherheit und NIS2-Umsetzung</span></div>
+          
+        </article>
+        <article class="card">
+          <div class="card-head"><span class="card-emoji">📈</span><h3 class="card-title">Weltwirtschaft</h3></div>
+          <p class="card-text">Die Weltwirtschaft verliert spürbar an Dynamik. Die Vereinten Nationen senkten ihre Wachstumsprognose für 2026 auf 2,5 Prozent, nach zuvor 2,7 Prozent; der Internationale Währungsfonds rechnet noch mit 3,1 Prozent und damit 0,2 Punkte weniger als im Januar. Als zentralen Belastungsfaktor benennen beide Institutionen den Iran-Krieg, der über höhere Energiepreise, gestiegene Unsicherheit und mögliche Finanzmarktverwerfungen auf die globale Nachfrage durchschlägt. Entsprechend kletterte die Inflation in mehreren Industrieländern im April auf vorläufig 2,9 Prozent, während die Kerninflation mit 2,3 Prozent vergleichsweise stabil blieb. Ein vorsichtiges Gegensignal liefert der globale Einkaufsmanagerindex von S&amp;P Global, der zuletzt von 51,0 auf 51,8 Punkte zulegte – in der Erwartung einer Entspannung im Nahen Osten. Für Deutschland erwartet die Bundesregierung im laufenden Jahr nur noch ein Plus von rund 0,5 Prozent. Einordnend gilt: Die Konjunktur bleibt auf Wachstumskurs, ist aber stark von der geopolitischen Lage abhängig. Bleiben eine weitere Eskalation aus und sinken die Energiepreise, könnte sich die Stimmung im zweiten Halbjahr stabilisieren.</p>
+          <div class="quellen"><span class="quelle-tag">UNO senkt Prognose: Nahostkrise bremst Weltwirtschaft</span><span class="quelle-tag">IWF korrigiert globales Wachstum auf 3,1 Prozent</span><span class="quelle-tag">Bundesregierung erwartet 2026 nur rund 0,5 Prozent BIP-Wachstum</span></div>
+          
+        </article>
+        <article class="card">
+          <div class="card-head"><span class="card-emoji">🌍</span><h3 class="card-title">Internationale Politik</h3></div>
+          <p class="card-text">Die internationale Lage bleibt von Krisen geprägt, doch zeichnen sich auch Bewegungen ab. Im Nahen Osten belastet der Iran-Krieg weiterhin Energiemärkte und Reisebranche; zugleich eröffnet ein Waffenstillstand in Gaza die Möglichkeit eines Neuanfangs und verschafft den diplomatischen Bemühungen der USA neue Aufmerksamkeit. Mit Blick auf die Ukraine berichten Medien über Pläne für eine Präsidentschaftswahl sowie ein Referendum über ein mögliches Friedensabkommen mit Russland – ein potenzieller Wendepunkt, dessen Umsetzung jedoch hochgradig unsicher bleibt. Parallel warnt ein neuer UN-Bericht vor einer Verfestigung globaler Ernährungskrisen: In zahlreichen Ländern nimmt der Hunger zu. Einordnend lässt sich festhalten, dass 2026 weniger eine Rückkehr zur Stabilität als die Institutionalisierung dauerhafter Unsicherheit markiert. Machtstrukturen verschieben sich, multilaterale Ordnungen stehen unter Druck. Der Ausblick ist ambivalent: Einzelne Deeskalationsschritte – etwa in Gaza oder im russisch-ukrainischen Konflikt – könnten Entlastung bringen, doch fehlende verlässliche Sicherheitsarchitekturen lassen Rückschläge jederzeit möglich erscheinen. Für Europa bedeutet dies anhaltenden Druck, eigenständige Handlungsfähigkeit auszubauen.</p>
+          <div class="quellen"><span class="quelle-tag">Geopolitik und Ölpreisschock prägen die Weltlage im Mai 2026</span><span class="quelle-tag">Bericht: Ukraine plant Präsidentschaftswahl und Referendum über Friedensabkommen</span><span class="quelle-tag">UN-Bericht: Hunger verfestigt sich in zahlreichen Ländern</span></div>
+          
+        </article></div>
+      </details>
+      <details class="archiv-item">
+        <summary>Donnerstag, 21. Mai 2026</summary>
+        <div class="grid">
+        <article class="card">
+          <div class="card-head"><span class="card-emoji">🇩🇪</span><h3 class="card-title">Deutsche Innenpolitik</h3></div>
+          <p class="card-text">Ein Jahr nach Amtsantritt zieht die schwarz-rote Koalition unter Bundeskanzler Friedrich Merz eine gemischte Bilanz. Im Zentrum der aktuellen Debatte steht der Bevölkerungsschutz: Oppositionspolitiker wie Grünen-Fraktionsvize Konstantin von Notz werfen der Regierung vor, die Krisenvorsorge gegenüber der Migrationspolitik vernachlässigt zu haben – es fehle ein Überblick über Notfallkapazitäten und Zuständigkeiten. Außenpolitisch sorgt die US-Drohung mit einem Truppenabzug aus Europa für Bewegung: Außenminister Johann Wadephul wirbt für eine „neue Lastenverteilung“, die dem wirtschaftlichen und militärischen Gewicht Europas entspricht. Parallel reist eine Bundestagsdelegation nach Taiwan – ein außenpolitisch heikles Signal Richtung Peking. Innenpolitisch wirkt zudem eine Millionenspende an das BSW nach, die Fragen zur Parteienfinanzierung aufwirft. Einordnend zeigt sich: Die Koalition steht unter Druck, sicherheitspolitische Vorsorge und soziale Reformen zugleich zu bewältigen. Ausblick: Ob die Regierung die Kritik am Krisenmanagement in konkrete Strukturreformen übersetzt, dürfte ihre zweite Amtshälfte prägen.</p>
+          <div class="quellen"><span class="quelle-tag">Opposition kritisiert Versäumnisse beim Bevölkerungsschutz</span><span class="quelle-tag">Wadephul: Neue Lastenverteilung nach US-Abzugsdrohung</span><span class="quelle-tag">Bundestagsdelegation reist zu Gesprächen nach Taiwan</span></div>
+          
+        </article>
+        <article class="card">
+          <div class="card-head"><span class="card-emoji">🇪🇺</span><h3 class="card-title">Europäische Politik</h3></div>
+          <p class="card-text">Die EU setzt im Mai handelspolitische Akzente: Am 20. Mai stimmten der Rat der EU und das Europäische Parlament der Umsetzung des EU-US-Handelsabkommens zu, das Zölle auf US-Industrieprodukte abbaut und bestimmten US-Agrar- und Meeresfrüchteprodukten bevorzugten Marktzugang gewährt. Das Abkommen soll Handelskonflikte entschärfen, weckt aber Sorgen bei europäischen Landwirten. Zugleich rückt der Zustand der Demokratie in den Fokus: Das Parlament bereitet eine Entschließung zur Erosion rechtsstaatlicher Grundsätze in der Slowakei vor, wo unter Premier Robert Fico Antikorruptionsgremien geschwächt und die Unabhängigkeit der Justiz untergraben werden. Drittes Thema ist die Cybersicherheit: Angesichts fortgeschrittener KI-Systeme fordern Abgeordnete die vollständige Umsetzung der NIS2-Richtlinie und eine eigene EU-KI-Sicherheitsstrategie. Einordnung: Die Union balanciert zwischen wirtschaftlicher Stabilisierung im Verhältnis zu Washington und der Verteidigung interner demokratischer Standards. Ausblick: Beide Felder – Handel und Rechtsstaatlichkeit – werden die Glaubwürdigkeit der EU als regelbasierter Akteur auf die Probe stellen.</p>
+          <div class="quellen"><span class="quelle-tag">Rat und EP billigen Umsetzung des EU-US-Handelsabkommens</span><span class="quelle-tag">Parlament plant Entschließung zur Rechtsstaatlichkeit in der Slowakei</span><span class="quelle-tag">Debatte über NIS2 und EU-KI-Cybersicherheitsstrategie</span></div>
+          
+        </article>
+        <article class="card">
+          <div class="card-head"><span class="card-emoji">📈</span><h3 class="card-title">Weltwirtschaft</h3></div>
+          <p class="card-text">Die Weltwirtschaft verliert an Schwung. Die Vereinten Nationen senkten ihre Wachstumsprognose für 2026 auf 2,5 Prozent (zuvor 2,7 Prozent) und hoben zugleich die Inflationserwartungen an; der IWF rechnet mit 3,1 Prozent globalem Wachstum, 0,2 Punkte weniger als im Januar. Hauptbelastungsfaktoren sind die Krise im Nahen Osten und die dadurch steigenden Ölpreise, die Energiekosten und Verbraucherunsicherheit befeuern. Ein Lichtblick: Der globale Einkaufsmanagerindex von S&amp;P Global stieg im April leicht auf 51,8 Punkte, gestützt auf Hoffnungen auf eine Entspannung im Iran-Konflikt. Deutschland zählt zu den Schwächeren: Das BIP wuchs im ersten Quartal nur um 0,3 Prozent gegenüber dem Vorquartal, die IWF-Jahresprognose sank auf 0,8 Prozent. Einordnung: Die Konjunktur bleibt robust, aber fragil – geopolitische Risiken überlagern die binnenwirtschaftliche Erholung. Ausblick: Eine nachhaltige Belebung hängt maßgeblich davon ab, ob sich die Energiepreise stabilisieren und der Nahost-Konflikt nicht weiter eskaliert.</p>
+          <div class="quellen"><span class="quelle-tag">UN senkt Wachstumsprognose 2026 auf 2,5 Prozent</span><span class="quelle-tag">IWF: Deutschland wächst 2026 nur um 0,8 Prozent</span><span class="quelle-tag">S&amp;P-Einkaufsmanagerindex steigt im April auf 51,8 Punkte</span></div>
+          
+        </article>
+        <article class="card">
+          <div class="card-head"><span class="card-emoji">🌍</span><h3 class="card-title">Internationale Politik</h3></div>
+          <p class="card-text">Die geopolitische Lage bleibt von Unsicherheit geprägt. Im Vordergrund steht der Iran-Konflikt, der über steigende Ölpreise und gebremste Reisebuchungen – etwa beim Konzern TUI – wirtschaftlich ausstrahlt und den Nahen Osten als Risikoherd festigt. Zugleich mehren sich Signale für eine mögliche diplomatische Bewegung im Ukraine-Krieg: Berichten zufolge erwägt Kiew eine Präsidentschaftswahl sowie ein Referendum über ein Friedensabkommen mit Russland. Ob daraus ein tragfähiger Verhandlungsweg entsteht, ist offen. Strukturell verschiebt sich die Weltordnung weiter: Washington setzt unter Präsident Trump auf transaktionale Außenpolitik – von erratischer Friedensvermittlung bis zu Deals um kritische Lieferketten. China forciert mit seinem neuen Fünfjahresplan die technologische Entkopplung vom Westen. Hinzu kommt eine sich verschärfende globale Ernährungskrise, vor der die UN warnt. Einordnung: 2026 institutionalisiert Unsicherheit als Normalzustand. Ausblick: Europas Handlungsfähigkeit hängt davon ab, ob es eigene strategische Kapazitäten aufbaut, statt allein auf externe Garantien zu setzen.</p>
+          <div class="quellen"><span class="quelle-tag">Iran-Konflikt belastet Ölpreise und Tourismusbranche</span><span class="quelle-tag">Bericht: Ukraine erwägt Wahl und Referendum zu Friedensabkommen</span><span class="quelle-tag">UN warnt vor sich verschärfender globaler Ernährungskrise</span></div>
+          
+        </article></div>
+      </details>
+      <details class="archiv-item">
+        <summary>Mittwoch, 13. Mai 2026</summary>
+        <div class="grid">
+        <article class="card">
+          <div class="card-head"><span class="card-emoji">🇩🇪</span><h3 class="card-title">Deutsche Innenpolitik</h3></div>
+          <p class="card-text">Am 13. Mai prägt Bundeskanzler Friedrich Merz mit seinem Auftritt auf dem DGB-Bundeskongress die innenpolitische Debatte: Sein Werben für eine weitreichende Reform des Sozialstaates trifft auf eine skeptische Gewerkschaftsbasis und legt zugleich die Bruchlinien innerhalb der schwarz-roten Koalition offen. Parallel berät der Koalitionsausschuss über Entlastungspakete, Renten- und Bürgergeldreform – Themen, bei denen Union und SPD eigene Akzente setzen und ein Kompromiss erst in den kommenden Wochen erwartet wird. Sicherheitspolitisch rückt die wachsende Bedrohung durch Cyberangriffe auf Unternehmen und Behörden in den Fokus, während der Deutsche Ärztetag in Hannover und der Tag der Pflege auf strukturelle Engpässe im Gesundheitssystem hinweisen. Einordnung: Die Regierung steht unter doppeltem Druck, sozialpolitische Glaubwürdigkeit zu wahren und gleichzeitig die Konsolidierung des Haushalts voranzutreiben. Ausblick: Die kommenden Wochen werden zeigen, ob die Koalition tragfähige Reformen liefert oder ob Profilierungsversuche der Partner die Handlungsfähigkeit weiter erschweren.</p>
+          <div class="quellen"><span class="quelle-tag">Merz wirbt auf DGB-Kongress für Sozialstaatsreform</span><span class="quelle-tag">Koalitionsausschuss berät über Entlastungen und Reformen</span><span class="quelle-tag">Deutscher Ärztetag in Hannover und Tag der Pflege</span></div>
+          
+        </article>
+        <article class="card">
+          <div class="card-head"><span class="card-emoji">🇪🇺</span><h3 class="card-title">Europäische Politik</h3></div>
+          <p class="card-text">Auf europäischer Ebene bestimmen Mitte Mai drei Linien das Bild: erstens die fortschreitende Debatte über eine eigenständigere europäische Verteidigung, nachdem Washington Schwerpunkte verlagert hat und Brüssel neue Beschaffungs- und Finanzierungsmechanismen ausarbeitet. Zweitens das vorläufige Inkrafttreten zentraler Teile des EU-Mercosur-Abkommens, das den Außenhandel diversifizieren und mittelfristig die EU-Exporte in die Region deutlich steigern soll – politisch umstritten bleiben die Folgen für Landwirtschaft und Umweltstandards. Drittens diskutiert Brüssel strengere Regeln für soziale Netzwerke, mit Vorstößen zu Altersgrenzen für die Nutzung und schärferer Plattformhaftung. Einordnung: Die Union versucht, ihre strategische Souveränität gleichzeitig in Sicherheit, Handel und digitaler Regulierung zu festigen, sieht sich dabei aber wachsendem innenpolitischem Druck durch erstarkende populistische Kräfte ausgesetzt. Ausblick: Ob der Reformschub in dauerhafte Strukturen mündet, hängt von der Geschlossenheit der großen Mitgliedstaaten und einer raschen Umsetzung jenseits symbolischer Beschlüsse ab.</p>
+          <div class="quellen"><span class="quelle-tag">EU-Verteidigungspläne und neue Beschaffungsinitiativen</span><span class="quelle-tag">EU-Mercosur-Abkommen tritt teilweise in Kraft</span><span class="quelle-tag">Debatte über Mindestalter und Regulierung sozialer Medien</span></div>
+          
+        </article>
+        <article class="card">
+          <div class="card-head"><span class="card-emoji">📈</span><h3 class="card-title">Weltwirtschaft</h3></div>
+          <p class="card-text">Die Weltwirtschaft präsentiert sich Mitte Mai widerstandsfähig, aber unter sichtbaren Belastungen. Der IWF und nationale Prognosen erwarten für 2026 ein globales Wachstum von rund 2,7 bis 3,1 Prozent – etwas schwächer als zuletzt, getrieben vor allem von der US-Handelspolitik, hartnäckigen geopolitischen Spannungen und nachlassender Investitionsdynamik. Für die Eurozone hat sich die Stimmung an den Finanzmärkten nach dem ZEW-Index leicht aufgehellt; das IMK rechnet für Deutschland mit 1,2 Prozent Wachstum, nachdem 2025 nahezu Stagnation herrschte. Die Inflation sinkt laut IWF auf etwa 3,8 Prozent, was Spielraum für vorsichtige Zinssenkungen der EZB schafft. Einordnung: Die globale Konjunktur trägt, ist aber empfindlich gegenüber Schocks – insbesondere protektionistischen Eingriffen und Eskalationen im Energie- und Halbleitersektor. Ausblick: Investoren werden Quartalszahlen aus den USA und Asien sowie die Notenbankentscheidungen genau beobachten; entscheidend für 2026 bleibt, ob KI-getriebene Produktivitätsgewinne den strukturellen Gegenwind überkompensieren.</p>
+          <div class="quellen"><span class="quelle-tag">IWF und IMK: Wachstumsprognosen 2026 stabilisieren sich</span><span class="quelle-tag">ZEW-Index: Konjunkturerwartungen im Euroraum leicht aufgehellt</span><span class="quelle-tag">EZB-Politik und sinkende Inflation als Marktthemen</span></div>
+          
+        </article>
+        <article class="card">
+          <div class="card-head"><span class="card-emoji">🌍</span><h3 class="card-title">Internationale Politik</h3></div>
+          <p class="card-text">International bestimmen drei Konfliktlinien das Bild: Im Ukraine-Krieg verfestigt sich der Eindruck, dass Washington die Verantwortung zunehmend an Europa delegiert; Kiew bereitet Berichten zufolge Präsidentschaftswahlen und ein Referendum über ein mögliches Friedensabkommen mit Russland vor, was die innenpolitische Lage zusätzlich auflädt. Im Nahen Osten hält die US-Administration Druck auf Israel aufrecht, eine erneute Eskalation in Gaza zu vermeiden, während die Folgen des Irankriegs die Energie- und Lieferkettenrisiken weiter prägen. In Ostasien bleiben die Spannungen um Taiwan ein zentraler Stabilitätsfaktor: Ein Konflikt würde Schifffahrtswege und die globale Halbleiterversorgung empfindlich treffen. Einordnung: Die internationale Ordnung verschiebt sich erkennbar in Richtung transaktionaler, interessengeleiteter Politik – multilaterale Institutionen verlieren an Bindungskraft. Ausblick: Europa steht vor der Aufgabe, sicherheits- und außenpolitisch handlungsfähiger zu werden, ohne in eine reine Reaktivlogik zu verfallen; die kommenden Wochen werden zeigen, ob diplomatische Initiativen oder neue Eskalationen das Tempo vorgeben.</p>
+          <div class="quellen"><span class="quelle-tag">Ukraine plant Wahlen und Referendum zu Friedensabkommen</span><span class="quelle-tag">USA und Israel: Druck zur Deeskalation in Gaza</span><span class="quelle-tag">Taiwan und globale Lieferketten als geopolitisches Risiko</span></div>
+          
+        </article></div>
+      </details>
+      <details class="archiv-item">
+        <summary>Dienstag, 12. Mai 2026</summary>
+        <div class="grid">
+        <article class="card">
+          <div class="card-head"><span class="card-emoji">🇩🇪</span><h3 class="card-title">Deutsche Innenpolitik</h3></div>
+          <p class="card-text">Die deutsche Innenpolitik steht am 12. Mai 2026 unter dem Eindruck einer veränderten Sicherheitslage. Der angekündigte US-Truppenabzug aus Teilen Europas und der Verzicht auf die geplante Stationierung von „Tomahawk“-Marschflugkörpern in Deutschland lösen kontroverse Debatten aus. Während Kritiker eine sicherheitspolitische Lücke befürchten, sehen andere die Notwendigkeit, europäische Verteidigungsfähigkeiten rasch auszubauen – ein Schwerpunkt, den die schwarz-rote Bundesregierung unter Kanzler Friedrich Merz nun stärker setzen muss. Parallel hält der Druck auf die Koalition an: Die Diskussion um Rentenreform, Migrationspolitik und eine möglicherweise neu zu justierende Wehrpflicht bleibt Dauerthema, befördert auch durch politische Talkformate wie „maischberger“, in denen die Reformpläne öffentlich verhandelt werden. Hinzu kommen Berichte über Milliardenausfälle durch Steuerbetrug, die das Vertrauen in staatliche Handlungsfähigkeit weiter belasten. Ausblick: Die Regierung muss Sicherheit, Sozialstaat und Haushaltskonsolidierung gleichzeitig adressieren – ein politisches Trilemma, dessen Auflösung über die Stabilität der Koalition entscheiden dürfte.</p>
+          <div class="quellen"><span class="quelle-tag">US-Truppenabzug und „Tomahawk“-Verzicht: Debatte über europäische Verteidigung</span><span class="quelle-tag">maischberger (12.05.2026): Reformpläne und Krisenmanagement der Bundesregierung</span><span class="quelle-tag">frontal: Milliardenschwere Steuerabzocke und Überversorgung im Gesundheitssystem</span></div>
+          
+        </article>
+        <article class="card">
+          <div class="card-head"><span class="card-emoji">🇪🇺</span><h3 class="card-title">Europäische Politik</h3></div>
+          <p class="card-text">Auf europäischer Ebene dominiert am 12. Mai die Einigung der EU-Unterhändler in Brüssel auf neue Regeln zur Stärkung der europäischen Arzneimittelproduktion. Damit reagiert die Union auf wiederkehrende Lieferengpässe bei lebenswichtigen Medikamenten: Öffentliche Mittel sollen künftig leichter in die Produktion innerhalb der EU fließen können – ein Schritt in Richtung strategischer Autonomie. Zugleich tagt der Rat „Bildung, Jugend, Kultur und Sport“ (11.–12. Mai); auf der Agenda stehen außerdem Beschlüsse rund um Künstliche Intelligenz, das EU-Mexiko-Abkommen sowie die Neuausrichtung der EU-Syrien-Beziehungen. Der Diskurs schließt an die Europatags-Reformdebatte vom 9. Mai an, in der mehr außen- und sicherheitspolitische Handlungsfähigkeit gefordert wurde. Ausblick: Die EU verschiebt ihren Schwerpunkt sichtbar in Richtung „Resilienz“: Medikamente, KI, kritische Rohstoffe und Verteidigung werden zunehmend gemeinsam gedacht. Entscheidend wird sein, ob den Beschlüssen schnell genug operative Umsetzung folgt, um in einer fragmentierten Weltordnung als Akteur ernstgenommen zu werden.</p>
+          <div class="quellen"><span class="quelle-tag">EU-Einigung: Mehr wichtige Medikamente in Europa herstellen (12.05.2026)</span><span class="quelle-tag">Rat für Bildung, Jugend, Kultur und Sport tagt 11.–12. Mai 2026</span><span class="quelle-tag">Europatag 2026: Reformforderungen für ein stärkeres Europa</span></div>
+          
+        </article>
+        <article class="card">
+          <div class="card-head"><span class="card-emoji">📈</span><h3 class="card-title">Weltwirtschaft</h3></div>
+          <p class="card-text">Die globale Konjunktur wächst 2026 mit rund 2,7 Prozent verhalten weiter, bleibt aber durch geopolitische Schocks fragil. Im Zentrum steht weiterhin der Iran-Krieg, dessen Folgen über Energiepreise, Lieferketten und Versicherungskosten globale Wirkung entfalten. Besonders hart trifft es Deutschland: Das Institut der deutschen Wirtschaft (IW) hat seine Wachstumsprognose für 2026 deutlich auf rund 0,4 Prozent gesenkt – nach drei Jahren Stagnation und Rezession bleibt kaum Puffer. Deutsche Exporte schrumpfen inzwischen zum vierten Quartal in Folge, während der Welthandel wächst – die Wettbewerbsfähigkeit erodiert messbar. Die Inflation dürfte im Jahresdurchschnitt bei rund 3 Prozent liegen, getragen vom Energiepreisschock; Erwerbstätigkeit und Investitionen geben nach. Die Eurozonen-Stimmung an den Märkten verbessert sich auf niedrigem Niveau leicht. Ausblick: Während die USA und große Schwellenländer relativ widerstandsfähig erscheinen, droht Deutschland in einer „weichen Stagflation“ zu verharren. Strukturelle Reformen bei Energie, Industriepolitik und Bürokratie werden zur Voraussetzung dafür, den Anschluss an die globale Konjunktur nicht zu verlieren.</p>
+          <div class="quellen"><span class="quelle-tag">IW senkt Konjunkturprognose für 2026 auf rund 0,4 Prozent</span><span class="quelle-tag">UN-Bericht: Lage und Aussichten der Weltwirtschaft 2026</span><span class="quelle-tag">Helaba: Märkte und Trends 2026 – Weltwirtschaft, Karten werden neu gemischt</span></div>
+          
+        </article>
+        <article class="card">
+          <div class="card-head"><span class="card-emoji">🌍</span><h3 class="card-title">Internationale Politik</h3></div>
+          <p class="card-text">Die internationale Lage Mitte Mai 2026 verfestigt das Bild einer „neuen Normalität“ permanenter Unsicherheit. Die US-Außenpolitik unter Donald Trump pendelt zwischen erratischer Friedensvermittlung – etwa rund um die Ukraine –, robusten Interventionen in der westlichen Hemisphäre und opportunistischen Deals um kritische Lieferketten. In der Ukraine sind für Mai eine Präsidentschaftswahl und ein Referendum über ein mögliches Friedensabkommen mit Russland angesetzt; deren Ergebnisse werden weitreichende Folgen für die europäische Sicherheitsarchitektur haben. Der Iran-Krieg verschiebt parallel die Energie- und Sicherheitslogik: Das Vertrauen in fossile Lieferketten ist erschüttert, Investitionen in erneuerbare Energien gewinnen geostrategische Bedeutung. Im Indo-Pazifik bleibt das Taiwan-Risiko zentral – eine Eskalation würde globale Halbleiterlieferketten zum Stillstand bringen. Ausblick: Internationale Politik wird zunehmend von nationalen Sicherheitsinteressen statt von wirtschaftlicher Rationalität geprägt. Europa muss eigene Handlungsfähigkeit aufbauen und sich auf eine multipolare Ordnung einstellen, in der transatlantische Garantien nicht mehr automatisch gelten.</p>
+          <div class="quellen"><span class="quelle-tag">Berliner Zeitung: 2026 – Globale Ordnung der permanenten Unsicherheit</span><span class="quelle-tag">EY Geostrategic Outlook 2026: Die zehn wichtigsten Entwicklungen</span><span class="quelle-tag">Ukraine plant Präsidentschaftswahl und Referendum über Friedensabkommen</span></div>
+          
+        </article></div>
+      </details>
+      <details class="archiv-item">
+        <summary>Montag, 11. Mai 2026</summary>
+        <div class="grid">
+        <article class="card">
+          <div class="card-head"><span class="card-emoji">🇩🇪</span><h3 class="card-title">Deutsche Innenpolitik</h3></div>
+          <p class="card-text">Die schwarz-rote Bundesregierung unter Kanzler Friedrich Merz steht unter erheblichem Druck. Finanzminister Lars Klingbeil (SPD) muss aufgrund der konjunkturellen Eintrübung infolge des Iran-Krieges mit einem Einbruch der Steuereinnahmen von rund 17,8 Milliarden Euro für 2026 rechnen. Klingbeil bezeichnete die wirtschaftlichen Folgen als gravierend und kritisierte die US-Politik scharf. Parallel dazu fallen die Zustimmungswerte der Regierung auf einen historischen Tiefstand: Nur 13 Prozent zeigen sich mit der Regierungsarbeit zufrieden, der Kanzler selbst kommt auf lediglich 16 Prozent persönliche Zustimmung – die schlechtesten Werte im DeutschlandTREND seit 1997. Die Union verliert in der Sonntagsfrage zwei Punkte und liegt nur noch bei 24 Prozent. Inhaltlich dominieren weiterhin Rentenreform, Migration und Wehrpflicht die Agenda. Der Ausblick bleibt angespannt: Ohne wirtschaftliche Belebung oder politische Erfolge bei zentralen Reformprojekten dürfte sich der Vertrauensverlust verfestigen und den Spielraum der Koalition weiter einschränken.</p>
+          <div class="quellen"><span class="quelle-tag">Klingbeil: Steuereinnahmen brechen 2026 um 17,8 Mrd. Euro ein</span><span class="quelle-tag">DeutschlandTREND Mai 2026: Historischer Tiefstand für Merz-Regierung</span><span class="quelle-tag">Bundespressekonferenz vom 8. Mai 2026</span></div>
+          
+        </article>
+        <article class="card">
+          <div class="card-head"><span class="card-emoji">🇪🇺</span><h3 class="card-title">Europäische Politik</h3></div>
+          <p class="card-text">Die EU sucht im Frühjahr 2026 nach strategischer Handlungsfähigkeit. Rund um den Europatag am 9. Mai mehren sich Reformforderungen – insbesondere für eine entschlossenere Außenpolitik und eine engere Verzahnung von Wirtschafts- und Sicherheitsfragen. Kommissionspräsidentin Ursula von der Leyen und Ratspräsident António Costa nehmen an der achten Tagung der Europäischen Politischen Gemeinschaft im armenischen Eriwan teil, die unter dem Motto „Einheit und Stabilität in Europa&quot; steht und auch geopolitische Antworten auf den Krieg in der Ukraine und die Lage im Kaukasus diskutieren wird. Bereits am 6. Mai legte die Kommission ein Paket gegen Armut und die anhaltende Wohnungskrise vor – ein sozialpolitisches Signal angesichts wachsender Ungleichheiten. Insgesamt bewegt sich die EU zwischen geopolitischer Selbstbehauptung und innerer Konsolidierung. Der Ausblick: Ohne Vertragsreformen und schnellere Entscheidungsprozesse droht die Union, hinter den globalen Erwartungen zurückzubleiben, die in einer multipolaren Weltordnung an sie gerichtet werden.</p>
+          <div class="quellen"><span class="quelle-tag">Europatag 2026: Reformforderungen für ein stärkeres Europa</span><span class="quelle-tag">Achte Tagung der Europäischen Politischen Gemeinschaft in Eriwan</span><span class="quelle-tag">Kommission legt Maßnahmen gegen Armut und Wohnungskrise vor</span></div>
+          
+        </article>
+        <article class="card">
+          <div class="card-head"><span class="card-emoji">📈</span><h3 class="card-title">Weltwirtschaft</h3></div>
+          <p class="card-text">Die Weltwirtschaft befindet sich laut AHK World Business Outlook Frühjahr 2026 im Krisenmodus. Hohe Energiepreise und Lieferkettenstörungen – verstärkt durch den Iran-Krieg und die anhaltenden Spannungen im Nahen Osten – belasten deutsche Unternehmen an ihren internationalen Standorten erheblich. Nur 21 Prozent erwarten für die kommenden zwölf Monate eine bessere Konjunktur, 32 Prozent rechnen mit einer Verschlechterung. 46 Prozent sehen die Preisentwicklung bei Öl und Gas als zentrales Risiko. Regional zeigen sich Unterschiede: Während die Unternehmen in China, den USA und den Mercosur-Staaten relativ optimistisch bleiben, trübt sich die Lage in Asien und dem Nahen Osten deutlich ein. Für Deutschland prognostiziert das IMK ein moderates Wachstum von 1,2 Prozent nach nur 0,1 Prozent 2025, während das IW seine Prognose zuletzt deutlich senkte. Der Ausblick: Die globale Wirtschaft bleibt widerstandsfähig, aber fragil – geopolitische Risiken, Investitionszurückhaltung und strukturelle Umbrüche werden den Märkten 2026 ihren Stempel aufdrücken.</p>
+          <div class="quellen"><span class="quelle-tag">AHK World Business Outlook Frühjahr 2026: Weltwirtschaft im Krisenmodus</span><span class="quelle-tag">IMK prognostiziert 1,2 Prozent Wachstum für 2026</span><span class="quelle-tag">Helaba: Märkte und Trends 2026 – Karten werden neu gemischt</span></div>
+          
+        </article>
+        <article class="card">
+          <div class="card-head"><span class="card-emoji">🌍</span><h3 class="card-title">Internationale Politik</h3></div>
+          <p class="card-text">2026 institutionalisiert die geopolitische Unsicherheit als neue Normalität. Donald Trumps Transaktionalismus prägt die US-Außenpolitik: erratische Friedensvermittlungen, robuste Interventionen in der westlichen Hemisphäre und opportunistische Deals um kritische Lieferketten kennzeichnen den amerikanischen Kurs. Im Zentrum der europäischen Aufmerksamkeit steht der Iran-Krieg, dessen wirtschaftliche und politische Schockwellen bis nach Berlin reichen. Die Ukraine plant für Mai eine Präsidentschaftswahl und ein Referendum über ein mögliches Friedensabkommen mit Russland – ein Schritt, der weitreichende Implikationen für die europäische Sicherheitsordnung hätte. Parallel verschärfen sich die Spannungen um Taiwan und die Kontrolle globaler Schifffahrtsrouten, was die Halbleiter-Lieferketten zusätzlich verwundbar macht. Auch im Weltraum nehmen militärische Eskalationsrisiken zu. Der Ausblick: Internationale Beziehungen werden zunehmend von Sicherheitsinteressen statt von wirtschaftlicher Rationalität geprägt. Europa steht vor der Aufgabe, in einer fragmentierten Ordnung eigene Handlungsfähigkeit aufzubauen, statt sich auf transatlantische Garantien zu verlassen.</p>
+          <div class="quellen"><span class="quelle-tag">Berliner Zeitung: Globale Ordnung der permanenten Unsicherheit 2026</span><span class="quelle-tag">EY Geostrategic Outlook 2026: Die zehn wichtigsten Entwicklungen</span><span class="quelle-tag">Ukraine plant Referendum über Friedensabkommen im Mai</span></div>
+          
+        </article></div>
+      </details>
+
+    <footer class="site-footer">
+      Generiert von Claude · Anthropic · Kein Anspruch auf Vollständigkeit
+    </footer>
   </div>
-
-  <main>
-    <div class="wrap">
-      <div class="section-titel">Heutige Analysen</div>
-      <div class="grid">
-        <article class="kachel">
-          <div class="kachel-head">
-            <span class="kachel-emoji" aria-hidden="true">🇩🇪</span>
-            <h3 class="kachel-titel">Deutsche Innenpolitik</h3>
-          </div>
-          <p class="kachel-text">Rund ein Jahr nach Amtsantritt bleibt die schwarz-rote Koalition unter Bundeskanzler Friedrich Merz (CDU) unter erheblichem Druck. Umfragen zeichnen weiterhin ein kritisches Bild: Die AfD liegt in mehreren Erhebungen vor oder gleichauf mit der Union, während die Regierungsparteien an Zustimmung verlieren. In der jüngsten Regierungsbefragung betonte Merz, vorrangiges Ziel bleibe es, „Freiheit, Frieden, Wohlstand und den Sozialstaat zukunftsfähig zu halten“ – eine Formel, die den koalitionsinternen Spagat zwischen wirtschaftlicher Konsolidierung und sozialer Absicherung beschreibt. Zentrale Streitpunkte bleiben hohe Energiepreise, die schwache Konjunktur und die Finanzierung von Reformen, ohne die SPD-Basis zu verprellen. Einordnend lässt sich sagen: Die Koalition verfügt über eine arbeitsfähige Mehrheit, ringt aber um eine gemeinsame Erzählung. Ausblick: Solange spürbare wirtschaftliche Entlastung für die Bürgerinnen und Bürger ausbleibt, dürfte der Vertrauensverlust anhalten und die politischen Ränder begünstigen. Entscheidend wird, ob die Regierung im zweiten Jahr sichtbare Ergebnisse liefert.</p>
-          <div class="quellen">
-            <span class="quellen-label">Schlagzeilen</span>
-            <div class="tags"><span class="tag">Merz in der Regierungsbefragung: „Deutschland muss seine Interessen definieren und durchsetzen“</span><span class="tag">Bundestag: Fraktionen ziehen Bilanz des ersten Regierungsjahres der schwarz-roten Koalition</span><span class="tag">Umfragen: AfD weiter auf Augenhöhe mit oder vor der Union</span></div>
-          </div>
-          <div class="zeitstempel">Aktualisiert: Montag, 25. Mai 2026, 08:00 Uhr</div>
-        </article>
-        <article class="kachel">
-          <div class="kachel-head">
-            <span class="kachel-emoji" aria-hidden="true">🇪🇺</span>
-            <h3 class="kachel-titel">Europäische Politik</h3>
-          </div>
-          <p class="kachel-text">Die europäische Politik steht im Mai 2026 im Zeichen des Bemühens um mehr Handlungsfähigkeit. Zum Europatag wurde ein Reformplan für ein „souveräneres“ Europa vorgestellt, der angesichts von Krieg, wirtschaftlichem Druck und technologischen Abhängigkeiten den Status quo infrage stellt. Konkret haben sich Europäisches Parlament und Rat vorläufig auf die Umsetzung des EU-US-Handelsabkommens verständigt, das Schutzklauseln für Industrie, Landwirtschaft und Mittelstand vorsieht – ein Versuch, transatlantische Stabilität mit dem Schutz eigener Interessen zu verbinden. Parallel gewinnt die Debatte um Cybersicherheit und eine eigene KI-Strategie an Fahrt, samt Forderungen nach vollständiger Umsetzung der NIS2-Richtlinie. Einordnung: Die EU bewegt sich erkennbar in Richtung größerer strategischer Autonomie, bleibt dabei aber von der Kompromissfähigkeit der Mitgliedstaaten abhängig; viele Vorhaben sind bislang Absichtserklärungen. Ausblick: Die kommenden Monate werden zeigen, ob aus dem rhetorischen Anspruch auf Souveränität belastbare gemeinsame Politik wird – insbesondere in Handels-, Sicherheits- und Technologiefragen.</p>
-          <div class="quellen">
-            <span class="quellen-label">Schlagzeilen</span>
-            <div class="tags"><span class="tag">Europatag 2026: Reformplan für ein souveräneres Europa vorgestellt</span><span class="tag">EU und USA: Vorläufige Einigung zur Umsetzung des Handelsabkommens</span><span class="tag">EU-Parlament drängt auf Cybersicherheit und eigene KI-Strategie (NIS2)</span></div>
-          </div>
-          <div class="zeitstempel">Aktualisiert: Montag, 25. Mai 2026, 08:00 Uhr</div>
-        </article>
-        <article class="kachel">
-          <div class="kachel-head">
-            <span class="kachel-emoji" aria-hidden="true">📈</span>
-            <h3 class="kachel-titel">Weltwirtschaft</h3>
-          </div>
-          <p class="kachel-text">Die Weltwirtschaft wächst 2026 weiter, verliert aber an Schwung. Der Internationale Währungsfonds rechnet mit rund 3,1 Prozent globalem Wachstum, die Vereinten Nationen mit nur 2,5 Prozent – und senkten ihre Prognose zuletzt wegen der Nahostkrise. Als zentraler Belastungsfaktor gilt der Iran-Krieg, der über höhere Energiepreise und gestiegene Unsicherheit auf die globale Nachfrage durchschlägt. Für Deutschland fällt der Ausblick mit nur noch 0,8 Prozent Wachstum besonders verhalten aus, auch wenn das Bruttoinlandsprodukt im ersten Quartal leicht um 0,3 Prozent zulegte. Positiv: Der globale Einkaufsmanagerindex hat sich zuletzt aufgehellt, vor allem in der Industrie. Einordnung: Die Lage ist zweigeteilt – robuste Grunddynamik trifft auf erhebliche geopolitische Risiken. Solange der Nahost-Konflikt ungelöst bleibt, dominiert die Unsicherheit über Energiepreise und Lieferketten. Ausblick: Eine Entspannung im Iran-Konflikt könnte spürbar entlasten; bleibt sie aus, drohen anhaltend hohe Preise und gedämpftes Wachstum. Für exportorientierte Volkswirtschaften wie Deutschland bleibt die außenwirtschaftliche Stabilität der entscheidende Faktor.</p>
-          <div class="quellen">
-            <span class="quellen-label">Schlagzeilen</span>
-            <div class="tags"><span class="tag">UNO senkt Prognose: Nahostkrise bremst Weltwirtschaft</span><span class="tag">IWF: Globales Wachstum 2026 bei 3,1 Prozent, Deutschland nur 0,8 Prozent</span><span class="tag">S&amp;P Global: Einkaufsmanagerindex hellt sich auf, Industrie zieht an</span></div>
-          </div>
-          <div class="zeitstempel">Aktualisiert: Montag, 25. Mai 2026, 08:00 Uhr</div>
-        </article>
-        <article class="kachel">
-          <div class="kachel-head">
-            <span class="kachel-emoji" aria-hidden="true">🌍</span>
-            <h3 class="kachel-titel">Internationale Politik</h3>
-          </div>
-          <p class="kachel-text">Im Zentrum der internationalen Politik steht weiterhin der Iran-Krieg. US-Präsident Donald Trump kündigte einen möglichen Durchbruch in den Verhandlungen über ein Kriegsende an, mahnte zugleich aber, „nichts zu überstürzen“. Teheran prüft Berichten zufolge einen über Pakistan übermittelten US-Vorschlag; beide Seiten verhandeln indirekt weiter, wobei der Iran zwar Gesprächsbereitschaft signalisiert, dem Vorgehen Washingtons jedoch misstraut. Zugleich bereitet sich Israel offenbar auf eine mögliche Wiederaufnahme der Kampfhandlungen vor, und die brüchige Waffenruhe mit dem Libanon wird durch nahezu tägliche Zwischenfälle belastet. Innenpolitisch steht die iranische Führung unter Druck: Seit Ende Dezember halten Proteste an, ausgelöst durch Währungsverfall, hohe Inflation und wirtschaftliche Not. Einordnung: Die diplomatischen Signale sind ermutigend, aber fragil – tiefes gegenseitiges Misstrauen und innenpolitische Zwänge auf allen Seiten erschweren eine tragfähige Lösung. Ausblick: Gelingt eine Verständigung, hätte das weitreichende Folgen für Energiemärkte und regionale Sicherheit; ein Scheitern birgt das Risiko einer erneuten Eskalation mit globalen wirtschaftlichen Auswirkungen.</p>
-          <div class="quellen">
-            <span class="quellen-label">Schlagzeilen</span>
-            <div class="tags"><span class="tag">Trump kündigt möglichen Durchbruch bei Iran-Verhandlungen an</span><span class="tag">Teheran prüft über Pakistan übermittelten US-Vorschlag</span><span class="tag">Brüchige Waffenruhe: Israel und Libanon, doch Zwischenfälle dauern an</span></div>
-          </div>
-          <div class="zeitstempel">Aktualisiert: Montag, 25. Mai 2026, 08:00 Uhr</div>
-        </article>
-      </div>
-
-      <section class="archiv">
-        <div class="section-titel">Archiv</div>
-      <details class="archiv-tag">
-        <summary><span class="archiv-datum">Freitag, 22. Mai 2026</span><span class="archiv-hint">Analysen anzeigen</span></summary>
-        <div class="grid">
-        <article class="kachel">
-          <div class="kachel-head">
-            <span class="kachel-emoji" aria-hidden="true">🇩🇪</span>
-            <h3 class="kachel-titel">Deutsche Innenpolitik</h3>
-          </div>
-          <p class="kachel-text">Ein Jahr nach Amtsantritt steckt die schwarz-rote Koalition unter Bundeskanzler Friedrich Merz in einer Vertrauenskrise. Laut aktuellem Politbarometer sind rund 69 Prozent der Bürgerinnen und Bürger mit der Regierungsarbeit unzufrieden – ein Höchstwert. Nur noch knapp die Hälfte rechnet damit, dass das Bündnis bis zur regulären Wahl 2029 hält. Parallel baut die AfD ihren Vorsprung aus und liegt in mehreren Umfragen bei rund 28 Prozent, deutlich vor der Union. Vor diesem Hintergrund suchte Merz erstmals das direkte Gespräch mit der SPD-Fraktion und mahnte mehr „Ruhe“ an. Im Zentrum der koalitionsinternen Auseinandersetzungen stehen Reformvorhaben zu Arbeitszeit, Steuerpolitik und der Entlastung kleinerer Einkommen. Einordnend zeigt sich: Das ursprüngliche Versprechen von mehr Wachstum und weniger Bürokratie kollidiert mit konjunktureller Schwäche und internen Bruchlinien. Ob die kommenden Reformkompromisse frischen Schwung bringen, dürfte über die Stabilität der zweiten Regierungshälfte entscheiden. Ein sichtbarer wirtschaftspolitischer Erfolg gilt als Voraussetzung, um den Abwärtstrend in den Umfragen zu stoppen.</p>
-          <div class="quellen">
-            <span class="quellen-label">Schlagzeilen</span>
-            <div class="tags"><span class="tag">Politbarometer Mai 2026: Merz auf Tiefstwert, AfD vor Union</span><span class="tag">Merz bei SPD-Fraktion: „Brauchen jetzt Ruhe“</span><span class="tag">Bundestag zieht Bilanz des ersten Regierungsjahres der schwarz-roten Koalition</span></div>
-          </div>
-          <div class="zeitstempel">Aktualisiert: Freitag, 22. Mai 2026</div>
-        </article>
-        <article class="kachel">
-          <div class="kachel-head">
-            <span class="kachel-emoji" aria-hidden="true">🇪🇺</span>
-            <h3 class="kachel-titel">Europäische Politik</h3>
-          </div>
-          <p class="kachel-text">Die europäische Agenda wird derzeit von der Handelspolitik dominiert: Rat und Europäisches Parlament haben sich auf die Umsetzung eines EU-USA-Handelsabkommens verständigt, das Zölle auf US-Industriegüter beseitigt und im Gegenzug erleichterten Marktzugang für bestimmte Agrarprodukte schafft. Eine Schutzklausel erlaubt der Kommission, Zugeständnisse auszusetzen, sollten die USA ihre Zölle auf europäischen Stahl und Aluminium bis Jahresende nicht abbauen. Parallel rückt die Rechtsstaatlichkeit erneut in den Fokus: Das Parlament bereitet eine Entschließung zur Lage in der Slowakei vor, wo unter Premier Robert Fico der Abbau von Antikorruptionsbehörden und Eingriffe in die Justiz kritisiert werden. Drittes Schwerpunktthema ist die Cybersicherheit; angesichts fortgeschrittener KI-Systeme fordern Abgeordnete die vollständige Umsetzung der NIS2-Richtlinie. Einordnend zeigt sich ein zweigeteiltes Bild: Nach außen sucht die EU pragmatische Stabilität im Verhältnis zu Washington, nach innen ringt sie um die Verteidigung demokratischer Standards. Der Ausblick bleibt anspruchsvoll – wirtschaftlicher Druck, technologische Abhängigkeiten und Sicherheitsfragen verlangen Reformen, deren Tempo zwischen den Mitgliedstaaten weiter umstritten ist.</p>
-          <div class="quellen">
-            <span class="quellen-label">Schlagzeilen</span>
-            <div class="tags"><span class="tag">EU und USA einigen sich auf Umsetzung des Handelsabkommens</span><span class="tag">EU-Parlament bereitet Entschließung zur Rechtsstaatlichkeit in der Slowakei vor</span><span class="tag">Debatte über Stärkung der EU-Cybersicherheit und NIS2-Umsetzung</span></div>
-          </div>
-          <div class="zeitstempel">Aktualisiert: Freitag, 22. Mai 2026</div>
-        </article>
-        <article class="kachel">
-          <div class="kachel-head">
-            <span class="kachel-emoji" aria-hidden="true">📈</span>
-            <h3 class="kachel-titel">Weltwirtschaft</h3>
-          </div>
-          <p class="kachel-text">Die Weltwirtschaft verliert spürbar an Dynamik. Die Vereinten Nationen senkten ihre Wachstumsprognose für 2026 auf 2,5 Prozent, nach zuvor 2,7 Prozent; der Internationale Währungsfonds rechnet noch mit 3,1 Prozent und damit 0,2 Punkte weniger als im Januar. Als zentralen Belastungsfaktor benennen beide Institutionen den Iran-Krieg, der über höhere Energiepreise, gestiegene Unsicherheit und mögliche Finanzmarktverwerfungen auf die globale Nachfrage durchschlägt. Entsprechend kletterte die Inflation in mehreren Industrieländern im April auf vorläufig 2,9 Prozent, während die Kerninflation mit 2,3 Prozent vergleichsweise stabil blieb. Ein vorsichtiges Gegensignal liefert der globale Einkaufsmanagerindex von S&amp;P Global, der zuletzt von 51,0 auf 51,8 Punkte zulegte – in der Erwartung einer Entspannung im Nahen Osten. Für Deutschland erwartet die Bundesregierung im laufenden Jahr nur noch ein Plus von rund 0,5 Prozent. Einordnend gilt: Die Konjunktur bleibt auf Wachstumskurs, ist aber stark von der geopolitischen Lage abhängig. Bleiben eine weitere Eskalation aus und sinken die Energiepreise, könnte sich die Stimmung im zweiten Halbjahr stabilisieren.</p>
-          <div class="quellen">
-            <span class="quellen-label">Schlagzeilen</span>
-            <div class="tags"><span class="tag">UNO senkt Prognose: Nahostkrise bremst Weltwirtschaft</span><span class="tag">IWF korrigiert globales Wachstum auf 3,1 Prozent</span><span class="tag">Bundesregierung erwartet 2026 nur rund 0,5 Prozent BIP-Wachstum</span></div>
-          </div>
-          <div class="zeitstempel">Aktualisiert: Freitag, 22. Mai 2026</div>
-        </article>
-        <article class="kachel">
-          <div class="kachel-head">
-            <span class="kachel-emoji" aria-hidden="true">🌍</span>
-            <h3 class="kachel-titel">Internationale Politik</h3>
-          </div>
-          <p class="kachel-text">Die internationale Lage bleibt von Krisen geprägt, doch zeichnen sich auch Bewegungen ab. Im Nahen Osten belastet der Iran-Krieg weiterhin Energiemärkte und Reisebranche; zugleich eröffnet ein Waffenstillstand in Gaza die Möglichkeit eines Neuanfangs und verschafft den diplomatischen Bemühungen der USA neue Aufmerksamkeit. Mit Blick auf die Ukraine berichten Medien über Pläne für eine Präsidentschaftswahl sowie ein Referendum über ein mögliches Friedensabkommen mit Russland – ein potenzieller Wendepunkt, dessen Umsetzung jedoch hochgradig unsicher bleibt. Parallel warnt ein neuer UN-Bericht vor einer Verfestigung globaler Ernährungskrisen: In zahlreichen Ländern nimmt der Hunger zu. Einordnend lässt sich festhalten, dass 2026 weniger eine Rückkehr zur Stabilität als die Institutionalisierung dauerhafter Unsicherheit markiert. Machtstrukturen verschieben sich, multilaterale Ordnungen stehen unter Druck. Der Ausblick ist ambivalent: Einzelne Deeskalationsschritte – etwa in Gaza oder im russisch-ukrainischen Konflikt – könnten Entlastung bringen, doch fehlende verlässliche Sicherheitsarchitekturen lassen Rückschläge jederzeit möglich erscheinen. Für Europa bedeutet dies anhaltenden Druck, eigenständige Handlungsfähigkeit auszubauen.</p>
-          <div class="quellen">
-            <span class="quellen-label">Schlagzeilen</span>
-            <div class="tags"><span class="tag">Geopolitik und Ölpreisschock prägen die Weltlage im Mai 2026</span><span class="tag">Bericht: Ukraine plant Präsidentschaftswahl und Referendum über Friedensabkommen</span><span class="tag">UN-Bericht: Hunger verfestigt sich in zahlreichen Ländern</span></div>
-          </div>
-          <div class="zeitstempel">Aktualisiert: Freitag, 22. Mai 2026</div>
-        </article>
-        </div>
-      </details>
-      <details class="archiv-tag">
-        <summary><span class="archiv-datum">Donnerstag, 21. Mai 2026</span><span class="archiv-hint">Analysen anzeigen</span></summary>
-        <div class="grid">
-        <article class="kachel">
-          <div class="kachel-head">
-            <span class="kachel-emoji" aria-hidden="true">🇩🇪</span>
-            <h3 class="kachel-titel">Deutsche Innenpolitik</h3>
-          </div>
-          <p class="kachel-text">Ein Jahr nach Amtsantritt zieht die schwarz-rote Koalition unter Bundeskanzler Friedrich Merz eine gemischte Bilanz. Im Zentrum der aktuellen Debatte steht der Bevölkerungsschutz: Oppositionspolitiker wie Grünen-Fraktionsvize Konstantin von Notz werfen der Regierung vor, die Krisenvorsorge gegenüber der Migrationspolitik vernachlässigt zu haben – es fehle ein Überblick über Notfallkapazitäten und Zuständigkeiten. Außenpolitisch sorgt die US-Drohung mit einem Truppenabzug aus Europa für Bewegung: Außenminister Johann Wadephul wirbt für eine „neue Lastenverteilung“, die dem wirtschaftlichen und militärischen Gewicht Europas entspricht. Parallel reist eine Bundestagsdelegation nach Taiwan – ein außenpolitisch heikles Signal Richtung Peking. Innenpolitisch wirkt zudem eine Millionenspende an das BSW nach, die Fragen zur Parteienfinanzierung aufwirft. Einordnend zeigt sich: Die Koalition steht unter Druck, sicherheitspolitische Vorsorge und soziale Reformen zugleich zu bewältigen. Ausblick: Ob die Regierung die Kritik am Krisenmanagement in konkrete Strukturreformen übersetzt, dürfte ihre zweite Amtshälfte prägen.</p>
-          <div class="quellen">
-            <span class="quellen-label">Schlagzeilen</span>
-            <div class="tags"><span class="tag">Opposition kritisiert Versäumnisse beim Bevölkerungsschutz</span><span class="tag">Wadephul: Neue Lastenverteilung nach US-Abzugsdrohung</span><span class="tag">Bundestagsdelegation reist zu Gesprächen nach Taiwan</span></div>
-          </div>
-          <div class="zeitstempel">Aktualisiert: Donnerstag, 21. Mai 2026</div>
-        </article>
-        <article class="kachel">
-          <div class="kachel-head">
-            <span class="kachel-emoji" aria-hidden="true">🇪🇺</span>
-            <h3 class="kachel-titel">Europäische Politik</h3>
-          </div>
-          <p class="kachel-text">Die EU setzt im Mai handelspolitische Akzente: Am 20. Mai stimmten der Rat der EU und das Europäische Parlament der Umsetzung des EU-US-Handelsabkommens zu, das Zölle auf US-Industrieprodukte abbaut und bestimmten US-Agrar- und Meeresfrüchteprodukten bevorzugten Marktzugang gewährt. Das Abkommen soll Handelskonflikte entschärfen, weckt aber Sorgen bei europäischen Landwirten. Zugleich rückt der Zustand der Demokratie in den Fokus: Das Parlament bereitet eine Entschließung zur Erosion rechtsstaatlicher Grundsätze in der Slowakei vor, wo unter Premier Robert Fico Antikorruptionsgremien geschwächt und die Unabhängigkeit der Justiz untergraben werden. Drittes Thema ist die Cybersicherheit: Angesichts fortgeschrittener KI-Systeme fordern Abgeordnete die vollständige Umsetzung der NIS2-Richtlinie und eine eigene EU-KI-Sicherheitsstrategie. Einordnung: Die Union balanciert zwischen wirtschaftlicher Stabilisierung im Verhältnis zu Washington und der Verteidigung interner demokratischer Standards. Ausblick: Beide Felder – Handel und Rechtsstaatlichkeit – werden die Glaubwürdigkeit der EU als regelbasierter Akteur auf die Probe stellen.</p>
-          <div class="quellen">
-            <span class="quellen-label">Schlagzeilen</span>
-            <div class="tags"><span class="tag">Rat und EP billigen Umsetzung des EU-US-Handelsabkommens</span><span class="tag">Parlament plant Entschließung zur Rechtsstaatlichkeit in der Slowakei</span><span class="tag">Debatte über NIS2 und EU-KI-Cybersicherheitsstrategie</span></div>
-          </div>
-          <div class="zeitstempel">Aktualisiert: Donnerstag, 21. Mai 2026</div>
-        </article>
-        <article class="kachel">
-          <div class="kachel-head">
-            <span class="kachel-emoji" aria-hidden="true">📈</span>
-            <h3 class="kachel-titel">Weltwirtschaft</h3>
-          </div>
-          <p class="kachel-text">Die Weltwirtschaft verliert an Schwung. Die Vereinten Nationen senkten ihre Wachstumsprognose für 2026 auf 2,5 Prozent (zuvor 2,7 Prozent) und hoben zugleich die Inflationserwartungen an; der IWF rechnet mit 3,1 Prozent globalem Wachstum, 0,2 Punkte weniger als im Januar. Hauptbelastungsfaktoren sind die Krise im Nahen Osten und die dadurch steigenden Ölpreise, die Energiekosten und Verbraucherunsicherheit befeuern. Ein Lichtblick: Der globale Einkaufsmanagerindex von S&amp;P Global stieg im April leicht auf 51,8 Punkte, gestützt auf Hoffnungen auf eine Entspannung im Iran-Konflikt. Deutschland zählt zu den Schwächeren: Das BIP wuchs im ersten Quartal nur um 0,3 Prozent gegenüber dem Vorquartal, die IWF-Jahresprognose sank auf 0,8 Prozent. Einordnung: Die Konjunktur bleibt robust, aber fragil – geopolitische Risiken überlagern die binnenwirtschaftliche Erholung. Ausblick: Eine nachhaltige Belebung hängt maßgeblich davon ab, ob sich die Energiepreise stabilisieren und der Nahost-Konflikt nicht weiter eskaliert.</p>
-          <div class="quellen">
-            <span class="quellen-label">Schlagzeilen</span>
-            <div class="tags"><span class="tag">UN senkt Wachstumsprognose 2026 auf 2,5 Prozent</span><span class="tag">IWF: Deutschland wächst 2026 nur um 0,8 Prozent</span><span class="tag">S&amp;P-Einkaufsmanagerindex steigt im April auf 51,8 Punkte</span></div>
-          </div>
-          <div class="zeitstempel">Aktualisiert: Donnerstag, 21. Mai 2026</div>
-        </article>
-        <article class="kachel">
-          <div class="kachel-head">
-            <span class="kachel-emoji" aria-hidden="true">🌍</span>
-            <h3 class="kachel-titel">Internationale Politik</h3>
-          </div>
-          <p class="kachel-text">Die geopolitische Lage bleibt von Unsicherheit geprägt. Im Vordergrund steht der Iran-Konflikt, der über steigende Ölpreise und gebremste Reisebuchungen – etwa beim Konzern TUI – wirtschaftlich ausstrahlt und den Nahen Osten als Risikoherd festigt. Zugleich mehren sich Signale für eine mögliche diplomatische Bewegung im Ukraine-Krieg: Berichten zufolge erwägt Kiew eine Präsidentschaftswahl sowie ein Referendum über ein Friedensabkommen mit Russland. Ob daraus ein tragfähiger Verhandlungsweg entsteht, ist offen. Strukturell verschiebt sich die Weltordnung weiter: Washington setzt unter Präsident Trump auf transaktionale Außenpolitik – von erratischer Friedensvermittlung bis zu Deals um kritische Lieferketten. China forciert mit seinem neuen Fünfjahresplan die technologische Entkopplung vom Westen. Hinzu kommt eine sich verschärfende globale Ernährungskrise, vor der die UN warnt. Einordnung: 2026 institutionalisiert Unsicherheit als Normalzustand. Ausblick: Europas Handlungsfähigkeit hängt davon ab, ob es eigene strategische Kapazitäten aufbaut, statt allein auf externe Garantien zu setzen.</p>
-          <div class="quellen">
-            <span class="quellen-label">Schlagzeilen</span>
-            <div class="tags"><span class="tag">Iran-Konflikt belastet Ölpreise und Tourismusbranche</span><span class="tag">Bericht: Ukraine erwägt Wahl und Referendum zu Friedensabkommen</span><span class="tag">UN warnt vor sich verschärfender globaler Ernährungskrise</span></div>
-          </div>
-          <div class="zeitstempel">Aktualisiert: Donnerstag, 21. Mai 2026</div>
-        </article>
-        </div>
-      </details>
-      <details class="archiv-tag">
-        <summary><span class="archiv-datum">Mittwoch, 13. Mai 2026</span><span class="archiv-hint">Analysen anzeigen</span></summary>
-        <div class="grid">
-        <article class="kachel">
-          <div class="kachel-head">
-            <span class="kachel-emoji" aria-hidden="true">🇩🇪</span>
-            <h3 class="kachel-titel">Deutsche Innenpolitik</h3>
-          </div>
-          <p class="kachel-text">Am 13. Mai prägt Bundeskanzler Friedrich Merz mit seinem Auftritt auf dem DGB-Bundeskongress die innenpolitische Debatte: Sein Werben für eine weitreichende Reform des Sozialstaates trifft auf eine skeptische Gewerkschaftsbasis und legt zugleich die Bruchlinien innerhalb der schwarz-roten Koalition offen. Parallel berät der Koalitionsausschuss über Entlastungspakete, Renten- und Bürgergeldreform – Themen, bei denen Union und SPD eigene Akzente setzen und ein Kompromiss erst in den kommenden Wochen erwartet wird. Sicherheitspolitisch rückt die wachsende Bedrohung durch Cyberangriffe auf Unternehmen und Behörden in den Fokus, während der Deutsche Ärztetag in Hannover und der Tag der Pflege auf strukturelle Engpässe im Gesundheitssystem hinweisen. Einordnung: Die Regierung steht unter doppeltem Druck, sozialpolitische Glaubwürdigkeit zu wahren und gleichzeitig die Konsolidierung des Haushalts voranzutreiben. Ausblick: Die kommenden Wochen werden zeigen, ob die Koalition tragfähige Reformen liefert oder ob Profilierungsversuche der Partner die Handlungsfähigkeit weiter erschweren.</p>
-          <div class="quellen">
-            <span class="quellen-label">Schlagzeilen</span>
-            <div class="tags"><span class="tag">Merz wirbt auf DGB-Kongress für Sozialstaatsreform</span><span class="tag">Koalitionsausschuss berät über Entlastungen und Reformen</span><span class="tag">Deutscher Ärztetag in Hannover und Tag der Pflege</span></div>
-          </div>
-          <div class="zeitstempel">Aktualisiert: Mittwoch, 13. Mai 2026</div>
-        </article>
-        <article class="kachel">
-          <div class="kachel-head">
-            <span class="kachel-emoji" aria-hidden="true">🇪🇺</span>
-            <h3 class="kachel-titel">Europäische Politik</h3>
-          </div>
-          <p class="kachel-text">Auf europäischer Ebene bestimmen Mitte Mai drei Linien das Bild: erstens die fortschreitende Debatte über eine eigenständigere europäische Verteidigung, nachdem Washington Schwerpunkte verlagert hat und Brüssel neue Beschaffungs- und Finanzierungsmechanismen ausarbeitet. Zweitens das vorläufige Inkrafttreten zentraler Teile des EU-Mercosur-Abkommens, das den Außenhandel diversifizieren und mittelfristig die EU-Exporte in die Region deutlich steigern soll – politisch umstritten bleiben die Folgen für Landwirtschaft und Umweltstandards. Drittens diskutiert Brüssel strengere Regeln für soziale Netzwerke, mit Vorstößen zu Altersgrenzen für die Nutzung und schärferer Plattformhaftung. Einordnung: Die Union versucht, ihre strategische Souveränität gleichzeitig in Sicherheit, Handel und digitaler Regulierung zu festigen, sieht sich dabei aber wachsendem innenpolitischem Druck durch erstarkende populistische Kräfte ausgesetzt. Ausblick: Ob der Reformschub in dauerhafte Strukturen mündet, hängt von der Geschlossenheit der großen Mitgliedstaaten und einer raschen Umsetzung jenseits symbolischer Beschlüsse ab.</p>
-          <div class="quellen">
-            <span class="quellen-label">Schlagzeilen</span>
-            <div class="tags"><span class="tag">EU-Verteidigungspläne und neue Beschaffungsinitiativen</span><span class="tag">EU-Mercosur-Abkommen tritt teilweise in Kraft</span><span class="tag">Debatte über Mindestalter und Regulierung sozialer Medien</span></div>
-          </div>
-          <div class="zeitstempel">Aktualisiert: Mittwoch, 13. Mai 2026</div>
-        </article>
-        <article class="kachel">
-          <div class="kachel-head">
-            <span class="kachel-emoji" aria-hidden="true">📈</span>
-            <h3 class="kachel-titel">Weltwirtschaft</h3>
-          </div>
-          <p class="kachel-text">Die Weltwirtschaft präsentiert sich Mitte Mai widerstandsfähig, aber unter sichtbaren Belastungen. Der IWF und nationale Prognosen erwarten für 2026 ein globales Wachstum von rund 2,7 bis 3,1 Prozent – etwas schwächer als zuletzt, getrieben vor allem von der US-Handelspolitik, hartnäckigen geopolitischen Spannungen und nachlassender Investitionsdynamik. Für die Eurozone hat sich die Stimmung an den Finanzmärkten nach dem ZEW-Index leicht aufgehellt; das IMK rechnet für Deutschland mit 1,2 Prozent Wachstum, nachdem 2025 nahezu Stagnation herrschte. Die Inflation sinkt laut IWF auf etwa 3,8 Prozent, was Spielraum für vorsichtige Zinssenkungen der EZB schafft. Einordnung: Die globale Konjunktur trägt, ist aber empfindlich gegenüber Schocks – insbesondere protektionistischen Eingriffen und Eskalationen im Energie- und Halbleitersektor. Ausblick: Investoren werden Quartalszahlen aus den USA und Asien sowie die Notenbankentscheidungen genau beobachten; entscheidend für 2026 bleibt, ob KI-getriebene Produktivitätsgewinne den strukturellen Gegenwind überkompensieren.</p>
-          <div class="quellen">
-            <span class="quellen-label">Schlagzeilen</span>
-            <div class="tags"><span class="tag">IWF und IMK: Wachstumsprognosen 2026 stabilisieren sich</span><span class="tag">ZEW-Index: Konjunkturerwartungen im Euroraum leicht aufgehellt</span><span class="tag">EZB-Politik und sinkende Inflation als Marktthemen</span></div>
-          </div>
-          <div class="zeitstempel">Aktualisiert: Mittwoch, 13. Mai 2026</div>
-        </article>
-        <article class="kachel">
-          <div class="kachel-head">
-            <span class="kachel-emoji" aria-hidden="true">🌍</span>
-            <h3 class="kachel-titel">Internationale Politik</h3>
-          </div>
-          <p class="kachel-text">International bestimmen drei Konfliktlinien das Bild: Im Ukraine-Krieg verfestigt sich der Eindruck, dass Washington die Verantwortung zunehmend an Europa delegiert; Kiew bereitet Berichten zufolge Präsidentschaftswahlen und ein Referendum über ein mögliches Friedensabkommen mit Russland vor, was die innenpolitische Lage zusätzlich auflädt. Im Nahen Osten hält die US-Administration Druck auf Israel aufrecht, eine erneute Eskalation in Gaza zu vermeiden, während die Folgen des Irankriegs die Energie- und Lieferkettenrisiken weiter prägen. In Ostasien bleiben die Spannungen um Taiwan ein zentraler Stabilitätsfaktor: Ein Konflikt würde Schifffahrtswege und die globale Halbleiterversorgung empfindlich treffen. Einordnung: Die internationale Ordnung verschiebt sich erkennbar in Richtung transaktionaler, interessengeleiteter Politik – multilaterale Institutionen verlieren an Bindungskraft. Ausblick: Europa steht vor der Aufgabe, sicherheits- und außenpolitisch handlungsfähiger zu werden, ohne in eine reine Reaktivlogik zu verfallen; die kommenden Wochen werden zeigen, ob diplomatische Initiativen oder neue Eskalationen das Tempo vorgeben.</p>
-          <div class="quellen">
-            <span class="quellen-label">Schlagzeilen</span>
-            <div class="tags"><span class="tag">Ukraine plant Wahlen und Referendum zu Friedensabkommen</span><span class="tag">USA und Israel: Druck zur Deeskalation in Gaza</span><span class="tag">Taiwan und globale Lieferketten als geopolitisches Risiko</span></div>
-          </div>
-          <div class="zeitstempel">Aktualisiert: Mittwoch, 13. Mai 2026</div>
-        </article>
-        </div>
-      </details>
-      <details class="archiv-tag">
-        <summary><span class="archiv-datum">Dienstag, 12. Mai 2026</span><span class="archiv-hint">Analysen anzeigen</span></summary>
-        <div class="grid">
-        <article class="kachel">
-          <div class="kachel-head">
-            <span class="kachel-emoji" aria-hidden="true">🇩🇪</span>
-            <h3 class="kachel-titel">Deutsche Innenpolitik</h3>
-          </div>
-          <p class="kachel-text">Die deutsche Innenpolitik steht am 12. Mai 2026 unter dem Eindruck einer veränderten Sicherheitslage. Der angekündigte US-Truppenabzug aus Teilen Europas und der Verzicht auf die geplante Stationierung von „Tomahawk“-Marschflugkörpern in Deutschland lösen kontroverse Debatten aus. Während Kritiker eine sicherheitspolitische Lücke befürchten, sehen andere die Notwendigkeit, europäische Verteidigungsfähigkeiten rasch auszubauen – ein Schwerpunkt, den die schwarz-rote Bundesregierung unter Kanzler Friedrich Merz nun stärker setzen muss. Parallel hält der Druck auf die Koalition an: Die Diskussion um Rentenreform, Migrationspolitik und eine möglicherweise neu zu justierende Wehrpflicht bleibt Dauerthema, befördert auch durch politische Talkformate wie „maischberger“, in denen die Reformpläne öffentlich verhandelt werden. Hinzu kommen Berichte über Milliardenausfälle durch Steuerbetrug, die das Vertrauen in staatliche Handlungsfähigkeit weiter belasten. Ausblick: Die Regierung muss Sicherheit, Sozialstaat und Haushaltskonsolidierung gleichzeitig adressieren – ein politisches Trilemma, dessen Auflösung über die Stabilität der Koalition entscheiden dürfte.</p>
-          <div class="quellen">
-            <span class="quellen-label">Schlagzeilen</span>
-            <div class="tags"><span class="tag">US-Truppenabzug und „Tomahawk“-Verzicht: Debatte über europäische Verteidigung</span><span class="tag">maischberger (12.05.2026): Reformpläne und Krisenmanagement der Bundesregierung</span><span class="tag">frontal: Milliardenschwere Steuerabzocke und Überversorgung im Gesundheitssystem</span></div>
-          </div>
-          <div class="zeitstempel">Aktualisiert: Dienstag, 12. Mai 2026</div>
-        </article>
-        <article class="kachel">
-          <div class="kachel-head">
-            <span class="kachel-emoji" aria-hidden="true">🇪🇺</span>
-            <h3 class="kachel-titel">Europäische Politik</h3>
-          </div>
-          <p class="kachel-text">Auf europäischer Ebene dominiert am 12. Mai die Einigung der EU-Unterhändler in Brüssel auf neue Regeln zur Stärkung der europäischen Arzneimittelproduktion. Damit reagiert die Union auf wiederkehrende Lieferengpässe bei lebenswichtigen Medikamenten: Öffentliche Mittel sollen künftig leichter in die Produktion innerhalb der EU fließen können – ein Schritt in Richtung strategischer Autonomie. Zugleich tagt der Rat „Bildung, Jugend, Kultur und Sport“ (11.–12. Mai); auf der Agenda stehen außerdem Beschlüsse rund um Künstliche Intelligenz, das EU-Mexiko-Abkommen sowie die Neuausrichtung der EU-Syrien-Beziehungen. Der Diskurs schließt an die Europatags-Reformdebatte vom 9. Mai an, in der mehr außen- und sicherheitspolitische Handlungsfähigkeit gefordert wurde. Ausblick: Die EU verschiebt ihren Schwerpunkt sichtbar in Richtung „Resilienz“: Medikamente, KI, kritische Rohstoffe und Verteidigung werden zunehmend gemeinsam gedacht. Entscheidend wird sein, ob den Beschlüssen schnell genug operative Umsetzung folgt, um in einer fragmentierten Weltordnung als Akteur ernstgenommen zu werden.</p>
-          <div class="quellen">
-            <span class="quellen-label">Schlagzeilen</span>
-            <div class="tags"><span class="tag">EU-Einigung: Mehr wichtige Medikamente in Europa herstellen (12.05.2026)</span><span class="tag">Rat für Bildung, Jugend, Kultur und Sport tagt 11.–12. Mai 2026</span><span class="tag">Europatag 2026: Reformforderungen für ein stärkeres Europa</span></div>
-          </div>
-          <div class="zeitstempel">Aktualisiert: Dienstag, 12. Mai 2026</div>
-        </article>
-        <article class="kachel">
-          <div class="kachel-head">
-            <span class="kachel-emoji" aria-hidden="true">📈</span>
-            <h3 class="kachel-titel">Weltwirtschaft</h3>
-          </div>
-          <p class="kachel-text">Die globale Konjunktur wächst 2026 mit rund 2,7 Prozent verhalten weiter, bleibt aber durch geopolitische Schocks fragil. Im Zentrum steht weiterhin der Iran-Krieg, dessen Folgen über Energiepreise, Lieferketten und Versicherungskosten globale Wirkung entfalten. Besonders hart trifft es Deutschland: Das Institut der deutschen Wirtschaft (IW) hat seine Wachstumsprognose für 2026 deutlich auf rund 0,4 Prozent gesenkt – nach drei Jahren Stagnation und Rezession bleibt kaum Puffer. Deutsche Exporte schrumpfen inzwischen zum vierten Quartal in Folge, während der Welthandel wächst – die Wettbewerbsfähigkeit erodiert messbar. Die Inflation dürfte im Jahresdurchschnitt bei rund 3 Prozent liegen, getragen vom Energiepreisschock; Erwerbstätigkeit und Investitionen geben nach. Die Eurozonen-Stimmung an den Märkten verbessert sich auf niedrigem Niveau leicht. Ausblick: Während die USA und große Schwellenländer relativ widerstandsfähig erscheinen, droht Deutschland in einer „weichen Stagflation“ zu verharren. Strukturelle Reformen bei Energie, Industriepolitik und Bürokratie werden zur Voraussetzung dafür, den Anschluss an die globale Konjunktur nicht zu verlieren.</p>
-          <div class="quellen">
-            <span class="quellen-label">Schlagzeilen</span>
-            <div class="tags"><span class="tag">IW senkt Konjunkturprognose für 2026 auf rund 0,4 Prozent</span><span class="tag">UN-Bericht: Lage und Aussichten der Weltwirtschaft 2026</span><span class="tag">Helaba: Märkte und Trends 2026 – Weltwirtschaft, Karten werden neu gemischt</span></div>
-          </div>
-          <div class="zeitstempel">Aktualisiert: Dienstag, 12. Mai 2026</div>
-        </article>
-        <article class="kachel">
-          <div class="kachel-head">
-            <span class="kachel-emoji" aria-hidden="true">🌍</span>
-            <h3 class="kachel-titel">Internationale Politik</h3>
-          </div>
-          <p class="kachel-text">Die internationale Lage Mitte Mai 2026 verfestigt das Bild einer „neuen Normalität“ permanenter Unsicherheit. Die US-Außenpolitik unter Donald Trump pendelt zwischen erratischer Friedensvermittlung – etwa rund um die Ukraine –, robusten Interventionen in der westlichen Hemisphäre und opportunistischen Deals um kritische Lieferketten. In der Ukraine sind für Mai eine Präsidentschaftswahl und ein Referendum über ein mögliches Friedensabkommen mit Russland angesetzt; deren Ergebnisse werden weitreichende Folgen für die europäische Sicherheitsarchitektur haben. Der Iran-Krieg verschiebt parallel die Energie- und Sicherheitslogik: Das Vertrauen in fossile Lieferketten ist erschüttert, Investitionen in erneuerbare Energien gewinnen geostrategische Bedeutung. Im Indo-Pazifik bleibt das Taiwan-Risiko zentral – eine Eskalation würde globale Halbleiterlieferketten zum Stillstand bringen. Ausblick: Internationale Politik wird zunehmend von nationalen Sicherheitsinteressen statt von wirtschaftlicher Rationalität geprägt. Europa muss eigene Handlungsfähigkeit aufbauen und sich auf eine multipolare Ordnung einstellen, in der transatlantische Garantien nicht mehr automatisch gelten.</p>
-          <div class="quellen">
-            <span class="quellen-label">Schlagzeilen</span>
-            <div class="tags"><span class="tag">Berliner Zeitung: 2026 – Globale Ordnung der permanenten Unsicherheit</span><span class="tag">EY Geostrategic Outlook 2026: Die zehn wichtigsten Entwicklungen</span><span class="tag">Ukraine plant Präsidentschaftswahl und Referendum über Friedensabkommen</span></div>
-          </div>
-          <div class="zeitstempel">Aktualisiert: Dienstag, 12. Mai 2026</div>
-        </article>
-        </div>
-      </details>
-      <details class="archiv-tag">
-        <summary><span class="archiv-datum">Montag, 11. Mai 2026</span><span class="archiv-hint">Analysen anzeigen</span></summary>
-        <div class="grid">
-        <article class="kachel">
-          <div class="kachel-head">
-            <span class="kachel-emoji" aria-hidden="true">🇩🇪</span>
-            <h3 class="kachel-titel">Deutsche Innenpolitik</h3>
-          </div>
-          <p class="kachel-text">Die schwarz-rote Bundesregierung unter Kanzler Friedrich Merz steht unter erheblichem Druck. Finanzminister Lars Klingbeil (SPD) muss aufgrund der konjunkturellen Eintrübung infolge des Iran-Krieges mit einem Einbruch der Steuereinnahmen von rund 17,8 Milliarden Euro für 2026 rechnen. Klingbeil bezeichnete die wirtschaftlichen Folgen als gravierend und kritisierte die US-Politik scharf. Parallel dazu fallen die Zustimmungswerte der Regierung auf einen historischen Tiefstand: Nur 13 Prozent zeigen sich mit der Regierungsarbeit zufrieden, der Kanzler selbst kommt auf lediglich 16 Prozent persönliche Zustimmung – die schlechtesten Werte im DeutschlandTREND seit 1997. Die Union verliert in der Sonntagsfrage zwei Punkte und liegt nur noch bei 24 Prozent. Inhaltlich dominieren weiterhin Rentenreform, Migration und Wehrpflicht die Agenda. Der Ausblick bleibt angespannt: Ohne wirtschaftliche Belebung oder politische Erfolge bei zentralen Reformprojekten dürfte sich der Vertrauensverlust verfestigen und den Spielraum der Koalition weiter einschränken.</p>
-          <div class="quellen">
-            <span class="quellen-label">Schlagzeilen</span>
-            <div class="tags"><span class="tag">Klingbeil: Steuereinnahmen brechen 2026 um 17,8 Mrd. Euro ein</span><span class="tag">DeutschlandTREND Mai 2026: Historischer Tiefstand für Merz-Regierung</span><span class="tag">Bundespressekonferenz vom 8. Mai 2026</span></div>
-          </div>
-          <div class="zeitstempel">Aktualisiert: Montag, 11. Mai 2026</div>
-        </article>
-        <article class="kachel">
-          <div class="kachel-head">
-            <span class="kachel-emoji" aria-hidden="true">🇪🇺</span>
-            <h3 class="kachel-titel">Europäische Politik</h3>
-          </div>
-          <p class="kachel-text">Die EU sucht im Frühjahr 2026 nach strategischer Handlungsfähigkeit. Rund um den Europatag am 9. Mai mehren sich Reformforderungen – insbesondere für eine entschlossenere Außenpolitik und eine engere Verzahnung von Wirtschafts- und Sicherheitsfragen. Kommissionspräsidentin Ursula von der Leyen und Ratspräsident António Costa nehmen an der achten Tagung der Europäischen Politischen Gemeinschaft im armenischen Eriwan teil, die unter dem Motto „Einheit und Stabilität in Europa" steht und auch geopolitische Antworten auf den Krieg in der Ukraine und die Lage im Kaukasus diskutieren wird. Bereits am 6. Mai legte die Kommission ein Paket gegen Armut und die anhaltende Wohnungskrise vor – ein sozialpolitisches Signal angesichts wachsender Ungleichheiten. Insgesamt bewegt sich die EU zwischen geopolitischer Selbstbehauptung und innerer Konsolidierung. Der Ausblick: Ohne Vertragsreformen und schnellere Entscheidungsprozesse droht die Union, hinter den globalen Erwartungen zurückzubleiben, die in einer multipolaren Weltordnung an sie gerichtet werden.</p>
-          <div class="quellen">
-            <span class="quellen-label">Schlagzeilen</span>
-            <div class="tags"><span class="tag">Europatag 2026: Reformforderungen für ein stärkeres Europa</span><span class="tag">Achte Tagung der Europäischen Politischen Gemeinschaft in Eriwan</span><span class="tag">Kommission legt Maßnahmen gegen Armut und Wohnungskrise vor</span></div>
-          </div>
-          <div class="zeitstempel">Aktualisiert: Montag, 11. Mai 2026</div>
-        </article>
-        <article class="kachel">
-          <div class="kachel-head">
-            <span class="kachel-emoji" aria-hidden="true">📈</span>
-            <h3 class="kachel-titel">Weltwirtschaft</h3>
-          </div>
-          <p class="kachel-text">Die Weltwirtschaft befindet sich laut AHK World Business Outlook Frühjahr 2026 im Krisenmodus. Hohe Energiepreise und Lieferkettenstörungen – verstärkt durch den Iran-Krieg und die anhaltenden Spannungen im Nahen Osten – belasten deutsche Unternehmen an ihren internationalen Standorten erheblich. Nur 21 Prozent erwarten für die kommenden zwölf Monate eine bessere Konjunktur, 32 Prozent rechnen mit einer Verschlechterung. 46 Prozent sehen die Preisentwicklung bei Öl und Gas als zentrales Risiko. Regional zeigen sich Unterschiede: Während die Unternehmen in China, den USA und den Mercosur-Staaten relativ optimistisch bleiben, trübt sich die Lage in Asien und dem Nahen Osten deutlich ein. Für Deutschland prognostiziert das IMK ein moderates Wachstum von 1,2 Prozent nach nur 0,1 Prozent 2025, während das IW seine Prognose zuletzt deutlich senkte. Der Ausblick: Die globale Wirtschaft bleibt widerstandsfähig, aber fragil – geopolitische Risiken, Investitionszurückhaltung und strukturelle Umbrüche werden den Märkten 2026 ihren Stempel aufdrücken.</p>
-          <div class="quellen">
-            <span class="quellen-label">Schlagzeilen</span>
-            <div class="tags"><span class="tag">AHK World Business Outlook Frühjahr 2026: Weltwirtschaft im Krisenmodus</span><span class="tag">IMK prognostiziert 1,2 Prozent Wachstum für 2026</span><span class="tag">Helaba: Märkte und Trends 2026 – Karten werden neu gemischt</span></div>
-          </div>
-          <div class="zeitstempel">Aktualisiert: Montag, 11. Mai 2026</div>
-        </article>
-        <article class="kachel">
-          <div class="kachel-head">
-            <span class="kachel-emoji" aria-hidden="true">🌍</span>
-            <h3 class="kachel-titel">Internationale Politik</h3>
-          </div>
-          <p class="kachel-text">2026 institutionalisiert die geopolitische Unsicherheit als neue Normalität. Donald Trumps Transaktionalismus prägt die US-Außenpolitik: erratische Friedensvermittlungen, robuste Interventionen in der westlichen Hemisphäre und opportunistische Deals um kritische Lieferketten kennzeichnen den amerikanischen Kurs. Im Zentrum der europäischen Aufmerksamkeit steht der Iran-Krieg, dessen wirtschaftliche und politische Schockwellen bis nach Berlin reichen. Die Ukraine plant für Mai eine Präsidentschaftswahl und ein Referendum über ein mögliches Friedensabkommen mit Russland – ein Schritt, der weitreichende Implikationen für die europäische Sicherheitsordnung hätte. Parallel verschärfen sich die Spannungen um Taiwan und die Kontrolle globaler Schifffahrtsrouten, was die Halbleiter-Lieferketten zusätzlich verwundbar macht. Auch im Weltraum nehmen militärische Eskalationsrisiken zu. Der Ausblick: Internationale Beziehungen werden zunehmend von Sicherheitsinteressen statt von wirtschaftlicher Rationalität geprägt. Europa steht vor der Aufgabe, in einer fragmentierten Ordnung eigene Handlungsfähigkeit aufzubauen, statt sich auf transatlantische Garantien zu verlassen.</p>
-          <div class="quellen">
-            <span class="quellen-label">Schlagzeilen</span>
-            <div class="tags"><span class="tag">Berliner Zeitung: Globale Ordnung der permanenten Unsicherheit 2026</span><span class="tag">EY Geostrategic Outlook 2026: Die zehn wichtigsten Entwicklungen</span><span class="tag">Ukraine plant Referendum über Friedensabkommen im Mai</span></div>
-          </div>
-          <div class="zeitstempel">Aktualisiert: Montag, 11. Mai 2026</div>
-        </article>
-        </div>
-      </details>
-      </section>
-    </div>
-  </main>
-
-  <footer class="site">
-    <div class="wrap">
-      Generiert von <strong>Claude</strong> · Anthropic · Kein Anspruch auf Vollständigkeit
-    </div>
-  </footer>
 </body>
 </html>
