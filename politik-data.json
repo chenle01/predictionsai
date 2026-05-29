@@ -1,5 +1,43 @@
 [
   {
+    "datum": "2026-05-29",
+    "datumFormatiert": "Freitag, 29. Mai 2026",
+    "eintraege": {
+      "deutsche-innenpolitik": {
+        "titel": "Deutsche Innenpolitik",
+        "analyse": "Die Koalition aus CDU/CSU und SPD unter Bundeskanzler Friedrich Merz steht kurz vor dem ersten Jahrestag ihrer Regierungsbildung – und kämpft mit erheblichen internen Spannungen. Nach einem sechsstündigen Koalitionsgipfel gelang es, einen Fahrplan für Reformen bis zur parlamentarischen Sommerpause im Juli zu vereinbaren. Streitpunkte bleiben vor allem die Einkommensteuerreform und die Rentenversicherung, bei denen CDU und SPD grundlegend unterschiedliche Vorstellungen haben. Die Zustimmungswerte für beide Koalitionspartner sind infolge anhaltender wirtschaftlicher Düsternis auf niedrige Niveaus gefallen – Merz' persönliche Beliebtheit bleibt unter Druck. Im Hintergrund wirkt die AfD als parlamentarische Oppositionskraft weiter an Stärke. Der Koalitionsvertrag sieht zudem Reformen im Energiebereich vor, die durch den globalen Energiepreisschock infolge des Iran-Konflikts besondere Dringlichkeit erhalten haben. In den kommenden Wochen wird entscheidend sein, ob die Koalition die angekündigten Reformschritte tatsächlich liefern kann.",
+        "quellen": [
+          "Bloomberg: Merz Coalition Draws Up Road Map for German Reforms by July",
+          "Japan Times: Germany's struggling coalition government strives to bridge differences"
+        ]
+      },
+      "europaeische-politik": {
+        "titel": "Europäische Politik",
+        "analyse": "Die Europäische Union schreitet bei der Umsetzung des weltweit ersten umfassenden KI-Gesetzes voran: Bis August 2026 muss jeder Mitgliedsstaat mindestens eine nationale KI-Sandbox einrichten. Gleichzeitig stimmte das Europaparlament einem Abkommen zu, das EU-Schlüsselsektoren wie Verteidigung, Halbleiter, künstliche Intelligenz und kritische Rohstoffe besser vor riskanten Auslandsinvestitionen schützt. In Spanien gerät die Regierung Sánchez unter Druck, nachdem die Polizei das Hauptquartier der Regierungspartei im Rahmen von Korruptionsermittlungen durchsucht hat – dies stärkt die eurokritische Reformbewegung. Mit Blick auf die Ukraine-Krise zeigen sich EU-Staaten gespalten über potenzielle Waffenstillstandslösungen, während die baltischen Staaten Deeskalationskanäle suchen. Insgesamt steht die EU vor der Doppelaufgabe, ambitionierte Reformagenden voranzutreiben und gleichzeitig geopolitische Krisen zu managen.",
+        "quellen": [
+          "EU News: MEPs vote on foreign investment protection in strategic sectors",
+          "Euronews: Latest news bulletin May 26, 2026"
+        ]
+      },
+      "weltwirtschaft": {
+        "titel": "Weltwirtschaft",
+        "analyse": "Die Weltwirtschaft bewegt sich in einem angespannten Umfeld aus Handelskonflikt und Energiekrise. Das US-Gericht für internationalen Handel erklärte am 7. Mai die auf Section 122 gestützten 10-Prozent-Globalzölle der Trump-Administration für ungültig; dennoch bleibt ein globales Zollregime in Kraft, das bis zum 24. Juli Bestand haben soll. Gleichzeitig droht Trump mit einer Erhöhung der Automobilzölle auf EU-Importe von 15 auf 25 Prozent. Der IWF prognostiziert für 2026 ein globales Wachstum von nur 3,0 Prozent und betont die dämpfende Wirkung von Handelsfriktionen. Besonders gravierend: Der Nahost-Konflikt hat sich zu einem globalen Energiesicherheitsereignis entwickelt – rund ein Fünftel des weltweiten LNG-Angebots ist effektiv ausgefallen, was Versicherungsprämien und Energiepreise weltweit treibt. Nicht-tarifäre Handelshemmnisse gewinnen laut UNCTAD zunehmend an Bedeutung als versteckte Wachstumsbremsen.",
+        "quellen": [
+          "UNCTAD: Global Trade Update May 2026 – Non-tariff measures",
+          "J.P. Morgan: US Tariffs – What's the Impact?"
+        ]
+      },
+      "internationale-politik": {
+        "titel": "Internationale Politik",
+        "analyse": "Der Nahost-Konflikt dominiert die internationale Agenda: Die USA haben militärische Schläge gegen den Iran durchgeführt und beteiligen sich weiterhin an diplomatischen Verhandlungen über einen möglichen Waffenstillstand. Israel intensiviert Operationen gegen die Hisbollah im Libanon, während US-Streitkräfte iranische Boote und Raketenstützpunkte angegriffen haben. Im Pazifik stärken die USA ihre Allianzen mit Japan und Südkorea im Vorfeld des G7-Gipfels. In Lateinamerika eskaliert die Konfrontation auf See: Ecuadorianische Fischer beschuldigen ein US-amerikanisches Schiff, ihre Boote zerstört zu haben – im Kontext von über 50 US-Marineeinsätzen im östlichen Pazifik und der Karibik. Der globale Energieschock infolge des Nahost-Krieges – beschrieben als größte Versorgungsunterbrechung in der Geschichte des globalen Ölmarkts – hat weitreichende wirtschaftliche und geopolitische Konsequenzen, die internationale Kooperationsformate zunehmend unter Druck setzen.",
+        "quellen": [
+          "EY: Geostrategic Analysis May 2026",
+          "NPR: World News – Middle East conflict and US military strikes"
+        ]
+      }
+    }
+  },
+  {
     "datum": "2026-05-26",
     "datumFormatiert": "Dienstag, 26. Mai 2026",
     "eintraege": {
