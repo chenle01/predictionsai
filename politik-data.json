@@ -1,5 +1,43 @@
 [
   {
+    "datum": "2026-06-01",
+    "datumFormatiert": "Montag, 1. Juni 2026",
+    "eintraege": {
+      "deutsche-innenpolitik": {
+        "titel": "Deutsche Innenpolitik",
+        "analyse": "Die schwarz-rote Bundesregierung unter Bundeskanzler Friedrich Merz tritt in ihr zweites Jahr – und die Bilanz fällt ernüchternd aus. Die Zufriedenheit mit dem Kanzler hat mit einem Netto-Wert von -51 einen neuen Tiefstand erreicht; nur 16 Prozent der Bevölkerung bewerten seine Arbeit positiv. Einzig Verteidigungsminister Boris Pistorius (SPD) hält sich mit 28 Prozent Zustimmung an der Spitze des Kabinetts. Inhaltlich dominieren weiterhin Kontroversen um die Renten- und Gesundheitsreform, die den Koalitionsfrieden belasten. Merz lehnt eine Minderheitsregierung kategorisch ab und will das Bündnis mit der SPD fortsetzen, doch mehren sich sowohl in der Union als auch in der Wirtschaft Stimmen, die ein Ende von Schwarz-Rot nicht mehr ausschließen. Am Rande: Mit Wolfgang Kubicki wurde ein neuer FDP-Vorsitzender gewählt, was die liberale Opposition neu belebt. Zudem läuft Ende Juni eine Kraftstoffsubvention aus, was CDU- und SPD-Politiker angesichts der anhaltenden Energiepreiskrise zur Verlängerung drängt. Im Ausblick wird entscheidend sein, ob die Koalition bis zur Sommerpause sichtbare Reformergebnisse liefern kann.",
+        "quellen": [
+          "Ipsos: Politische Meinungslage – Merz auf Tiefstwert, Netto-Zufriedenheit bei -51",
+          "ZDF heute: Merz lehnt Minderheitsregierung ab, will mit SPD weitermachen"
+        ]
+      },
+      "europaeische-politik": {
+        "titel": "Europäische Politik",
+        "analyse": "Die EU konzentriert sich zu Beginn des Juni auf zwei Kernthemen: Ukraine-Unterstützung und außenpolitische Neuausrichtung. Der Rat hat eine Zahlung von knapp 2,8 Milliarden Euro an Kiew im Rahmen der Ukraine-Fazilität freigegeben – elf der zwanzig Bedingungen für die siebte Tranche wurden erfolgreich erfüllt. Parallel ernannte der Rat eine neue Leiterin für die EU-Beratermission zur Sicherheitssektorreform in der Ukraine (EUAM). Kommissionspräsident António Costa legte den Wochenplan für eine intensive europäische Agenda vor. Auf der Tagesordnung stehen außerdem Beschlüsse zu restriktiven Maßnahmen gegenüber Syrien sowie Schlussfolgerungen zur Zukunft des europäischen Tourismussektors. Der Rat hat darüber hinaus einen neuen EU-Rahmen für Wissenschaftsdiplomatie verabschiedet – ein Zeichen für den Anspruch, nicht nur wirtschaftlich, sondern auch in Forschung und Bildung außenpolitisch präsent zu sein. Insgesamt setzt die EU ihre Doppelstrategie fort: geopolitische Unterstützung für die Ukraine und interne institutionelle Konsolidierung. Ob diese Schritte ausreichen, um in einer multipolaren Weltordnung als handlungsfähiger Akteur zu gelten, bleibt eine offene Frage.",
+        "quellen": [
+          "EU-Rat: 2,8 Mrd. Euro Ukraine-Zahlung genehmigt, siebte Tranche",
+          "EU-Rat: Ernennung neuer EUAM-Leiterin für Ukraine"
+        ]
+      },
+      "weltwirtschaft": {
+        "titel": "Weltwirtschaft",
+        "analyse": "Die Weltwirtschaft zeigt zum Beginn des Junis 2026 ein differenziertes Bild: Robustes Wachstum auf globaler Ebene trifft auf strukturelle Schwäche in Europa, besonders in Deutschland. Der IWF hält seine Prognose von 3,1 Prozent globalem Wachstum aufrecht, während Deutschland mit 0,8 Prozent weit dahinter zurückbleibt. Ein bemerkenswerter Strukturwandel zeichnet sich ab: Statt des klassischen Konsumzyklus trägt zunehmend ein globaler Investitionsboom die Konjunktur – getrieben von Ausgaben für Künstliche Intelligenz, Infrastruktur, Energieversorgung und Verteidigung. Die Kapitalmärkte verzeichneten solide Gewinne, vor allem bei Technologiewerten, doch erscheinen die Bewertungen teils überhöht. Einkaufsmanagerindizes signalisieren weiterhin Expansion. Für die kommende Woche sind wichtige Konjunktur- und Unternehmensdaten angekündigt, die Aufschluss über die Stabilität des Wachstumspfads geben werden. Als Risikofaktoren bleiben die Iran-Krise mit ihren Auswirkungen auf Energiepreise sowie protektionistische Handelspolitiken im Blick. Für Deutschland gilt: Ohne Strukturreformen droht die schrittweise Entkopplung von der globalen Wachstumsdynamik.",
+        "quellen": [
+          "altii: Investitionsboom verändert die Konjunkturstruktur im Juni 2026",
+          "it-boltwise: Wochenvorschau bis 11. Juni 2026 – Konjunktur- und Unternehmens-Events"
+        ]
+      },
+      "internationale-politik": {
+        "titel": "Internationale Politik",
+        "analyse": "Die internationale Politik bleibt Anfang Juni 2026 von struktureller Unsicherheit geprägt. Im Nahen Osten hat US-Präsident Trump Milliardenhilfen seines Friedensrats für Gaza angekündigt, doch die zentrale Frage der Entwaffnung der Hamas bleibt ungeklärt – ein dauerhafter Frieden ist nicht in Sicht. Die USA unter Trump verfolgen weiter einen transaktionalen Kurs: erratische Friedensvermittlung, robuste Interventionen im amerikanischen Einflussbereich und strategische Deals um kritische Lieferketten. In der Ukraine-Frage überlässt Washington zunehmend Europa die Initiative – eine Verantwortung, die der Kontinent angesichts innenpolitischer Polarisierung und erstarkender populistischer Kräfte nur schwer schultern kann. Hinzu kommt eine wichtige institutionelle Weichenstellung: 2026 muss ein Nachfolger für UN-Generalsekretär António Guterres bestimmt werden, was Fragen zur zukünftigen Ausrichtung des multilateralen Systems aufwirft. Geopolitische Auseinandersetzungen rund um KI und Cybersicherheit führen zu weiterer Marktzersplitterung. Der Ausblick: Europa steht unter Druck, eigenständige strategische Handlungsfähigkeit zu entwickeln – die transatlantische Verlässlichkeit kann nicht länger als selbstverständlich gelten.",
+        "quellen": [
+          "Berliner Zeitung: Globale Ordnung der permanenten Unsicherheit 2026",
+          "EY Geostrategic Outlook 2026: Die zehn wichtigsten geopolitischen Entwicklungen"
+        ]
+      }
+    }
+  },
+  {
     "datum": "2026-05-29",
     "datumFormatiert": "Freitag, 29. Mai 2026",
     "eintraege": {
