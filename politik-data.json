@@ -1,5 +1,47 @@
 [
   {
+    "datum": "2026-06-02",
+    "datumFormatiert": "Dienstag, 2. Juni 2026",
+    "eintraege": {
+      "deutsche-innenpolitik": {
+        "titel": "Deutsche Innenpolitik",
+        "analyse": "Im Mittelpunkt der deutschen Innenpolitik steht weiterhin die Steuerreform, die zum zentralen Belastungstest der großen Koalition aus CDU/CSU und SPD wird. Bundesfinanzminister Lars Klingbeil (SPD) drängt auf eine stärkere Belastung sehr hoher Einkommen zur Gegenfinanzierung von Entlastungen für kleine und mittlere Einkommen, während die Union diesen Kurs strikt ablehnt. Der Dissens gefährdet die Handlungsfähigkeit der Regierung und könnte den Koalitionsfrieden weiter belasten. Auf gesetzlicher Ebene treten im Juni mehrere Neuregelungen in Kraft: Ab dem 12. Juni werden Asylverfahren europaweit nach den neuen GEAS-Regeln beschleunigt und vereinheitlicht, was Kommunen entlasten soll. Ab dem 19. Juni müssen Online-Dienste eine einfach zugängliche Ein-Klick-Kündigungsschaltfläche anbieten. Darüber hinaus hat Wolfgang Kubicki auf dem FDP-Parteitag die Parteivorsitzende Marie-Agnes Strack-Zimmermann abgelöst – ein Signal für eine Neuausrichtung der Liberalen nach dem Ampel-Ende. Insgesamt zeigt sich die Koalition zwar stabil, aber in zentralen Sachfragen tief gespalten. Die kommenden Wochen werden zeigen, ob Kompromisse gelingen.",
+        "quellen": [
+          "Steuerreform wird zum Streitfall der Koalition (MS Aktuell)",
+          "Gesetzliche Neuregelungen Juni 2026 – Bundesregierung",
+          "Kubicki neuer FDP-Vorsitzender"
+        ]
+      },
+      "europaeische-politik": {
+        "titel": "Europäische Politik",
+        "analyse": "Die Europäische Union steht im Juni 2026 vor einer Reihe sicherheitspolitischer und institutioneller Herausforderungen. Besondere Aufmerksamkeit erregt ein Vorfall vom 29. Mai, bei dem eine russische Drohne in ein Wohngebäude in Galați, Rumänien, abstürzte – ein gefährlicher Übergriff auf EU-Territorium, den Brüssel scharf verurteilte. Auf dem EU-Westbalkan-Gipfel bekräftigte EU-Ratspräsident Costa das europäische Engagement für die Integration der Westbalkanstaaten, darunter Bosnien-Herzegowina. Am 2. Juni tagte der Rat für Justiz und Inneres; im Mittelpunkt standen Migrationsfragen und das neue Gemeinsame Europäische Asylsystem, das ab Mitte Juni europaweit gilt. Außerdem startete die Europäische Kommission eine Konsultation zum neuen Aktionsplan für die Europäische Säule sozialer Rechte. Der Rat verabschiedete zudem einen Rahmen für EU-Wissenschaftsdiplomatie. Strukturell bleibt die EU gefordert, zwischen innerer Solidarität und äußerer Sicherheit zu balancieren – besonders mit Blick auf die anhaltende Bedrohungslage durch Russland und die geopolitische Neuausrichtung der USA.",
+        "quellen": [
+          "EU verurteilt Drohnenangriff auf Rumänien (Consilium Europa)",
+          "EU-Westbalkan-Gipfel in Sarajevo, 1. Juni 2026",
+          "Rat für Justiz und Inneres, 2. Juni 2026"
+        ]
+      },
+      "weltwirtschaft": {
+        "titel": "Weltwirtschaft",
+        "analyse": "Die Weltwirtschaft zeigt im Juni 2026 ein zwiespältiges Bild: Einerseits signalisieren Frühindikatoren wie Einkaufsmanagerindizes und stabile Arbeitsmarktdaten eine kurzfristige Expansion; andererseits hat der IWF seine globale Wachstumsprognose für 2026 auf 3,1 Prozent leicht nach unten revidiert. Besonders auffällig ist ein struktureller Wandel: Nicht mehr der private Konsum, sondern Investitionen treiben das Wachstum – vor allem in den Bereichen künstliche Intelligenz, Infrastruktur, Energie und Verteidigung. Deutschland profitiert davon nur begrenzt; das IMK prognostiziert für 2026 ein Wachstum von lediglich 1,2 Prozent nach einer Stagnation im Vorjahr. Aktienmärkte haben solide Gewinne verzeichnet, wirken aber in Teilen überbewertet. Geopolitische Risiken – insbesondere die anhaltenden Konflikte im Nahen Osten und der Ukraine – belasten die Energiemärkte und Lieferketten. Auf der Positivseite preisen Märkte zunehmend ein mögliches US-iranisches Abkommen ein. Ausblick: Die Konjunkturerholung bleibt fragil und abhängig von geopolitischen Entwicklungen; Zentralbanken stehen vor dem Dilemma zwischen Inflationskontrolle und Wachstumsunterstützung.",
+        "quellen": [
+          "IWF: Globales Wachstum 3,1% für 2026 (Statista/BMWE)",
+          "IMK prognostiziert 1,2% Wachstum für Deutschland (Hans-Böckler-Stiftung)",
+          "Investitionsboom verändert Konjunkturstruktur (altii, Juni 2026)"
+        ]
+      },
+      "internationale-politik": {
+        "titel": "Internationale Politik",
+        "analyse": "Die internationale Bühne im Juni 2026 ist geprägt von zunehmender Fragmentierung und dem schwindenden Vertrauen in die USA als globalen Stabilitätsgaranten. Trumps außenpolitischer Transaktionalismus zeitigt gemischte Ergebnisse: Im Nahen Osten nähern sich die USA und der Iran einem möglichen Abkommen an, das an den Märkten bereits eingepreist wird. Gleichzeitig hat Washington Sanktionen gegen ICC-Beamte verhängt, die zu israelischen Handlungen in Gaza ermitteln – ein Schritt, der international scharf kritisiert wird. Im Ukraine-Konflikt hat Trump seine Hilfsversprechen zurückgefahren und signalisiert, die Zukunft der Ukraine zunehmend Europa zu überlassen. Ex-Stabschefs und Militärexperten warnen vor einem faktischen Rückzug der USA aus der NATO-Verpflichtung. Die Hisbollah-Israel-Front gilt nach zwischenzeitlicher Waffenruhe als erneut instabil. 2026 steht auch die Nachfolge von UN-Generalsekretär António Guterres an. Insgesamt verfestigt sich ein Bild globaler Unordnung: Statt multilateraler Regelordnung dominieren bilaterale Deals und nationale Interessenpolitik – mit erheblichen Risiken für die internationale Stabilität.",
+        "quellen": [
+          "Iran, Ukraine, Gaza: Gehen Trump die Verbündeten aus? (ZDF heute)",
+          "Trumps Ukraine-Hilfsstopp untergräbt Kriegsverbrecherverfolgung (News Tribune)",
+          "Neue Weltordnung 2026: Permanente Unsicherheit (Berliner Zeitung)"
+        ]
+      }
+    }
+  },
+  {
     "datum": "2026-06-01",
     "datumFormatiert": "Montag, 1. Juni 2026",
     "eintraege": {
