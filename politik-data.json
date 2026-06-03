@@ -1,5 +1,47 @@
 [
   {
+    "datum": "2026-06-03",
+    "datumFormatiert": "Mittwoch, 03. Juni 2026",
+    "eintraege": {
+      "deutsche-innenpolitik": {
+        "titel": "Deutsche Innenpolitik",
+        "analyse": "Die schwarz-rote Koalition aus CDU/CSU und SPD befindet sich gut ein Jahr nach Regierungsbeginn in einer Phase intensiver Reformverhandlungen. Bundeskanzler Friedrich Merz (CDU) und die SPD-Führung streiten insbesondere um das Kernprojekt von Finanzminister Lars Klingbeil: eine umfassende Einkommensteuerreform. Merz betont, die Union müsse in der Koalition sichtbarer werden und eigene politische Handschriften hinterlassen – was bislang nicht ausreichend gelungen sei. Die öffentliche Stimmung ist für die Regierung herausfordernd: Laut aktuellen Umfragen bewerten 71 Prozent der Bevölkerung die Arbeit der Koalition als eher schlecht, nur 25 Prozent zeigen sich zufrieden. In der Sonntagsfrage liegen CDU/CSU bei 23 Prozent, während die Grünen mit 23 Prozent gleichauf liegen und die AfD mit 19 Prozent auf Platz zwei folgt. Die Regierung plant, bis zum Sommer Reformen in den Bereichen Steuern, Arbeitsmarkt und Rente vorzulegen. Gelingt dies nicht, dürfte der Koalitionsdruck weiter wachsen.",
+        "quellen": [
+          "Union und SPD ringen um Reformkurs – WirtschaftsWoche",
+          "Politbarometer: Regierung bei Rekordtief – Forschungsgruppe Wahlen",
+          "Koalitionsvertrag CDU/CSU/SPD: Schwerpunkte – Bundesregierung"
+        ]
+      },
+      "europaeische-politik": {
+        "titel": "Europäische Politik",
+        "analyse": "Auf EU-Ebene verdichten sich am 3. Juni 2026 die politischen Aktivitäten: Das Kollegium der Kommissare tagt regulär und berät unter anderem den Entwurf des EU-Haushalts für 2027 sowie ein Maßnahmenpaket für Insel- und Küstengemeinden. Parallel läuft die EU Green Week (3.–4. Juni), die Umweltschutz und Klimapolitik in den Fokus rückt. Am Folgetag kommt der Rat für Justiz und Inneres zusammen, um über Migration, die Außendimension der Asylpolitik und den Schengen-Raum zu beraten – Themen, die in mehreren Mitgliedstaaten innenpolitische Sprengkraft besitzen. Im transatlantischen Verhältnis zeichnet sich eine moderate Entspannung ab: Die EU und die USA haben erste Hürden zur Beilegung ihres anhaltenden Handelskonflikts überwunden, nachdem sich beide Seiten gegenseitig mit Strafzöllen überzogen hatten. Die weitere Entwicklung hängt von konkreten Verhandlungsergebnissen ab. Insgesamt agiert die EU derzeit zwischen Haushaltsdisziplin, Migrationsmanagement und Handelspolitik.",
+        "quellen": [
+          "EU-Terminvorschau 3.–4. Juni 2026 – EU-Kommission",
+          "EU und USA: Erste Schritte zur Handelsentspannung – Handelsblatt",
+          "EU Green Week 2026 – Europäische Kommission"
+        ]
+      },
+      "weltwirtschaft": {
+        "titel": "Weltwirtschaft",
+        "analyse": "Die globale Konjunktur zeigt sich im Juni 2026 von ihrer widerstandsfähigen Seite: Der IWF prognostiziert für das Jahr ein weltweites Wachstum von 3,1 Prozent, gestützt durch robuste Frühindikatoren, stabile Arbeitsmärkte und solides Konsumverhalten. Ein markanter struktureller Trend ist der weltweite Investitionsboom in Künstliche Intelligenz, Infrastruktur, Energieversorgung und Verteidigung, der die Konjunkturstruktur nachhaltig verändert. Die Aktienmärkte verzeichnen solide Gewinne, vor allem getragen durch Technologietitel – doch mahnen Analysten angesichts teils überhöhter Bewertungen zur Vorsicht vor möglichen Korrekturen. Deutschland bleibt strukturell unter Druck: Der IWF erwartet lediglich 0,8 Prozent Wachstum, während das IMK optimistischer mit 1,2 Prozent rechnet. Geopolitische Unsicherheiten, hohe Energiepreise und die Abhängigkeit von Exportmärkten belasten die deutsche Konjunkturperspektive. Als Ausblick gilt: Solange Handelskonflikte nicht eskalieren und die Zentralbanken behutsam agieren, bleibt das globale Wachstum moderat positiv.",
+        "quellen": [
+          "Weltwirtschaft: Investitionsboom verändert Konjunkturstruktur – altii/Juni 2026",
+          "IMK prognostiziert 1,2% Wachstum für 2026 – Hans-Böckler-Stiftung",
+          "Wochenvorschau Konjunktur bis 11. Juni 2026 – IT-Boltwise"
+        ]
+      },
+      "internationale-politik": {
+        "titel": "Internationale Politik",
+        "analyse": "Die internationale Politik des Jahres 2026 ist geprägt von struktureller Unsicherheit als neuem Normalzustand. Die Trump-Administration setzt auf transaktionalen Ansatz: erratische Friedensinitiativen weltweit, gepaart mit robusten Interventionen im amerikanischen Einflussbereich und opportunistischen Deals um kritische Lieferketten. Im Nahen Osten bleibt die Lage volatil: Trump hat Milliardenhilfen für den Wiederaufbau Gazas angekündigt, doch die Frage der Hamas-Entwaffnung ist ungelöst. An der israelisch-libanesischen Grenze flammt die Spannung zwischen Israel und Hisbollah erneut auf; eine fragile Waffenruhe soll verlängert werden. In Europa steht die Ukraine-Frage weiterhin im Zentrum: Angesichts Putins Unnachgiebigkeit droht Washington, die Verantwortung für die Ukraine schrittweise Europa zu übertragen. Europäische Regierungen stehen damit vor der Herausforderung, sicherheitspolitische Verantwortung zu übernehmen, ohne dass dafür einheitliche Strukturen bestehen. Der Ausblick bleibt düster: Machtverschiebungen und innenpolitische Polarisierungen in Schlüsselstaaten destabilisieren die globale Ordnung weiter.",
+        "quellen": [
+          "2026: Das Jahr, in dem die neue Weltordnung sichtbar wird – Markt und Mittelstand",
+          "Geopolitik: Macht- und Wirtschaftsstrukturen im Umbruch – LBBW",
+          "Zehn wichtigste geopolitische Entwicklungen 2026 – EY Deutschland"
+        ]
+      }
+    }
+  },
+  {
     "datum": "2026-06-02",
     "datumFormatiert": "Dienstag, 2. Juni 2026",
     "eintraege": {
