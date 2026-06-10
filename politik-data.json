@@ -1,5 +1,43 @@
 [
   {
+    "datum": "2026-06-10",
+    "datumFormatiert": "Mittwoch, 10. Juni 2026",
+    "eintraege": {
+      "deutsche-innenpolitik": {
+        "titel": "Deutsche Innenpolitik",
+        "analyse": "Bundeskanzler Friedrich Merz bekräftigte dieser Tage das Reformprogramm der schwarz-roten Koalition. Trotz interner Spannungen zwischen CDU/CSU und SPD versicherte Merz, die Koalition habe die nötige Geschlossenheit, um die geplanten Sozialreformen zu beschließen – darunter eine umfassende Rentenreform, bei der er explizit Kürzungen ausschloss. Verteidigungsminister Boris Pistorius (SPD) führt die Beliebtheitsskala der Ministerinnen und Minister mit 28 Prozent Zufriedenheitswerten an, gefolgt von Innenminister Alexander Dobrindt (CSU) und Außenminister Johann Wadephul (CDU). Die Bundesregierung steht vor der Herausforderung, angesichts anhaltend schwacher Konjunktur sowohl Investitionen zu erhöhen als auch die Schuldenbremse mittelfristig zu konsolidieren. Die Fraktionen des Bundestages ziehen dieser Tage Bilanz des ersten Regierungsjahres der Koalition – ein Moment der Standortbestimmung, bei dem die Opposition grundlegende Kursänderungen einfordert. Im Fokus bleibt zudem die Migrationspolitik, bei der die Regierung auf verschärfte Grenzkontrollen und schnellere Abschiebeverfahren setzt.",
+        "quellen": [
+          "ZDF: Merz – Koalition hat Kraft für Reformen",
+          "Bundestag: Fraktionen ziehen Bilanz des ersten Regierungsjahres"
+        ]
+      },
+      "europaeische-politik": {
+        "titel": "Europäische Politik",
+        "analyse": "Die Europäische Union steht diese Woche im Zeichen des EU-Südkorea-Gipfels: Am 10. Juni trafen sich EU-Ratspärsident António Costa und Kommissionspräsidentin Ursula von der Leyen in Brüssel mit der südkoreanischen Regierung, um die strategische Partnerschaft in Handel, Technologie und Sicherheit auszubauen. Parallel arbeitet der EU-Rat an den Vorbereitungen für den Juni-Europäischen Rat, bei dem die Themen Ukraine, Nahost, Migration und der neue Mehrjährige Finanzrahmen (MFF) 2028–2034 auf der Agenda stehen. Zum MFF diskutieren die Mitgliedstaaten über den Verhandlungsrahmen mit dem Ziel, Teileinigungen zu zentralen Finanzierungssäulen zu erzielen. Darüber hinaus wird der Rat seine Position zum Carbon Border Adjustment Mechanism (CBAM) festigen, bevor Verhandlungen mit dem Europäischen Parlament beginnen. Die EU-Außenpolitik steht unter erheblichem Druck durch den anhaltenden Krieg in der Ukraine und die Eskalation im Nahen Osten.",
+        "quellen": [
+          "EU-Rat: Ausblick 8.–21. Juni 2026",
+          "EU-Kommission: 11. EU-Südkorea-Gipfel in Brüssel"
+        ]
+      },
+      "weltwirtschaft": {
+        "titel": "Weltwirtschaft",
+        "analyse": "Die globale Konjunktur zeigt sich im Juni 2026 widerstandsfähig, steht jedoch unter mehrfachem Druck. Die OECD senkte ihre Wachstumsprognose leicht auf 2,8 Prozent – bedingt durch die Folgen des Nahostkonflikts und steigende Energiepreise. Der IWF prognostiziert für 2026 ein Wachstum von 3,1 Prozent, 0,2 Prozentpunkte unter der Januar-Prognose. Als zentrales Risiko gilt die Sperrung der Straße von Hormus, die laut IEA eine der schwersten Energiekrisen der jüngeren Geschichte ausgelöst hat und die Preise für Energie, Düngemittel und Agrargüter nach oben treibt. Der DAX startet den Juni ohne Schwung – Anleger verharren in Wartestllung bis zur Veröffentlichung neuer Einkaufsmanagerindizes und Arbeitsmarktdaten. Ein struktureller Wandel zeichnet sich ab: Statt klassischem Konsum tragen expansive Fiskalprogramme und hohe Unternehmensinvestitionen die Konjunktur. Das IMK prognostiziert für Deutschland 1,2 Prozent Wachstum 2026, nach faktischer Stagnation im Vorjahr.",
+        "quellen": [
+          "InvestmentWeek: DAX Juni 2026 – Konjunktur und Iran-Krieg bremsen Kurse",
+          "Hans-Böckler-Stiftung: IMK prognostiziert 1,2 Prozent Wachstum für 2026"
+        ]
+      },
+      "internationale-politik": {
+        "titel": "Internationale Politik",
+        "analyse": "Die internationale Lage bleibt im Juni 2026 von mehreren Krisenherden gleichzeitig geprägt. Im Nahen Osten unterzeichneten Israel und der Libanon Anfang Juni einen Waffenstillstandsrahmen – den die Hisbollah jedoch umgehend ablehnte, was eine Deeskalation vorerst verhindert. Dramatisch eskalierte die Lage am 3. Juni, als eine iranische Drohne Terminal 1 des Flughafens Kuwait City traf und einen Toten sowie 63 Verletzte forderte, was die regionale Spannung erheblich steigerte. Im Ukraine-Krieg führte die Ukraine Fernschläge gegen St. Petersburg und Kronstadt durch – ein Ölterminal brannte beim Internationalen Wirtschaftsforum. Die ukrainische Luftverteidigung kämpft mit wachsendem Mangel an Patriot-Abfangkapazitäten gegenüber russischen ballistischen Raketen. Für 2026 charakterisieren Analysten die internationale Ordnung als institutionalisierte Unsicherheit – eine Weltordnung ohne klaren Hegemon, in der multiple Konflikte gleichzeitig schwelen und multilaterale Lösungsansätze an Grenzen stoßen.",
+        "quellen": [
+          "Apolut: Hollisters Geopolitik-Radar 1.–7. Juni 2026",
+          "Berliner Zeitung: Blick ins Jahr 2026 – Globale Ordnung der permanenten Unsicherheit"
+        ]
+      }
+    }
+  },
+  {
     "datum": "2026-06-03",
     "datumFormatiert": "Mittwoch, 03. Juni 2026",
     "eintraege": {
