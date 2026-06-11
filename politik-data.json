@@ -1,5 +1,43 @@
 [
   {
+    "datum": "2026-06-11",
+    "datumFormatiert": "Donnerstag, 11. Juni 2026",
+    "eintraege": {
+      "deutsche-innenpolitik": {
+        "titel": "Deutsche Innenpolitik",
+        "analyse": "Die Stimmungslage für die schwarz-rote Koalition bleibt angespannt: Im aktuellen Trendbarometer fällt die SPD auf 11 Prozent – den niedrigsten Wert seit 2019. Gleichzeitig gerät das geplante Sparpaket bei den Gesundheitsausgaben bereits vor seiner Verabschiedung unter Druck, da zahlreiche Akteure aus Verbänden und Koalitionsfraktionen Ausnahmen und Korrekturen fordern. Die Bundesregierung setzt aktuell auf ein Treffen mit Wirtschaft und Gewerkschaften, von dem sie ein Reformsignal erwartet – ein Versuch, angesichts schwacher Konjunktur und sinkender Zustimmungswerte Handlungsfähigkeit zu demonstrieren. Sozialpolitisch alarmierend ist eine neue Erhebung, wonach inzwischen mehr als 13 Millionen Menschen beziehungsweise rund 16 Prozent der Bevölkerung als armutsgefährdet gelten – der höchste Stand seit 2020. Innerhalb der AfD sorgen unterdessen Äußerungen des Thüringer Landeschefs Björn Höcke, der Westdeutsche pauschal als „deutsch sprechende Amerikaner“ bezeichnete, für deutlichen internen Widerspruch bis in die Parteispitze. Für die Koalition bleibt der Spagat zwischen Sparzwang, Reformversprechen und wachsender sozialer Schieflage die zentrale Herausforderung der kommenden Wochen.",
+        "quellen": [
+          "Tagesspiegel: Politik-News aus Deutschland und der Welt",
+          "ZDFheute: Aktuelle Politik News aus Deutschland"
+        ]
+      },
+      "europaeische-politik": {
+        "titel": "Europäische Politik",
+        "analyse": "Die europäische Politik bewegt sich diese Woche zwischen sicherheitspolitischer Zukunftsdebatte und wirtschaftlicher Standortpolitik. Beim Berliner EuropaDialog diskutieren Fachleute, wie Künstliche Intelligenz die Arbeit von Polizei- und Sicherheitsbehörden verändert und welche europäischen Leitlinien für einen verantwortungsvollen Einsatz nötig sind – ein Thema mit wachsender Relevanz angesichts zunehmender hybrider Bedrohungen. Wirtschaftspolitisch hat die Europäische Kommission erstmals maßgeschneiderte Strategien für EU-Inseln und Küstengemeinden vorgelegt, um deren wirtschaftliches Potenzial gezielter zu erschließen, und eine neue Plattform gestartet, die Start-ups und Innovatoren leichter mit Förderprogrammen und Dienstleistungen verbinden soll. Im Hintergrund wirken die Ergebnisse des EU-Südkorea-Gipfels nach, bei dem von der Leyen und Costa die strategische Partnerschaft in Handel, Technologie und Sicherheit vertieft haben. Zugleich laufen die Vorbereitungen für den nächsten Europäischen Rat, auf dessen Agenda Ukraine, Naher Osten, der künftige Mehrjährige Finanzrahmen sowie Migration und europäische Verteidigungsfähigkeit stehen. Die EU versucht damit, kurzfristige Krisenreaktion mit langfristiger Strukturpolitik zu verbinden.",
+        "quellen": [
+          "Consilium: Ausblick 8.–21. Juni 2026",
+          "Vertretung der EU-Kommission in Deutschland: EU-Nachrichten"
+        ]
+      },
+      "weltwirtschaft": {
+        "titel": "Weltwirtschaft",
+        "analyse": "Der Internationale Währungsfonds hat seine Wachstumsprognose für die Weltwirtschaft 2026 auf 3,1 Prozent gesenkt – 0,2 Prozentpunkte weniger als im Januar. Als Hauptgründe nennt der IWF steigende Energiepreise, zunehmende Unsicherheit und mögliche Verwerfungen an den Finanzmärkten; der Krieg um Iran wird explizit als spürbarer Schock für die globale Konjunktur eingestuft. Auch für Deutschland fällt die Prognose schwächer aus: Statt 1,1 Prozent erwartet der IWF nun nur noch 0,8 Prozent Wachstum, obwohl erste Anzeichen einer konjunkturellen Belebung sichtbar werden. An den Finanzmärkten spiegelt sich die Verunsicherung wider: Der DAX startet ohne klare Richtung in den Juni, belastet von Konjunktursorgen und dem Iran-Konflikt. Hinzu kommt Inflationsdruck in der Eurozone, wo die Teuerung im Mai auf 3,2 Prozent gestiegen ist und damit deutlich über dem Zwei-Prozent-Ziel der EZB liegt. Eine weitere Leitzinserhöhung um 0,25 Prozentpunkte gilt bei der nächsten EZB-Sitzung als nahezu sicher – ein Balanceakt zwischen Inflationsbekämpfung und der Gefahr, die ohnehin fragile Konjunkturerholung abzuwürgen.",
+        "quellen": [
+          "Investmentweek: DAX Juni 2026 – Konjunktur und Iran-Krieg bremsen Kurse",
+          "DIW Berlin: Deutsche Wirtschaft im Aufschwung – Weltwirtschaft wächst moderat weiter"
+        ]
+      },
+      "internationale-politik": {
+        "titel": "Internationale Politik",
+        "analyse": "Im Zentrum der internationalen Agenda steht heute der G7-Gipfel im französischen Évian-les-Bains unter dem Leitmotiv „Rebalancing the Global Economy“ – ein Versuch der führenden Industrienationen, angesichts geopolitischer Verwerfungen gemeinsame wirtschaftspolitische Antworten zu finden. Überschattet wird das Treffen vom andauernden Iran-Konflikt, der nicht nur die Energiemärkte belastet, sondern auch als Symptom einer tieferliegenden Neuordnung gilt: Analysten beschreiben 2026 zunehmend als Jahr, in dem geopolitische Unsicherheit zur dauerhaften Normalität wird, statt – wie zeitweise erhofft – in eine neue Stabilität überzugehen. Die US-Außenpolitik unter Präsident Trump bewegt sich dabei zwischen erratischer Vermittlung in Konflikten, robusten Eingriffen in der eigenen Hemisphäre und opportunistischen Abkommen rund um kritische Lieferketten. Für die Ukraine bedeutet diese Linie, dass Washington die langfristige Verantwortung zunehmend Europa überlässt – einem Europa, das durch den Aufstieg populistischer Kräfte selbst innenpolitisch gefordert ist. Der Nahost-Waffenstillstand in Gaza bleibt als fragiler, aber realer Fortschritt bestehen, dessen Nachhaltigkeit weiterhin unsicher ist.",
+        "quellen": [
+          "Aktien.news: Geopolitik und Konjunktur – Globale Märkte unter Druck im Juni 2026",
+          "Berliner Zeitung: Blick ins Jahr 2026 – Eine globale Ordnung der permanenten Unsicherheit"
+        ]
+      }
+    }
+  },
+  {
     "datum": "2026-06-10",
     "datumFormatiert": "Mittwoch, 10. Juni 2026",
     "eintraege": {
