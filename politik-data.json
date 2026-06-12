@@ -1,5 +1,43 @@
 [
   {
+    "datum": "2026-06-12",
+    "datumFormatiert": "Freitag, 12. Juni 2026",
+    "eintraege": {
+      "deutsche-innenpolitik": {
+        "titel": "Deutsche Innenpolitik",
+        "analyse": "Die Bundesregierung steht vor dem Auslaufen des Tankrabatts Ende Juni, was die sozialpolitische Debatte neu entfacht: SPD-Chefin Bärbel Bas stellt für den Fall anhaltend hoher Belastungen weitere Entlastungsmaßnahmen in Aussicht – ein Signal, dass die Koalition angesichts wachsender sozialer Spannungen unter Druck steht, konkrete Antworten zu liefern. Gleichzeitig sorgte ein Bürgerdialog in Salzwedel für Aufsehen, bei dem eine Hautkrebspatientin den Kanzler mit ihrer prekären Lage konfrontierte und dieser ungewohnt scharf reagierte – ein Vorfall, der exemplarisch die Distanz zwischen Regierungskommunikation und Lebensrealität vieler Bürger zeigt. Sicherheitspolitisch übt die neu aufgestellte Panzerbrigade 45 erstmals auf litauischem Boden das Gefecht unter realitätsnahen Bedingungen, wie sie aus der Ukraine bekannt sind – ein deutliches Zeichen der verstärkten Nato-Präsenz an der Ostflanke. Innenpolitisch brisant bleibt zudem, dass eine umstrittene Konferenz mit AfD-Politikern und dem Rechtsextremisten Sellner in Potsdam ohne strafrechtliche Konsequenzen blieb, was die Debatte um den Umgang mit rechtsextremen Netzwerken neu befeuern dürfte. Die kommenden Wochen werden zeigen, ob die Koalition soziale Entlastung und Haushaltsdisziplin in Einklang bringen kann.",
+        "quellen": [
+          "Tagesspiegel: Politik-News aus Deutschland und der Welt",
+          "ZDFheute: Aktuelle Politik News aus Deutschland"
+        ]
+      },
+      "europaeische-politik": {
+        "titel": "Europäische Politik",
+        "analyse": "Die europäische Migrationspolitik erreicht einen Wendepunkt: Die reformierte Gemeinsame Europäische Asylsystem (GEAS) ist in Kraft getreten und bringt schnellere Asylverfahren sowie konsequentere Abschiebungen mit sich. Flankiert wird dies durch eine vorläufige Einigung auf eine neue „Returns Regulation“, die Rückführungszentren außerhalb der EU ermöglichen und die Ausweisung abgelehnter Asylbewerber beschleunigen soll – ein Kurswechsel, der die wachsende politische Mehrheit für eine restriktivere Migrationspolitik in vielen Mitgliedstaaten widerspiegelt, zugleich aber menschenrechtliche Fragen aufwirft, die in den kommenden Monaten juristisch wie politisch umstritten bleiben dürften. In Deutschland sorgt der angekündigte Verzicht der Abgeordneten auf eine Diätenerhöhung angesichts der schwierigen Haushaltslage für ein seltenes parteiübergreifendes Signal der Sparsamkeit. Wirtschaftspolitisch zeigt die hohe Nachfrage nach dem neuen Förderprogramm für Elektroautos – über 50.000 Anträge in drei Wochen – dass staatliche Anreize weiterhin wirken. In Großbritannien wechselt mit Dan Jarvis als Nachfolger von John Healey die Führung des Verteidigungsministeriums, was angesichts der sicherheitspolitischen Lage in Europa Kontinuität signalisieren soll.",
+        "quellen": [
+          "Rat der Europäischen Union: Ausblick 8.–21. Juni 2026",
+          "Vertretung der EU-Kommission in Deutschland"
+        ]
+      },
+      "weltwirtschaft": {
+        "titel": "Weltwirtschaft",
+        "analyse": "Die Weltbank hat ihre Wachstumsprognose für 2026 auf 2,5 Prozent gesenkt – das schwächste globale Wachstum seit Beginn der Corona-Pandemie. Hauptursache ist der Krieg um den Iran, der den Schiffsverkehr und Rohstoffhandel durch die Straße von Hormus nahezu zum Stillstand gebracht hat und damit Energiepreise sowie Inflation – die Weltbank erwartet rund 4,0 Prozent – deutlich nach oben treibt. Auch der Internationale Währungsfonds hatte bereits im April seine Prognose auf 3,1 Prozent zurückgenommen, was die wachsende Diskrepanz zwischen institutionellen Einschätzungen und der tatsächlichen wirtschaftlichen Dynamik verdeutlicht. Besonders hart trifft die Entwicklung einkommensschwache Länder: Bis Ende 2026 dürfte ein Viertel der Entwicklungsländer ärmer sein als vor der Pandemie, bei fragilen und konfliktbetroffenen Staaten sogar rund die Hälfte. Diese Zahlen unterstreichen, wie stark geopolitische Krisen mittlerweile globale Wachstumspfade prägen, weit über die unmittelbar betroffenen Regionen hinaus. Für die kommenden Monate dürfte die Entwicklung der Energiepreise und eine mögliche Deeskalation am Golf entscheidend dafür sein, ob sich die Konjunkturaussichten stabilisieren oder weiter eintrüben.",
+        "quellen": [
+          "Handelsblatt: Weltbank-Konjunkturbericht",
+          "Sachverständigenrat Wirtschaft: Jahresgutachten 2025/26"
+        ]
+      },
+      "internationale-politik": {
+        "titel": "Internationale Politik",
+        "analyse": "Geopolitische Analysten beschreiben 2026 zunehmend als ein Jahr, in dem Unsicherheit nicht mehr Ausnahme, sondern Normalzustand der internationalen Ordnung wird. Prägend bleibt der transaktionale Politikstil der Trump-Administration, der sich in einer eigentümlichen Mischung aus erratischer Friedensvermittlung, robusten Interventionen in der westlichen Hemisphäre und opportunistischen Abkommen rund um kritische Lieferketten zeigt. Im Nahen Osten hat Trump milliardenschwere Hilfen über einen umstrittenen Friedensrat für Gaza angekündigt, doch die zentrale Frage der Entwaffnung der Hamas bleibt weiterhin ungeklärt – ein Hinweis darauf, dass kurzfristige Stabilisierungsmaßnahmen die strukturellen Konflikte nicht lösen. Der andauernde Krieg um den Iran wirkt inzwischen weit über die Region hinaus, wie die gesenkte Gewinnprognose des Reisekonzerns TUI infolge ausbleibender Buchungen zeigt. Für Europa verschärfen sich dadurch gleich zwei Herausforderungen: die sicherheitspolitische Abhängigkeit von einer unberechenbaren US-Außenpolitik und der wirtschaftliche Wettbewerbsdruck durch geopolitisch bedingte Marktzersplitterung, insbesondere im Technologie- und KI-Sektor. Eine Entspannung ist kurzfristig nicht in Sicht.",
+        "quellen": [
+          "Berliner Zeitung: Geopolitik-Ausblick 2026",
+          "EY Geostrategic Outlook 2026"
+        ]
+      }
+    }
+  },
+  {
     "datum": "2026-06-11",
     "datumFormatiert": "Donnerstag, 11. Juni 2026",
     "eintraege": {
