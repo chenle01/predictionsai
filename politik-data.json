@@ -1,5 +1,43 @@
 [
   {
+    "datum": "2026-06-15",
+    "datumFormatiert": "Montag, 15. Juni 2026",
+    "eintraege": {
+      "deutsche-innenpolitik": {
+        "titel": "Deutsche Innenpolitik",
+        "analyse": "Die Bundesregierung unter Kanzler Merz bereitet ein umfassendes Reformpaket vor, das vor der Sommerpause verabschiedet werden soll und Einkommensteuer, Arbeitsmarkt, Rentenpolitik und Bürokratieabbau umfasst. Im Koalitionsausschuss, der am 30. Juni erneut tagt, treffen CDU/CSU und SPD auf wachsenden Druck: Umfragen zeigen sinkendes Vertrauen in die Regierungsarbeit, während sich die wirtschaftliche Lage weiter eintrübt. Zusätzlich stehen bereits ausgearbeitete Reformen der gesetzlichen Kranken- und Pflegeversicherung zur Verabschiedung in Bundestag und Bundesrat an – ein Lackmustest für die Handlungsfähigkeit der Koalition. Merz selbst betonte in einer Regierungserklärung die Notwendigkeit, gemeinsam mit Arbeitgebern und Gewerkschaften Wachstumsimpulse zu setzen. Parallel veröffentlichte die Bundesstiftung Baukultur ihren Bericht 2026/27, der von der Regierung positiv aufgenommen wurde. Die kommenden zwei Wochen bis zum Koalitionsgipfel dürften zeigen, ob es gelingt, die divergierenden Interessen der Koalitionspartner – insbesondere bei der Finanzierung der Reformen – auf einen gemeinsamen Nenner zu bringen, oder ob die Reformdebatte die Koalition weiter belastet.",
+        "quellen": [
+          "Handelsblatt: Bundesregierung – Der Zeitplan steht, Merz schwört auf Reformen ein",
+          "ZDFheute: Merz – Regierungserklärung im Bundestag zu Reformen"
+        ]
+      },
+      "europaeische-politik": {
+        "titel": "Europäische Politik",
+        "analyse": "Im Zentrum der europäischen Agenda steht in dieser Woche der G7-Gipfel in Évian, Frankreich (15.–17. Juni), bei dem die EU durch Ratspräsident António Costa und Kommissionspräsidentin Ursula von der Leyen vertreten wird. Angesichts globaler Handelsspannungen und der eskalierenden Lage im Nahen Osten wollen die Staats- und Regierungschefs ein Signal für multilaterale Zusammenarbeit setzen – ein Anspruch, der angesichts wachsender geopolitischer Fragmentierung zunehmend schwerer einzulösen ist. Parallel tagt der Assoziationsrat EU-Ägypten, der die Beziehungen zu einem für die Migrationspolitik zentralen Partnerland vertieft. In Brüssel eröffnete von der Leyen zudem das New European Bauhaus Festival, das die Verbindung von Nachhaltigkeit, Design und sozialem Zusammenhalt in der EU-Politik symbolisieren soll. Für die kommenden zwei Wochen kündigt der Rat ein dichtes Programm an, das von Migrationsfragen bis zu wirtschaftlicher Wettbewerbsfähigkeit reicht. Die zentrale Frage bleibt, ob die EU angesichts des Iran-Israel-Konflikts und der Unsicherheit über die transatlantischen Beziehungen zu einer einheitlichen Position findet.",
+        "quellen": [
+          "Consilium: Ausblick 15.–28. Juni 2026",
+          "Europäische Kommission: EU-Terminvorschau"
+        ]
+      },
+      "weltwirtschaft": {
+        "titel": "Weltwirtschaft",
+        "analyse": "Die Weltbank hat ihre Wachstumsprognose für 2026 auf 2,5 Prozent gesenkt – das schwächste globale Wachstum seit der Corona-Pandemie. Hauptgrund ist die zusätzliche Bremswirkung des Iran-Krieges, der Energiepreise und Lieferketten belastet. Gleichzeitig signalisieren Frühindikatoren wie der globale Einkaufsmanagerindex von S&P Global (51,8 Punkte im Mai) weiterhin moderates Wachstum, was auf eine gewisse Widerstandsfähigkeit der Realwirtschaft hindeutet. Strukturell vollzieht sich ein Wandel: Statt des klassischen Konsumzyklus treiben hohe Unternehmensinvestitionen in künstliche Intelligenz, Infrastruktur, Energie und Verteidigung die Konjunktur – ein weltweiter Investitionsboom, der die Wachstumsstruktur nachhaltig verändert. An den Aktienmärkten sorgten vor allem Technologiewerte für solide Gewinne, doch Analysten warnen vor überhöhten Bewertungen und einem erhöhten Korrekturrisiko. Der DAX bewegt sich angesichts des Iran-Konflikts und schwacher Konjunkturdaten im Wartemodus. Für die kommenden Wochen bleibt entscheidend, ob sich die geopolitischen Spannungen weiter zuspitzen und damit die fragile Wachstumsdynamik zusätzlich belasten.",
+        "quellen": [
+          "Handelsblatt: Weltbank – 2026 schwächstes Weltwachstum seit Corona-Pandemie",
+          "Investmentweek: DAX Juni 2026 – Konjunktur und Iran-Krieg bremsen Kurse"
+        ]
+      },
+      "internationale-politik": {
+        "titel": "Internationale Politik",
+        "analyse": "Der seit Ende Februar andauernde Krieg zwischen Israel, den USA und dem Iran hat sich in den vergangenen Tagen erneut zugespitzt: Nach der seit April geltenden Waffenruhe feuerte der Iran am Sonntagabend wieder Raketen auf Israel, das mit Vergeltungsschlägen reagierte. Auch pro-iranische Gruppen wie die Hisbollah im Libanon sind erneut in die Kämpfe involviert, was die Gefahr einer regionalen Ausweitung erhöht. Die wirtschaftlichen Folgen sind bereits spürbar: Das Ifo-Institut meldet den stärksten Stimmungseinbruch seit vier Jahren, und Unternehmen wie TUI senken ihre Gewinnprognosen wegen ausbleibender Buchungen in der Region. Im Gazastreifen bleibt die Lage trotz der von US-Präsident Trump angekündigten Milliardenhilfen seines neuen Friedensrats ungelöst, da die Entwaffnung der Hamas weiterhin offen ist. In der Ukraine setzt Russland seine Angriffe auf die Energieinfrastruktur fort, wobei die ukrainische Rüstungsindustrie gleichzeitig Anzeichen von Stärke zeigt. Die kommenden Tage werden zeigen, ob die erneuten Angriffe im Nahen Osten zu einer dauerhaften Eskalation führen oder ob diplomatische Bemühungen – etwa beim G7-Gipfel – eine Deeskalation ermöglichen.",
+        "quellen": [
+          "NZZ: Iran-Krieg – Aktuelle News und Entwicklungen im Liveticker",
+          "ZDFheute: Trump – Iran und Israel müssen Angriffe sofort stoppen"
+        ]
+      }
+    }
+  },
+  {
     "datum": "2026-06-12",
     "datumFormatiert": "Freitag, 12. Juni 2026",
     "eintraege": {
