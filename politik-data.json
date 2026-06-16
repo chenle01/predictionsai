@@ -1,5 +1,43 @@
 [
   {
+    "datum": "2026-06-16",
+    "datumFormatiert": "Dienstag, 16. Juni 2026",
+    "eintraege": {
+      "deutsche-innenpolitik": {
+        "titel": "Deutsche Innenpolitik",
+        "analyse": "Die schwarz-rote Bundesregierung unter Kanzler Friedrich Merz steht nach gut einem Jahr im Amt vor erheblichem öffentlichem Druck. Aktuelle Umfragen zeigen, dass lediglich 12 Prozent der Bundesbürger mit der Arbeit der Koalition zufrieden sind – ein Alarmzeichen für CDU/CSU und SPD. Die Unionsparteien fallen auf 23 Prozent, den niedrigsten Stand seit Januar 2022, während die AfD mit 27 Prozent die stärkste Kraft im Meinungsbild bleibt. Die SPD kommt auf 13 Prozent. Merz gab in dieser Woche eine Regierungserklärung ab, in der er die unveränderte Unterstützung für die Ukraine zusicherte und gleichzeitig EU-finanzierte Schulden für den europäischen Haushalt ablehnte – eine Positionierung, die innenpolitisch wie außenpolitisch umstritten ist. Als zentrale Herausforderung identifizieren die Bürger die wirtschaftliche Stagnation: Deutschland kämpft weiterhin mit schwachem Wachstum, hohen Energiepreisen infolge des Iran-Konflikts und strukturellen Wettbewerbsproblemen. Die politische Mitte steht unter Druck, und es bleibt abzuwarten, ob der Europäische Rat Ende der Woche impulssetzende Beschlüsse für die deutsche Wirtschaftslage liefern kann.",
+        "quellen": [
+          "Infratest dimap ARD-DeutschlandTrend Juni 2026: CDU/CSU auf 23%, AfD bei 27%",
+          "Bundestag: Merz' Regierungserklärung zu Ukraine und EU-Haushalt (KW 24)"
+        ]
+      },
+      "europaeische-politik": {
+        "titel": "Europäische Politik",
+        "analyse": "Europa steht in dieser Woche vor einem dichten diplomatischen Programm. Beim G7-Gipfel im französischen Évian (15.–17. Juni) stehen der drohende Iran-Deal, die Ukraine und die globale Energiekrise im Mittelpunkt – Frankreichs Präsident Macron nutzt die Gastgeberrolle für eine diplomatische Offensive. Parallel tagt heute in Luxemburg der Rat für Allgemeine Angelegenheiten, der die Schlussfolgerungen für den Europäischen Rat am 18./19. Juni vorbereitet. Dessen Agenda ist umfangreich: Ukraine-Unterstützung, Lage im Nahen Osten, der neue mehrjährige Finanzrahmen (MFR) 2028–2034 sowie Migration und europäische Verteidigungsfähigkeit stehen zur Beratung. Ebenfalls heute: Der EU-Gesundheitsrat befasst sich mit dem Europäischen Biotech-Rechtsakt und erhält Informationen über den neuen Ebola-Ausbruch in Zentralafrika. Im Hintergrund läuft das Artikel-7-Verfahren gegen Ungarn weiter – die Rechtsstaatlichkeitsfrage bleibt auf der EU-Agenda. Die EZB hatte erst am 12. Juni den Leitzins erstmals seit der Zinspause auf 2,25 Prozent angehoben, um der durch den Iran-Konflikt angetriebenen Inflation entgegenzuwirken.",
+        "quellen": [
+          "Europäischer Rat: Ausblick 15.–28. Juni 2026 (consilium.europa.eu)",
+          "EZB hebt Einlagesatz auf 2,25% an – Reaktion auf Iran-bedingte Inflation (12. Juni 2026)"
+        ]
+      },
+      "weltwirtschaft": {
+        "titel": "Weltwirtschaft",
+        "analyse": "Die Weltwirtschaft befindet sich in einer kritischen Phase. Heute und morgen tagt das Federal Open Market Committee (FOMC) zum ersten Mal unter dem neuen Fed-Vorsitzenden Kevin Warsh. Die US-Inflation liegt bei 4,2 Prozent – dem höchsten Stand seit April 2023 – angetrieben vor allem durch Benzinpreise, die infolge des Iran-Konflikts um 40,5 Prozent gestiegen sind. Märkte erwarten mit fast 99-prozentiger Sicherheit einen unveränderten Leitzins von 3,50–3,75 Prozent; entscheidend wird der aktualisierte Dot-Plot sein. Derweil fallen Ölpreise leicht: Brent notiert bei rund 82,76 Dollar, nachdem ein potenzielles Iran-Friedensabkommen Hoffnungen geweckt hat. Die Weltbank prognostiziert für 2026 nur 2,5 Prozent globales Wachstum – das schwächste seit der COVID-Pandemie. Auf der anderen Seite sorgt ein globaler Investitionsboom in KI, Infrastruktur und Rüstung für strukturelle Dynamik. Markantes Einzelereignis der Woche: der SpaceX-Börsengang, der mit einem Emissionsvolumen von 75 Milliarden Dollar als größtes IPO der Geschichte in die Bücher einging.",
+        "quellen": [
+          "investrends.ch: FOMC-Sitzung, Warsh, Fed-Inflation und Iran-Deal (15. Juni 2026)",
+          "Weltbank: Schwächstes Weltwachstum seit COVID; Brent bei 82,76 USD (16. Juni 2026)"
+        ]
+      },
+      "internationale-politik": {
+        "titel": "Internationale Politik",
+        "analyse": "Der Iran-Konflikt dominiert die internationale Agenda. Seit dem US-israelischen Angriff auf den Iran am 28. Februar 2026 hat die daraus resultierende Energiekrise die globale Geopolitik neu geordnet. Jetzt zeichnet sich ein Wendepunkt ab: Beim G7-Gipfel in Évian wird ein Rahmenabkommen zwischen den USA und dem Iran diskutiert, das die Straße von Hormus für den Schiffsverkehr wieder öffnen soll. Gleichzeitig führte der EU-Außenministerrat am 15. Juni Gespräche über die Ukraine sowie die Lage im Nahen Osten und die EU-China-Beziehungen. Russlands Angriffskrieg gegen die Ukraine dauert an; der bevorstehende Europäische Rat wird erneut über Unterstützungsmaßnahmen beraten. Humanitär alarmierend: Die WHO informiert die EU-Gesundheitsminister über einen neuen Ebola-Ausbruch in Zentralafrika. Im Hintergrund bleiben strukturelle Problemlagen bestehen: Deutschland ist mit seiner Bewerbung um einen nichtständigen Sitz im UN-Sicherheitsrat gescheitert, und die Abhängigkeit von chinesischen Seltenen Erden bleibt trotz jahrelanger Bemühungen weitgehend ungelöst.",
+        "quellen": [
+          "G7-Gipfel Évian: Iran-Deal, Ukraine, Energie (15.–17. Juni 2026)",
+          "EU-Außenministerrat: Ukraine, Naher Osten, China (15. Juni 2026)"
+        ]
+      }
+    }
+  },
+  {
     "datum": "2026-06-15",
     "datumFormatiert": "Montag, 15. Juni 2026",
     "eintraege": {
