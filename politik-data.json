@@ -1,5 +1,43 @@
 [
   {
+    "datum": "2026-06-17",
+    "datumFormatiert": "Mittwoch, 17. Juni 2026",
+    "eintraege": {
+      "deutsche-innenpolitik": {
+        "titel": "Deutsche Innenpolitik",
+        "analyse": "Die schwarz-rote Bundesregierung unter Kanzler Friedrich Merz befindet sich in einer kritischen Konsolidierungsphase. Merz hat in seiner Regierungserklaerung vom 11. Juni die Ukraine-Unterstuetzung bestaetigt und zugleich klargestellt, dass Deutschland keine Schuldenverantwortung fuer den EU-Haushalt uebernehmen wird – eine Positionierung, die Koalitionspartner SPD bislang mitraegt, intern aber Spannungen birgt. Die SPD kaempft weiterhin mit historisch niedrigen Umfragewerten von rund elf Prozent und sucht nach einem eigenstaendigen sozialpolitischen Profil. Haushaltspolitisch bleibt die Regierung in der Zwickmuehle: Massive Mehrausgaben fuer Verteidigung und Infrastruktur einerseits, Konsolidierungszwang durch die Schuldenbremse andererseits. Die bevorstehende Berliner Abgeordnetenhauswahl gilt als Stimmungstest fuer die Bundespolitik. Die Opposition fordert grundsaetzliche Kursaenderungen, waehrend die Koalition auf schrittweise Reformerfolge setzt und versucht, den beginnenden Wirtschaftsaufschwung politisch nutzbar zu machen.",
+        "quellen": [
+          "Bundestag: Merz sichert Ukraine Unterstuetzung zu – Regierungserklaerung 11. Juni 2026",
+          "Euronews: Ein Jahr Merz – CDU/SPD-Koalition nach einem Jahr"
+        ]
+      },
+      "europaeische-politik": {
+        "titel": "Europäische Politik",
+        "analyse": "Die europäischen Institutionen sind in dieser Woche mit mehreren gewichtigen Tagesordnungspunkten beschäftigt. Der Rat der EU führt eine Orientierungsaussprache über die Verhandlungsbox des neuen Mehrjährigen Finanzrahmens 2028–2034 – ein wegweisender Schritt für die EU-Haushaltspolitik der kommenden sieben Jahre. Hintergrund ist der laufende G7-Gipfel in Évian (15.–17. Juni), auf dem EU-Vertreter über wirtschaftliche Neubalancierung, Sicherheit und Klimapolitik diskutieren. Die EZB hat ihre neuesten gesamtwirtschaftlichen Projektionen für den Euroraum veröffentlicht: das Umfeld bleibt durch Ölpreisvolatility und die Nahost-Krise belastet. Am heutigen 17. Juni verleiht die Europäische Kommission in Berlin den Schülerzeitungspreis „Europa“ – ein symbolisches Bekenntnis zur europäischen Zivilgesellschaft. Strukturell richtet die EU ihr Augenmerk auf strategische Autonomie: in der Rüstung, in Lieferketten und in der Digitalpolitik.",
+        "quellen": [
+          "Consilium: Ausblick 15.–28. Juni 2026",
+          "EZB: Gesamtwirtschaftliche Euroraum-Projektionen Juni 2026"
+        ]
+      },
+      "weltwirtschaft": {
+        "titel": "Weltwirtschaft",
+        "analyse": "Heute und gestern tagt das Federal Open Market Committee (FOMC) unter dem neuen Fed-Vorsitzenden Kevin Warsh – seine erste Sitzung seit der Vereidigung am 22. Mai 2026. Die Märkte erwarten gespannt Signale zur künftigen US-Zinspolitik, da die Inflation trotz leichter Abkühlung hartnäckig über dem Zwei-Prozent-Ziel verharrt. Der Iran-Deal hat kurzfristig Entlastung an den Energiemärkten gebracht und den Sentix-Konjunkturindex im Juni um 4,4 auf 8,0 Punkte angehoben – ein Zeichen vorsichtigen Optimismus. Global zeigt der S&P-Global-Einkaufsmanagerindex mit 51,8 Punkten moderates Wachstum. Die OECD prognostiziert für 2026 ein globales BIP-Wachstum von 2,8 Prozent. Für Deutschland erwartet das IMK 1,2 Prozent Wachstum – eine deutliche Belebung gegenüber 0,1 Prozent im Vorjahr. Sollte das FOMC eine restriktivere Sprache signalisieren, dürften die Märkte weltweit reagieren.",
+        "quellen": [
+          "investrends.ch: Einschneidende Woche für die Weltwirtschaft – Iran-Deal und Geldpolitik",
+          "Hans-Böckler-Stiftung/IMK: 1,2 Prozent Wirtschaftswachstum für Deutschland 2026"
+        ]
+      },
+      "internationale-politik": {
+        "titel": "Internationale Politik",
+        "analyse": "Der G7-Gipfel im französischen Évian-les-Bains findet heute seinen Abschluss. Unter dem Leitmotiv einer Neubalancierung der Weltwirtschaft versuchen die führenden Industrienationen, gemeinsame Antworten auf geopolitische Fragmentierung zu formulieren. US-Präsident Trump hat Milliardenhilfen seines umstrittenen Gaza-Friedensrats angekündigt; die Frage der Hamas-Entwaffnung bleibt jedoch offen. In Ostasien erhöht Chinas Staatsschef Xi Jinping durch seinen Besuch in Nordkorea – den ersten seit sieben Jahren – den strategischen Druck: Pjöngjang rückt enger an Peking heran, was die Sicherheitskalkulationen in der Region verändert. Für Europa wächst angesichts der US-Tendenz, die Ukraine-Verantwortung abzugeben, der Druck, eigene Sicherheits- und Finanzierungskapazitäten aufzubauen. 2026 etabliert sich als Jahr dauerhafter geopolitischer Instabilität – ohne klare Aussicht auf eine neue internationale Stabilitätsordnung.",
+        "quellen": [
+          "G7-Gipfel Évian 15.–17. Juni 2026",
+          "aktien.news: Geopolitik und Konjunktur – Globale Märkte unter Druck im Juni 2026"
+        ]
+      }
+    }
+  },
+  {
     "datum": "2026-06-16",
     "datumFormatiert": "Dienstag, 16. Juni 2026",
     "eintraege": {
