@@ -1,5 +1,43 @@
 [
   {
+    "datum": "2026-06-18",
+    "datumFormatiert": "Donnerstag, 18. Juni 2026",
+    "eintraege": {
+      "deutsche-innenpolitik": {
+        "titel": "Deutsche Innenpolitik",
+        "analyse": "Die schwarz-rote Bundesregierung unter Friedrich Merz steht nach einem Jahr im Amt unter erheblichem Druck. Aktuelle Umfragen zeigen, dass lediglich 12 Prozent der Bundesbürger mit der Regierungsarbeit zufrieden sind – ein ernüchterndes Ergebnis nach dem Amtsantritt mit dem Versprechen, Bürokratieabbau, Steuersenkungen und Wirtschaftswachstum zu realisieren. Besonders alarmierend für die Koalition: Die AfD hat sich mit 27 Prozent an die Spitze der Umfragen gesetzt, während CDU/CSU auf 23 Prozent fallen – den niedrigsten Stand seit Januar 2022. Die SPD kommt auf 13 Prozent, die Grünen auf 14 Prozent. Als drängendste Herausforderung identifizieren die Bundesbürger zunehmend den Umgang mit der wirtschaftlichen Stagnation. Eine knappe Mehrheit von 52 Prozent glaubt zwar, dass die Koalition bis 2029 hält, doch 43 Prozent rechnen mit einem frühzeitigen Ende. Für die Regierung ist die bevorstehende zweite Jahreshälfte entscheidend, um durch spürbare politische Erfolge verlorenes Vertrauen zurückzugewinnen.",
+        "quellen": [
+          "ZDF-Politbarometer Juni I 2026: AfD bei 27%, CDU/CSU auf Tief",
+          "Bundestag: Fraktionen ziehen Bilanz des ersten Regierungsjahres der schwarz-roten Koalition"
+        ]
+      },
+      "europaeische-politik": {
+        "titel": "Europäische Politik",
+        "analyse": "Die Europäische Zentralbank hat auf ihrer Sitzung am 11. Juni eine Zinserhöhung beschlossen – ein klares Signal, dass die Inflationsbekämpfung im Euroraum Vorrang hat, auch wenn dies das Wirtschaftswachstum weiter bremst. Parallel dazu hat die Europäische Kommission am 10. Juni ihren Vorschlag für den EU-Jahreshaushalt 2027 vorgelegt, der im Zeichen erhöhter Verteidigungsausgaben und Investitionen in strategische Autonomie steht. Im Handelsbereich plant die EU neue Gebühren zur Eindämmung von Billigimporten, insbesondere aus China, um europäische Produzenten zu schützen. Innenpolitisch steht Ungarn weiterhin im Fokus des Artikel-7-Verfahrens; der neue Regierungschef in Budapest meldete jedoch eine Einigung mit Kiew über die Rechte ethnischer Ungarn – ein möglicher Auftakt zur Entspannung. Erfreuliche Nachrichten kamen aus Armenien, wo die Parlamentswahl den prowestlichen Kurs bestätigte. Der Ausblick auf die zweite Jahreshälfte 2026 wird maßgeblich von der Entwicklung des Nahost-Konflikts und dessen Auswirkungen auf Energie und Handelswege geprägt sein.",
+        "quellen": [
+          "EZB-Rat beschließt Zinserhöhungen, Juni 2026",
+          "EU-Rat: Ausblick 15.–28. Juni 2026 – Haushalt 2027, Ukraine, China-Beziehungen"
+        ]
+      },
+      "weltwirtschaft": {
+        "titel": "Weltwirtschaft",
+        "analyse": "Die Weltbank warnt vor dem schwächsten globalen Wachstum seit der Corona-Pandemie: Für 2026 wurde die Prognose auf 2,5 Prozent nach unten korrigiert – maßgeblich verursacht durch den Iran-Konflikt und dessen Folgen für den Energiemarkt. Der nahezu vollständige Stillstand des Schiffsverkehrs durch die Straße von Hormus hat die Energiepreise massiv in die Höhe getrieben und die weltweite Inflation auf voraussichtlich 4,0 Prozent befeuert, nach 3,3 Prozent im Vorjahr. In Deutschland, das zum Jahresbeginn noch eine Belebung verzeichnete, zeichnet sich im zweiten Quartal eine spürbare Abschwächung ab. Die globalen Aktienmärkte konnten trotz der trüben Aussichten solide Gewinne verbuchen – getragen vor allem von Technologiewerten – doch Analysten warnen vor überhöhten Bewertungen und dem damit einhergehenden Korrekturrisiko. Russlands Ölförderung sank im Mai infolge ukrainischer Angriffe auf Infrastruktur um rund fünf Prozent. Der Ausblick bleibt verhalten: Gelingt keine Deeskalation im Nahen Osten, dürfte der Energiepreisdruck das globale Wachstum auch im zweiten Halbjahr 2026 erheblich belasten.",
+        "quellen": [
+          "Handelsblatt/Wiwo: Weltbank – 2026 schwächstes Weltwachstum seit Corona-Pandemie",
+          "DATEV Magazin: Die wirtschaftliche Lage in Deutschland im Juni 2026"
+        ]
+      },
+      "internationale-politik": {
+        "titel": "Internationale Politik",
+        "analyse": "Die internationale Sicherheitslage bleibt im Juni 2026 angespannt und von mehreren parallelen Krisen geprägt. Im Ukraine-Krieg setzt die Ukraine ihre Drohnenoffensive fort: Russland meldete den Abschuss von 555 ukrainischen Drohnen in einer einzigen Nacht, darunter rund 180 im Anflug auf Moskau. Die G7 reagieren mit der Vergabe von Waffenproduktionslizenzen an europäische und ukrainische Hersteller, um Engpässe zu beseitigen. Parallel beunruhigt der US-israelische Militärkonflikt gegen den Iran die Ukraine-Unterstützer: Präsident Selenskyj warnte, dass Luftabwehrsysteme und Raketenlieferungen aus den USA ausbleiben könnten. US-Präsident Trump kündigte Milliardenhilfen seines Gaza-Friedensrats an und signalisiert, die Zukunft der Ukraine zunehmend Europa zu überlassen. Bemerkenswert ist zudem Xi Jinpings erster Besuch in Nordkorea seit sieben Jahren – ein Zeichen des wachsenden geopolitischen Spielraums von Kim Jong-un. Die übergeordnete Tendenz: 2026 festigt sich die fragmentierte Weltordnung, in der permanente Unsicherheit zur strukturellen Normalität geworden ist.",
+        "quellen": [
+          "ZDF: Ukraine-Krieg aktuell – 555 Drohnen abgefangen, G7 für Waffenlizenzen",
+          "Berliner Zeitung/aktien.news: Geopolitik 2026 – permanente Unsicherheit, Xi in Nordkorea"
+        ]
+      }
+    }
+  },
+  {
     "datum": "2026-06-17",
     "datumFormatiert": "Mittwoch, 17. Juni 2026",
     "eintraege": {
