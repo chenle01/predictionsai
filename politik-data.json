@@ -1,190 +1,38 @@
 [
   {
-    "datum": "2026-06-18",
-    "datumFormatiert": "Donnerstag, 18. Juni 2026",
+    "datum": "2026-06-19",
+    "datumFormatiert": "Freitag, 19. Juni 2026",
     "eintraege": {
       "deutsche-innenpolitik": {
         "titel": "Deutsche Innenpolitik",
-        "analyse": "Die schwarz-rote Bundesregierung unter Friedrich Merz steht nach einem Jahr im Amt unter erheblichem Druck. Aktuelle Umfragen zeigen, dass lediglich 12 Prozent der Bundesbürger mit der Regierungsarbeit zufrieden sind – ein ernüchterndes Ergebnis nach dem Amtsantritt mit dem Versprechen, Bürokratieabbau, Steuersenkungen und Wirtschaftswachstum zu realisieren. Besonders alarmierend für die Koalition: Die AfD hat sich mit 27 Prozent an die Spitze der Umfragen gesetzt, während CDU/CSU auf 23 Prozent fallen – den niedrigsten Stand seit Januar 2022. Die SPD kommt auf 13 Prozent, die Grünen auf 14 Prozent. Als drängendste Herausforderung identifizieren die Bundesbürger zunehmend den Umgang mit der wirtschaftlichen Stagnation. Eine knappe Mehrheit von 52 Prozent glaubt zwar, dass die Koalition bis 2029 hält, doch 43 Prozent rechnen mit einem frühzeitigen Ende. Für die Regierung ist die bevorstehende zweite Jahreshälfte entscheidend, um durch spürbare politische Erfolge verlorenes Vertrauen zurückzugewinnen.",
+        "analyse": "Die Bundesregierung kämpft weiterhin mit sinkenden Zustimmungswerten: Laut aktuellem Ipsos-Ministerranking liegt die Gesamtzufriedenheit mit allen Kabinettsmitgliedern im negativen Bereich, wobei Verteidigungsminister Boris Pistorius (SPD) mit 28 Prozent Zufriedenheit als einziger Minister eine noch verhältnismäßig stabile Position behauptet. Besonders die SPD leidet unter einem Vertrauensverlust bei ihrer Kernwählerschaft. Die anstehende Berliner Abgeordnetenhaus-Wahl am 20. September 2026 rückt allmählich in den Fokus der Bundespolitik – Berlin gilt als Stimmungsbarometer für die Bundesregierung. Daneben sorgt die FIFA Fußball-Weltmeisterschaft 2026 in Nordamerika innenpolitisch für Debatten über Ausgaben und Prioritäten: Deutschland hat die Qualifikation erreicht, und die Frage nach staatlicher Förderung für Public-Viewing-Events bewegt Kommunalpolitiker. Strukturell bleibt der Reformstau – Energiepolitik, Bürokratieabbau, Infrastrukturinvestitionen – das bestimmende Thema, das alle Koalitionspartner belastet. Ein gemeinsames Auftreten mit klarem Reformsignal ist bislang ausgeblieben.",
         "quellen": [
-          "ZDF-Politbarometer Juni I 2026: AfD bei 27%, CDU/CSU auf Tief",
-          "Bundestag: Fraktionen ziehen Bilanz des ersten Regierungsjahres der schwarz-roten Koalition"
+          "Ipsos: Politische Meinungslage in Deutschland – März 2026",
+          "Wikipedia: Berliner Abgeordnetenhauswahl 2026"
         ]
       },
       "europaeische-politik": {
         "titel": "Europäische Politik",
-        "analyse": "Die Europäische Zentralbank hat auf ihrer Sitzung am 11. Juni eine Zinserhöhung beschlossen – ein klares Signal, dass die Inflationsbekämpfung im Euroraum Vorrang hat, auch wenn dies das Wirtschaftswachstum weiter bremst. Parallel dazu hat die Europäische Kommission am 10. Juni ihren Vorschlag für den EU-Jahreshaushalt 2027 vorgelegt, der im Zeichen erhöhter Verteidigungsausgaben und Investitionen in strategische Autonomie steht. Im Handelsbereich plant die EU neue Gebühren zur Eindämmung von Billigimporten, insbesondere aus China, um europäische Produzenten zu schützen. Innenpolitisch steht Ungarn weiterhin im Fokus des Artikel-7-Verfahrens; der neue Regierungschef in Budapest meldete jedoch eine Einigung mit Kiew über die Rechte ethnischer Ungarn – ein möglicher Auftakt zur Entspannung. Erfreuliche Nachrichten kamen aus Armenien, wo die Parlamentswahl den prowestlichen Kurs bestätigte. Der Ausblick auf die zweite Jahreshälfte 2026 wird maßgeblich von der Entwicklung des Nahost-Konflikts und dessen Auswirkungen auf Energie und Handelswege geprägt sein.",
+        "analyse": "Die Europäische Zentralbank sieht sich mit einem schwierigen Szenario konfrontiert: Die Eurosystem-Projektionen vom Juni 2026 prognostizieren einen Anstieg der HVPI-Inflation von 2,1 Prozent (2025) auf 3,0 Prozent (2026), bevor sie 2027 wieder auf 2,3 Prozent fallen soll – ein deutliches Überschießen des Zwei-Prozent-Ziels. Der EU-Rat setzt unterdessen seine Beratungen zum Mehrjährigen Finanzrahmen (MFF) 2028–2034 fort und ringt um Positionen zu drei der zentralen Haushaltssäulen. Dabei stoßen die Wünsche einiger Mitgliedstaaten nach mehr nationaler Flexibilität auf Widerstand der Nettozahler-Länder, darunter Deutschland. Parallel dominieren auf dem Brüsseler Parkett die Themen Ukraine-Unterstützung, Migrationspolitik und europäische Verteidigungsfähigkeit. Der Europäische Rat wird diese Punkte auf seiner kommenden Sitzung abermals behandeln. Im digitalpolitischen Bereich hat eine EU-Umfrage erhebliche Bedenken hinsichtlich übermäßiger Bildschirmzeit bei Jugendlichen bestätigt – dies dürfte Debatten über einen europäischen Rechtsrahmen für Plattformverantwortung neu entfachen.",
         "quellen": [
-          "EZB-Rat beschließt Zinserhöhungen, Juni 2026",
-          "EU-Rat: Ausblick 15.–28. Juni 2026 – Haushalt 2027, Ukraine, China-Beziehungen"
+          "EZB: Eurosystem-Projektionen Juni 2026",
+          "Consilium: Forward Look 8.–21. Juni 2026"
         ]
       },
       "weltwirtschaft": {
         "titel": "Weltwirtschaft",
-        "analyse": "Die Weltbank warnt vor dem schwächsten globalen Wachstum seit der Corona-Pandemie: Für 2026 wurde die Prognose auf 2,5 Prozent nach unten korrigiert – maßgeblich verursacht durch den Iran-Konflikt und dessen Folgen für den Energiemarkt. Der nahezu vollständige Stillstand des Schiffsverkehrs durch die Straße von Hormus hat die Energiepreise massiv in die Höhe getrieben und die weltweite Inflation auf voraussichtlich 4,0 Prozent befeuert, nach 3,3 Prozent im Vorjahr. In Deutschland, das zum Jahresbeginn noch eine Belebung verzeichnete, zeichnet sich im zweiten Quartal eine spürbare Abschwächung ab. Die globalen Aktienmärkte konnten trotz der trüben Aussichten solide Gewinne verbuchen – getragen vor allem von Technologiewerten – doch Analysten warnen vor überhöhten Bewertungen und dem damit einhergehenden Korrekturrisiko. Russlands Ölförderung sank im Mai infolge ukrainischer Angriffe auf Infrastruktur um rund fünf Prozent. Der Ausblick bleibt verhalten: Gelingt keine Deeskalation im Nahen Osten, dürfte der Energiepreisdruck das globale Wachstum auch im zweiten Halbjahr 2026 erheblich belasten.",
-        "quellen": [
-          "Handelsblatt/Wiwo: Weltbank – 2026 schwächstes Weltwachstum seit Corona-Pandemie",
-          "DATEV Magazin: Die wirtschaftliche Lage in Deutschland im Juni 2026"
-        ]
-      },
-      "internationale-politik": {
-        "titel": "Internationale Politik",
-        "analyse": "Die internationale Sicherheitslage bleibt im Juni 2026 angespannt und von mehreren parallelen Krisen geprägt. Im Ukraine-Krieg setzt die Ukraine ihre Drohnenoffensive fort: Russland meldete den Abschuss von 555 ukrainischen Drohnen in einer einzigen Nacht, darunter rund 180 im Anflug auf Moskau. Die G7 reagieren mit der Vergabe von Waffenproduktionslizenzen an europäische und ukrainische Hersteller, um Engpässe zu beseitigen. Parallel beunruhigt der US-israelische Militärkonflikt gegen den Iran die Ukraine-Unterstützer: Präsident Selenskyj warnte, dass Luftabwehrsysteme und Raketenlieferungen aus den USA ausbleiben könnten. US-Präsident Trump kündigte Milliardenhilfen seines Gaza-Friedensrats an und signalisiert, die Zukunft der Ukraine zunehmend Europa zu überlassen. Bemerkenswert ist zudem Xi Jinpings erster Besuch in Nordkorea seit sieben Jahren – ein Zeichen des wachsenden geopolitischen Spielraums von Kim Jong-un. Die übergeordnete Tendenz: 2026 festigt sich die fragmentierte Weltordnung, in der permanente Unsicherheit zur strukturellen Normalität geworden ist.",
-        "quellen": [
-          "ZDF: Ukraine-Krieg aktuell – 555 Drohnen abgefangen, G7 für Waffenlizenzen",
-          "Berliner Zeitung/aktien.news: Geopolitik 2026 – permanente Unsicherheit, Xi in Nordkorea"
-        ]
-      }
-    }
-  },
-  {
-    "datum": "2026-06-17",
-    "datumFormatiert": "Mittwoch, 17. Juni 2026",
-    "eintraege": {
-      "deutsche-innenpolitik": {
-        "titel": "Deutsche Innenpolitik",
-        "analyse": "Die schwarz-rote Bundesregierung unter Kanzler Friedrich Merz befindet sich in einer kritischen Konsolidierungsphase. Merz hat in seiner Regierungserklaerung vom 11. Juni die Ukraine-Unterstuetzung bestaetigt und zugleich klargestellt, dass Deutschland keine Schuldenverantwortung fuer den EU-Haushalt uebernehmen wird – eine Positionierung, die Koalitionspartner SPD bislang mitraegt, intern aber Spannungen birgt. Die SPD kaempft weiterhin mit historisch niedrigen Umfragewerten von rund elf Prozent und sucht nach einem eigenstaendigen sozialpolitischen Profil. Haushaltspolitisch bleibt die Regierung in der Zwickmuehle: Massive Mehrausgaben fuer Verteidigung und Infrastruktur einerseits, Konsolidierungszwang durch die Schuldenbremse andererseits. Die bevorstehende Berliner Abgeordnetenhauswahl gilt als Stimmungstest fuer die Bundespolitik. Die Opposition fordert grundsaetzliche Kursaenderungen, waehrend die Koalition auf schrittweise Reformerfolge setzt und versucht, den beginnenden Wirtschaftsaufschwung politisch nutzbar zu machen.",
-        "quellen": [
-          "Bundestag: Merz sichert Ukraine Unterstuetzung zu – Regierungserklaerung 11. Juni 2026",
-          "Euronews: Ein Jahr Merz – CDU/SPD-Koalition nach einem Jahr"
-        ]
-      },
-      "europaeische-politik": {
-        "titel": "Europäische Politik",
-        "analyse": "Die europäischen Institutionen sind in dieser Woche mit mehreren gewichtigen Tagesordnungspunkten beschäftigt. Der Rat der EU führt eine Orientierungsaussprache über die Verhandlungsbox des neuen Mehrjährigen Finanzrahmens 2028–2034 – ein wegweisender Schritt für die EU-Haushaltspolitik der kommenden sieben Jahre. Hintergrund ist der laufende G7-Gipfel in Évian (15.–17. Juni), auf dem EU-Vertreter über wirtschaftliche Neubalancierung, Sicherheit und Klimapolitik diskutieren. Die EZB hat ihre neuesten gesamtwirtschaftlichen Projektionen für den Euroraum veröffentlicht: das Umfeld bleibt durch Ölpreisvolatility und die Nahost-Krise belastet. Am heutigen 17. Juni verleiht die Europäische Kommission in Berlin den Schülerzeitungspreis „Europa“ – ein symbolisches Bekenntnis zur europäischen Zivilgesellschaft. Strukturell richtet die EU ihr Augenmerk auf strategische Autonomie: in der Rüstung, in Lieferketten und in der Digitalpolitik.",
-        "quellen": [
-          "Consilium: Ausblick 15.–28. Juni 2026",
-          "EZB: Gesamtwirtschaftliche Euroraum-Projektionen Juni 2026"
-        ]
-      },
-      "weltwirtschaft": {
-        "titel": "Weltwirtschaft",
-        "analyse": "Heute und gestern tagt das Federal Open Market Committee (FOMC) unter dem neuen Fed-Vorsitzenden Kevin Warsh – seine erste Sitzung seit der Vereidigung am 22. Mai 2026. Die Märkte erwarten gespannt Signale zur künftigen US-Zinspolitik, da die Inflation trotz leichter Abkühlung hartnäckig über dem Zwei-Prozent-Ziel verharrt. Der Iran-Deal hat kurzfristig Entlastung an den Energiemärkten gebracht und den Sentix-Konjunkturindex im Juni um 4,4 auf 8,0 Punkte angehoben – ein Zeichen vorsichtigen Optimismus. Global zeigt der S&P-Global-Einkaufsmanagerindex mit 51,8 Punkten moderates Wachstum. Die OECD prognostiziert für 2026 ein globales BIP-Wachstum von 2,8 Prozent. Für Deutschland erwartet das IMK 1,2 Prozent Wachstum – eine deutliche Belebung gegenüber 0,1 Prozent im Vorjahr. Sollte das FOMC eine restriktivere Sprache signalisieren, dürften die Märkte weltweit reagieren.",
-        "quellen": [
-          "investrends.ch: Einschneidende Woche für die Weltwirtschaft – Iran-Deal und Geldpolitik",
-          "Hans-Böckler-Stiftung/IMK: 1,2 Prozent Wirtschaftswachstum für Deutschland 2026"
-        ]
-      },
-      "internationale-politik": {
-        "titel": "Internationale Politik",
-        "analyse": "Der G7-Gipfel im französischen Évian-les-Bains findet heute seinen Abschluss. Unter dem Leitmotiv einer Neubalancierung der Weltwirtschaft versuchen die führenden Industrienationen, gemeinsame Antworten auf geopolitische Fragmentierung zu formulieren. US-Präsident Trump hat Milliardenhilfen seines umstrittenen Gaza-Friedensrats angekündigt; die Frage der Hamas-Entwaffnung bleibt jedoch offen. In Ostasien erhöht Chinas Staatsschef Xi Jinping durch seinen Besuch in Nordkorea – den ersten seit sieben Jahren – den strategischen Druck: Pjöngjang rückt enger an Peking heran, was die Sicherheitskalkulationen in der Region verändert. Für Europa wächst angesichts der US-Tendenz, die Ukraine-Verantwortung abzugeben, der Druck, eigene Sicherheits- und Finanzierungskapazitäten aufzubauen. 2026 etabliert sich als Jahr dauerhafter geopolitischer Instabilität – ohne klare Aussicht auf eine neue internationale Stabilitätsordnung.",
-        "quellen": [
-          "G7-Gipfel Évian 15.–17. Juni 2026",
-          "aktien.news: Geopolitik und Konjunktur – Globale Märkte unter Druck im Juni 2026"
-        ]
-      }
-    }
-  },
-  {
-    "datum": "2026-06-16",
-    "datumFormatiert": "Dienstag, 16. Juni 2026",
-    "eintraege": {
-      "deutsche-innenpolitik": {
-        "titel": "Deutsche Innenpolitik",
-        "analyse": "Die schwarz-rote Bundesregierung unter Kanzler Friedrich Merz steht nach gut einem Jahr im Amt vor erheblichem öffentlichem Druck. Aktuelle Umfragen zeigen, dass lediglich 12 Prozent der Bundesbürger mit der Arbeit der Koalition zufrieden sind – ein Alarmzeichen für CDU/CSU und SPD. Die Unionsparteien fallen auf 23 Prozent, den niedrigsten Stand seit Januar 2022, während die AfD mit 27 Prozent die stärkste Kraft im Meinungsbild bleibt. Die SPD kommt auf 13 Prozent. Merz gab in dieser Woche eine Regierungserklärung ab, in der er die unveränderte Unterstützung für die Ukraine zusicherte und gleichzeitig EU-finanzierte Schulden für den europäischen Haushalt ablehnte – eine Positionierung, die innenpolitisch wie außenpolitisch umstritten ist. Als zentrale Herausforderung identifizieren die Bürger die wirtschaftliche Stagnation: Deutschland kämpft weiterhin mit schwachem Wachstum, hohen Energiepreisen infolge des Iran-Konflikts und strukturellen Wettbewerbsproblemen. Die politische Mitte steht unter Druck, und es bleibt abzuwarten, ob der Europäische Rat Ende der Woche impulssetzende Beschlüsse für die deutsche Wirtschaftslage liefern kann.",
-        "quellen": [
-          "Infratest dimap ARD-DeutschlandTrend Juni 2026: CDU/CSU auf 23%, AfD bei 27%",
-          "Bundestag: Merz' Regierungserklärung zu Ukraine und EU-Haushalt (KW 24)"
-        ]
-      },
-      "europaeische-politik": {
-        "titel": "Europäische Politik",
-        "analyse": "Europa steht in dieser Woche vor einem dichten diplomatischen Programm. Beim G7-Gipfel im französischen Évian (15.–17. Juni) stehen der drohende Iran-Deal, die Ukraine und die globale Energiekrise im Mittelpunkt – Frankreichs Präsident Macron nutzt die Gastgeberrolle für eine diplomatische Offensive. Parallel tagt heute in Luxemburg der Rat für Allgemeine Angelegenheiten, der die Schlussfolgerungen für den Europäischen Rat am 18./19. Juni vorbereitet. Dessen Agenda ist umfangreich: Ukraine-Unterstützung, Lage im Nahen Osten, der neue mehrjährige Finanzrahmen (MFR) 2028–2034 sowie Migration und europäische Verteidigungsfähigkeit stehen zur Beratung. Ebenfalls heute: Der EU-Gesundheitsrat befasst sich mit dem Europäischen Biotech-Rechtsakt und erhält Informationen über den neuen Ebola-Ausbruch in Zentralafrika. Im Hintergrund läuft das Artikel-7-Verfahren gegen Ungarn weiter – die Rechtsstaatlichkeitsfrage bleibt auf der EU-Agenda. Die EZB hatte erst am 12. Juni den Leitzins erstmals seit der Zinspause auf 2,25 Prozent angehoben, um der durch den Iran-Konflikt angetriebenen Inflation entgegenzuwirken.",
-        "quellen": [
-          "Europäischer Rat: Ausblick 15.–28. Juni 2026 (consilium.europa.eu)",
-          "EZB hebt Einlagesatz auf 2,25% an – Reaktion auf Iran-bedingte Inflation (12. Juni 2026)"
-        ]
-      },
-      "weltwirtschaft": {
-        "titel": "Weltwirtschaft",
-        "analyse": "Die Weltwirtschaft befindet sich in einer kritischen Phase. Heute und morgen tagt das Federal Open Market Committee (FOMC) zum ersten Mal unter dem neuen Fed-Vorsitzenden Kevin Warsh. Die US-Inflation liegt bei 4,2 Prozent – dem höchsten Stand seit April 2023 – angetrieben vor allem durch Benzinpreise, die infolge des Iran-Konflikts um 40,5 Prozent gestiegen sind. Märkte erwarten mit fast 99-prozentiger Sicherheit einen unveränderten Leitzins von 3,50–3,75 Prozent; entscheidend wird der aktualisierte Dot-Plot sein. Derweil fallen Ölpreise leicht: Brent notiert bei rund 82,76 Dollar, nachdem ein potenzielles Iran-Friedensabkommen Hoffnungen geweckt hat. Die Weltbank prognostiziert für 2026 nur 2,5 Prozent globales Wachstum – das schwächste seit der COVID-Pandemie. Auf der anderen Seite sorgt ein globaler Investitionsboom in KI, Infrastruktur und Rüstung für strukturelle Dynamik. Markantes Einzelereignis der Woche: der SpaceX-Börsengang, der mit einem Emissionsvolumen von 75 Milliarden Dollar als größtes IPO der Geschichte in die Bücher einging.",
-        "quellen": [
-          "investrends.ch: FOMC-Sitzung, Warsh, Fed-Inflation und Iran-Deal (15. Juni 2026)",
-          "Weltbank: Schwächstes Weltwachstum seit COVID; Brent bei 82,76 USD (16. Juni 2026)"
-        ]
-      },
-      "internationale-politik": {
-        "titel": "Internationale Politik",
-        "analyse": "Der Iran-Konflikt dominiert die internationale Agenda. Seit dem US-israelischen Angriff auf den Iran am 28. Februar 2026 hat die daraus resultierende Energiekrise die globale Geopolitik neu geordnet. Jetzt zeichnet sich ein Wendepunkt ab: Beim G7-Gipfel in Évian wird ein Rahmenabkommen zwischen den USA und dem Iran diskutiert, das die Straße von Hormus für den Schiffsverkehr wieder öffnen soll. Gleichzeitig führte der EU-Außenministerrat am 15. Juni Gespräche über die Ukraine sowie die Lage im Nahen Osten und die EU-China-Beziehungen. Russlands Angriffskrieg gegen die Ukraine dauert an; der bevorstehende Europäische Rat wird erneut über Unterstützungsmaßnahmen beraten. Humanitär alarmierend: Die WHO informiert die EU-Gesundheitsminister über einen neuen Ebola-Ausbruch in Zentralafrika. Im Hintergrund bleiben strukturelle Problemlagen bestehen: Deutschland ist mit seiner Bewerbung um einen nichtständigen Sitz im UN-Sicherheitsrat gescheitert, und die Abhängigkeit von chinesischen Seltenen Erden bleibt trotz jahrelanger Bemühungen weitgehend ungelöst.",
-        "quellen": [
-          "G7-Gipfel Évian: Iran-Deal, Ukraine, Energie (15.–17. Juni 2026)",
-          "EU-Außenministerrat: Ukraine, Naher Osten, China (15. Juni 2026)"
-        ]
-      }
-    }
-  },
-  {
-    "datum": "2026-06-15",
-    "datumFormatiert": "Montag, 15. Juni 2026",
-    "eintraege": {
-      "deutsche-innenpolitik": {
-        "titel": "Deutsche Innenpolitik",
-        "analyse": "Die Bundesregierung unter Kanzler Merz bereitet ein umfassendes Reformpaket vor, das vor der Sommerpause verabschiedet werden soll und Einkommensteuer, Arbeitsmarkt, Rentenpolitik und Bürokratieabbau umfasst. Im Koalitionsausschuss, der am 30. Juni erneut tagt, treffen CDU/CSU und SPD auf wachsenden Druck: Umfragen zeigen sinkendes Vertrauen in die Regierungsarbeit, während sich die wirtschaftliche Lage weiter eintrübt. Zusätzlich stehen bereits ausgearbeitete Reformen der gesetzlichen Kranken- und Pflegeversicherung zur Verabschiedung in Bundestag und Bundesrat an – ein Lackmustest für die Handlungsfähigkeit der Koalition. Merz selbst betonte in einer Regierungserklärung die Notwendigkeit, gemeinsam mit Arbeitgebern und Gewerkschaften Wachstumsimpulse zu setzen. Parallel veröffentlichte die Bundesstiftung Baukultur ihren Bericht 2026/27, der von der Regierung positiv aufgenommen wurde. Die kommenden zwei Wochen bis zum Koalitionsgipfel dürften zeigen, ob es gelingt, die divergierenden Interessen der Koalitionspartner – insbesondere bei der Finanzierung der Reformen – auf einen gemeinsamen Nenner zu bringen, oder ob die Reformdebatte die Koalition weiter belastet.",
-        "quellen": [
-          "Handelsblatt: Bundesregierung – Der Zeitplan steht, Merz schwört auf Reformen ein",
-          "ZDFheute: Merz – Regierungserklärung im Bundestag zu Reformen"
-        ]
-      },
-      "europaeische-politik": {
-        "titel": "Europäische Politik",
-        "analyse": "Im Zentrum der europäischen Agenda steht in dieser Woche der G7-Gipfel in Évian, Frankreich (15.–17. Juni), bei dem die EU durch Ratspräsident António Costa und Kommissionspräsidentin Ursula von der Leyen vertreten wird. Angesichts globaler Handelsspannungen und der eskalierenden Lage im Nahen Osten wollen die Staats- und Regierungschefs ein Signal für multilaterale Zusammenarbeit setzen – ein Anspruch, der angesichts wachsender geopolitischer Fragmentierung zunehmend schwerer einzulösen ist. Parallel tagt der Assoziationsrat EU-Ägypten, der die Beziehungen zu einem für die Migrationspolitik zentralen Partnerland vertieft. In Brüssel eröffnete von der Leyen zudem das New European Bauhaus Festival, das die Verbindung von Nachhaltigkeit, Design und sozialem Zusammenhalt in der EU-Politik symbolisieren soll. Für die kommenden zwei Wochen kündigt der Rat ein dichtes Programm an, das von Migrationsfragen bis zu wirtschaftlicher Wettbewerbsfähigkeit reicht. Die zentrale Frage bleibt, ob die EU angesichts des Iran-Israel-Konflikts und der Unsicherheit über die transatlantischen Beziehungen zu einer einheitlichen Position findet.",
-        "quellen": [
-          "Consilium: Ausblick 15.–28. Juni 2026",
-          "Europäische Kommission: EU-Terminvorschau"
-        ]
-      },
-      "weltwirtschaft": {
-        "titel": "Weltwirtschaft",
-        "analyse": "Die Weltbank hat ihre Wachstumsprognose für 2026 auf 2,5 Prozent gesenkt – das schwächste globale Wachstum seit der Corona-Pandemie. Hauptgrund ist die zusätzliche Bremswirkung des Iran-Krieges, der Energiepreise und Lieferketten belastet. Gleichzeitig signalisieren Frühindikatoren wie der globale Einkaufsmanagerindex von S&P Global (51,8 Punkte im Mai) weiterhin moderates Wachstum, was auf eine gewisse Widerstandsfähigkeit der Realwirtschaft hindeutet. Strukturell vollzieht sich ein Wandel: Statt des klassischen Konsumzyklus treiben hohe Unternehmensinvestitionen in künstliche Intelligenz, Infrastruktur, Energie und Verteidigung die Konjunktur – ein weltweiter Investitionsboom, der die Wachstumsstruktur nachhaltig verändert. An den Aktienmärkten sorgten vor allem Technologiewerte für solide Gewinne, doch Analysten warnen vor überhöhten Bewertungen und einem erhöhten Korrekturrisiko. Der DAX bewegt sich angesichts des Iran-Konflikts und schwacher Konjunkturdaten im Wartemodus. Für die kommenden Wochen bleibt entscheidend, ob sich die geopolitischen Spannungen weiter zuspitzen und damit die fragile Wachstumsdynamik zusätzlich belasten.",
+        "analyse": "Die Weltbank hat ihre Wachstumsprognose für 2026 auf 2,5 Prozent gesenkt – das schwächste globale Wachstum seit der Corona-Pandemie. Als Hauptgründe gelten anhaltend hohe Inflation und steigende Energiepreise infolge geopolitischer Spannungen im Nahen Osten. Der S&P-Global-Einkaufsmanagerindex für die Weltwirtschaft bewegt sich mit 51,8 Punkten seitwärts und signalisiert trotz der Unsicherheiten ein moderates Expansionstempo. Positiv zu vermerken: Der Sentix-Konjunkturindex hat im Juni um 4,4 auf 8,0 Punkte zugelegt, was auf vorsichtigen Optimismus bei Finanzinvestoren hindeutet. Die regionalen Unterschiede bleiben markant: US-Märkte entwickeln sich stabiler als europäische Börsen, die durch hohe Energiekosten und schwache Binnennachfrage belastet werden. Für die Eurozone überwiegen laut Marktanalysten weiterhin Abwärtsrisiken. Sollten Lieferkettenstörungen und Energieengpässe andauern, droht ein Szenario mit Inflation von über 4 Prozent und globalem Wachstum unter 1,5 Prozent – ein Schock, auf den Europa kaum vorbereitet ist.",
         "quellen": [
           "Handelsblatt: Weltbank – 2026 schwächstes Weltwachstum seit Corona-Pandemie",
-          "Investmentweek: DAX Juni 2026 – Konjunktur und Iran-Krieg bremsen Kurse"
+          "Fundresearch: Marktausblick Juni 2026"
         ]
       },
       "internationale-politik": {
         "titel": "Internationale Politik",
-        "analyse": "Der seit Ende Februar andauernde Krieg zwischen Israel, den USA und dem Iran hat sich in den vergangenen Tagen erneut zugespitzt: Nach der seit April geltenden Waffenruhe feuerte der Iran am Sonntagabend wieder Raketen auf Israel, das mit Vergeltungsschlägen reagierte. Auch pro-iranische Gruppen wie die Hisbollah im Libanon sind erneut in die Kämpfe involviert, was die Gefahr einer regionalen Ausweitung erhöht. Die wirtschaftlichen Folgen sind bereits spürbar: Das Ifo-Institut meldet den stärksten Stimmungseinbruch seit vier Jahren, und Unternehmen wie TUI senken ihre Gewinnprognosen wegen ausbleibender Buchungen in der Region. Im Gazastreifen bleibt die Lage trotz der von US-Präsident Trump angekündigten Milliardenhilfen seines neuen Friedensrats ungelöst, da die Entwaffnung der Hamas weiterhin offen ist. In der Ukraine setzt Russland seine Angriffe auf die Energieinfrastruktur fort, wobei die ukrainische Rüstungsindustrie gleichzeitig Anzeichen von Stärke zeigt. Die kommenden Tage werden zeigen, ob die erneuten Angriffe im Nahen Osten zu einer dauerhaften Eskalation führen oder ob diplomatische Bemühungen – etwa beim G7-Gipfel – eine Deeskalation ermöglichen.",
+        "analyse": "Die internationale Bühne wird weiterhin von mehreren Krisen gleichzeitig dominiert. Der von US-Präsident Trump eingesetzte Friedensrat für Gaza hat sich erstmals getroffen und Milliardeninvestitionen für den Wiederaufbau angekündigt – doch die Kernfrage der Entwaffnung der Hamas bleibt ungelöst und macht eine dauerhafte Stabilisierung unwahrscheinlich. Im Nahen Osten hält die Waffenstillstandssituation im Gaza-Streifen fragil an, während die wirtschaftlichen Folgen des Iran-Konflikts global spürbar bleiben: TUI hat seine Gewinnprognose für 2026 gesenkt, da Unsicherheit die Reisebuchungen in die Region ausbremst. Geopolitisch zeichnet sich eine Neuordnung ab, die laut EY-Analysen strukturell ist: Staatliche Außenpolitiken priorisieren zunehmend nationale Sicherheitsinteressen über wirtschaftliche Verflechtung. Das Ifo-Institut vermeldet den stärksten Stimmungseinbruch im deutschen Wohnungsbausektor seit vier Jahren – ein direkter Reflex auf Lieferengpässe und geopolitische Risikoperzeption. Für 2026 bleibt die Frage zentral, ob die westliche Allianz trotz innenpolitischer Turbulenzen in Europa und den USA kohärent agieren kann.",
         "quellen": [
-          "NZZ: Iran-Krieg – Aktuelle News und Entwicklungen im Liveticker",
-          "ZDFheute: Trump – Iran und Israel müssen Angriffe sofort stoppen"
-        ]
-      }
-    }
-  },
-  {
-    "datum": "2026-06-12",
-    "datumFormatiert": "Freitag, 12. Juni 2026",
-    "eintraege": {
-      "deutsche-innenpolitik": {
-        "titel": "Deutsche Innenpolitik",
-        "analyse": "Die Bundesregierung steht vor dem Auslaufen des Tankrabatts Ende Juni, was die sozialpolitische Debatte neu entfacht: SPD-Chefin Bärbel Bas stellt für den Fall anhaltend hoher Belastungen weitere Entlastungsmaßnahmen in Aussicht – ein Signal, dass die Koalition angesichts wachsender sozialer Spannungen unter Druck steht, konkrete Antworten zu liefern. Gleichzeitig sorgte ein Bürgerdialog in Salzwedel für Aufsehen, bei dem eine Hautkrebspatientin den Kanzler mit ihrer prekären Lage konfrontierte und dieser ungewohnt scharf reagierte – ein Vorfall, der exemplarisch die Distanz zwischen Regierungskommunikation und Lebensrealität vieler Bürger zeigt. Sicherheitspolitisch übt die neu aufgestellte Panzerbrigade 45 erstmals auf litauischem Boden das Gefecht unter realitätsnahen Bedingungen, wie sie aus der Ukraine bekannt sind – ein deutliches Zeichen der verstärkten Nato-Präsenz an der Ostflanke. Innenpolitisch brisant bleibt zudem, dass eine umstrittene Konferenz mit AfD-Politikern und dem Rechtsextremisten Sellner in Potsdam ohne strafrechtliche Konsequenzen blieb, was die Debatte um den Umgang mit rechtsextremen Netzwerken neu befeuern dürfte. Die kommenden Wochen werden zeigen, ob die Koalition soziale Entlastung und Haushaltsdisziplin in Einklang bringen kann.",
-        "quellen": [
-          "Tagesspiegel: Politik-News aus Deutschland und der Welt",
-          "ZDFheute: Aktuelle Politik News aus Deutschland"
-        ]
-      },
-      "europaeische-politik": {
-        "titel": "Europäische Politik",
-        "analyse": "Die europäische Migrationspolitik erreicht einen Wendepunkt: Die reformierte Gemeinsame Europäische Asylsystem (GEAS) ist in Kraft getreten und bringt schnellere Asylverfahren sowie konsequentere Abschiebungen mit sich. Flankiert wird dies durch eine vorläufige Einigung auf eine neue „Returns Regulation“, die Rückführungszentren außerhalb der EU ermöglichen und die Ausweisung abgelehnter Asylbewerber beschleunigen soll – ein Kurswechsel, der die wachsende politische Mehrheit für eine restriktivere Migrationspolitik in vielen Mitgliedstaaten widerspiegelt, zugleich aber menschenrechtliche Fragen aufwirft, die in den kommenden Monaten juristisch wie politisch umstritten bleiben dürften. In Deutschland sorgt der angekündigte Verzicht der Abgeordneten auf eine Diätenerhöhung angesichts der schwierigen Haushaltslage für ein seltenes parteiübergreifendes Signal der Sparsamkeit. Wirtschaftspolitisch zeigt die hohe Nachfrage nach dem neuen Förderprogramm für Elektroautos – über 50.000 Anträge in drei Wochen – dass staatliche Anreize weiterhin wirken. In Großbritannien wechselt mit Dan Jarvis als Nachfolger von John Healey die Führung des Verteidigungsministeriums, was angesichts der sicherheitspolitischen Lage in Europa Kontinuität signalisieren soll.",
-        "quellen": [
-          "Rat der Europäischen Union: Ausblick 8.–21. Juni 2026",
-          "Vertretung der EU-Kommission in Deutschland"
-        ]
-      },
-      "weltwirtschaft": {
-        "titel": "Weltwirtschaft",
-        "analyse": "Die Weltbank hat ihre Wachstumsprognose für 2026 auf 2,5 Prozent gesenkt – das schwächste globale Wachstum seit Beginn der Corona-Pandemie. Hauptursache ist der Krieg um den Iran, der den Schiffsverkehr und Rohstoffhandel durch die Straße von Hormus nahezu zum Stillstand gebracht hat und damit Energiepreise sowie Inflation – die Weltbank erwartet rund 4,0 Prozent – deutlich nach oben treibt. Auch der Internationale Währungsfonds hatte bereits im April seine Prognose auf 3,1 Prozent zurückgenommen, was die wachsende Diskrepanz zwischen institutionellen Einschätzungen und der tatsächlichen wirtschaftlichen Dynamik verdeutlicht. Besonders hart trifft die Entwicklung einkommensschwache Länder: Bis Ende 2026 dürfte ein Viertel der Entwicklungsländer ärmer sein als vor der Pandemie, bei fragilen und konfliktbetroffenen Staaten sogar rund die Hälfte. Diese Zahlen unterstreichen, wie stark geopolitische Krisen mittlerweile globale Wachstumspfade prägen, weit über die unmittelbar betroffenen Regionen hinaus. Für die kommenden Monate dürfte die Entwicklung der Energiepreise und eine mögliche Deeskalation am Golf entscheidend dafür sein, ob sich die Konjunkturaussichten stabilisieren oder weiter eintrüben.",
-        "quellen": [
-          "Handelsblatt: Weltbank-Konjunkturbericht",
-          "Sachverständigenrat Wirtschaft: Jahresgutachten 2025/26"
-        ]
-      },
-      "internationale-politik": {
-        "titel": "Internationale Politik",
-        "analyse": "Geopolitische Analysten beschreiben 2026 zunehmend als ein Jahr, in dem Unsicherheit nicht mehr Ausnahme, sondern Normalzustand der internationalen Ordnung wird. Prägend bleibt der transaktionale Politikstil der Trump-Administration, der sich in einer eigentümlichen Mischung aus erratischer Friedensvermittlung, robusten Interventionen in der westlichen Hemisphäre und opportunistischen Abkommen rund um kritische Lieferketten zeigt. Im Nahen Osten hat Trump milliardenschwere Hilfen über einen umstrittenen Friedensrat für Gaza angekündigt, doch die zentrale Frage der Entwaffnung der Hamas bleibt weiterhin ungeklärt – ein Hinweis darauf, dass kurzfristige Stabilisierungsmaßnahmen die strukturellen Konflikte nicht lösen. Der andauernde Krieg um den Iran wirkt inzwischen weit über die Region hinaus, wie die gesenkte Gewinnprognose des Reisekonzerns TUI infolge ausbleibender Buchungen zeigt. Für Europa verschärfen sich dadurch gleich zwei Herausforderungen: die sicherheitspolitische Abhängigkeit von einer unberechenbaren US-Außenpolitik und der wirtschaftliche Wettbewerbsdruck durch geopolitisch bedingte Marktzersplitterung, insbesondere im Technologie- und KI-Sektor. Eine Entspannung ist kurzfristig nicht in Sicht.",
-        "quellen": [
-          "Berliner Zeitung: Geopolitik-Ausblick 2026",
-          "EY Geostrategic Outlook 2026"
+          "Aktien.news: Geopolitik und Konjunktur – Globale Märkte unter Druck Juni 2026",
+          "EY Deutschland: Die zehn wichtigsten geopolitischen Entwicklungen 2026"
         ]
       }
     }
